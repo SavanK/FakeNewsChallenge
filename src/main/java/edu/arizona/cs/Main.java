@@ -1,9 +1,8 @@
 package edu.arizona.cs;
 
+import de.bwaldvogel.liblinear.Problem;
 import edu.arizona.cs.data.DataRepo;
 import net.sf.extjwnl.JWNLException;
-import net.sf.extjwnl.data.IndexWord;
-import net.sf.extjwnl.data.POS;
 import net.sf.extjwnl.dictionary.Dictionary;
 
 import java.io.FileNotFoundException;
@@ -22,9 +21,12 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            dataRepo = new DataRepo();
             dictionary = Dictionary.getInstance(Main.class.getResourceAsStream(WN_PROPERTIES));
+            dataRepo = new DataRepo(dictionary);
             dataRepo.readData(TRAIN_STANCES, TRAIN_BODIES);
+
+            Problem problem = new Problem();
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (JWNLException e) {

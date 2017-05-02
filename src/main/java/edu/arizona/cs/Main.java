@@ -1,6 +1,7 @@
 package edu.arizona.cs;
 
 import de.bwaldvogel.liblinear.Problem;
+import edu.arizona.cs.classifier.Classifier;
 import edu.arizona.cs.data.DataRepo;
 import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.dictionary.Dictionary;
@@ -16,8 +17,9 @@ public class Main {
     private static final String TRAIN_BODIES = "src/main/resources/fnc_2/train_bodies.csv";
     private static final String WN_PROPERTIES = "/wn_file_properties.xml";
 
-    private static DataRepo dataRepo;
     private static Dictionary dictionary;
+    private static DataRepo dataRepo;
+    private static Classifier classifier;
 
     public static void main(String[] args) {
         try {
@@ -25,8 +27,8 @@ public class Main {
             dataRepo = new DataRepo(dictionary);
             dataRepo.readData(TRAIN_STANCES, TRAIN_BODIES);
 
-            Problem problem = new Problem();
-
+            classifier = new Classifier(dataRepo, dictionary);
+            classifier.train();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (JWNLException e) {

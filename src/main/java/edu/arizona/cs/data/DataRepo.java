@@ -43,6 +43,14 @@ public class DataRepo {
         documents = new ArrayList<Document>();
     }
 
+    public Map<Integer, Body> getBodies() {
+        return bodies;
+    }
+
+    public List<Document> getDocuments() {
+        return documents;
+    }
+
     public void readData(String trainStancesPath, String trainBodiesPath) throws FileNotFoundException {
         Reader in = new FileReader(trainBodiesPath);
         try {
@@ -67,44 +75,6 @@ public class DataRepo {
                 String headlineStr = record.get(HEADLINE);
                 String stanceStr = record.get(STANCE);
 
-                if(documents.size() < 10) {
-                    System.out.println(headlineStr);
-                    StanfordCoreNLP pipeline = new StanfordCoreNLP(PropertiesUtils.asProperties(
-                            "annotators", "tokenize,ssplit,pos,lemma",
-                            "ssplit.isOneSentence", "true",
-                            "tokenize.language", "en",
-                            "tokenize.options", "americanize=true"));
-                    Annotation annotation = new Annotation(headlineStr);
-                    pipeline.annotate(annotation);
-                    List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
-                    for (CoreMap sentence : sentences) {
-                        for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-                            String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
-                            lemma = lemma.toLowerCase();
-
-                            if(!StopwordsUtils.getInstance().isStopWord(lemma)) {
-                                String posStanford = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                                System.out.println("Lemma: " + lemma + " pos: " + posStanford);
-                                try {
-                                    POS pos = PosUtils.getWordnetPosMapping(posStanford);
-                                    Set<String> synonyms = getSynonyms(pos, lemma);
-                                    Set<String> antonyms = getAntonyms(pos, lemma);
-                                    System.out.println("Synonyms:");
-                                    for (String synonym : synonyms) {
-                                        System.out.println("\t" + synonym);
-                                    }
-                                    System.out.println("Antonyms:");
-                                    for (String antonym : antonyms) {
-                                        System.out.println("\t" + antonym);
-                                    }
-                                } catch (JWNLException e) {
-                                    e.printStackTrace();
-                                }
-                            }
-                        }
-                    }
-                }
-
                 Document document = new Document(
                         new Headline(headlineStr),
                         bodyId,
@@ -115,68 +85,6 @@ public class DataRepo {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    private Set<String> getSynonyms(POS pos, String lemma) throws JWNLException {
-        Set<String> synonyms = new HashSet<String>();
-        if(pos != null) {
-            IndexWord indexWord = dictionary.lookupIndexWord(pos, lemma);
-            if (indexWord != null) {
-                for (Synset synset : indexWord.getSenses()) {
-                    for (Word word : synset.getWords()) {
-                        synonyms.add(word.getLemma());
-                    }
-                }
-            }
-        } else {
-            IndexWordSet indexWordSet = dictionary.lookupAllIndexWords(lemma);
-            for (IndexWord indexWord : indexWordSet.getIndexWordCollection()) {
-                if (indexWord != null) {
-                    for (Synset synset : indexWord.getSenses()) {
-                        for (Word word : synset.getWords()) {
-                            synonyms.add(word.getLemma());
-                        }
-                    }
-                }
-            }
-        }
-        return synonyms;
-    }
-
-    private Set<String> getAntonyms(POS pos, String lemma) throws JWNLException {
-        Set<String> antonyms = new HashSet<String>();
-        if(pos != null) {
-            IndexWord indexWord = dictionary.lookupIndexWord(pos, lemma);
-            if (indexWord != null) {
-                for (Synset synset : indexWord.getSenses()) {
-                    PointerTargetNodeList pointerTargetNodes = PointerUtils.getAntonyms(synset);
-                    for (PointerTargetNode pointerTargetNode : pointerTargetNodes) {
-                        PointerTarget pointerTarget = pointerTargetNode.getPointerTarget();
-                        Synset antSynset = pointerTarget.getSynset();
-                        for (Word word : antSynset.getWords()) {
-                            antonyms.add(word.getLemma());
-                        }
-                    }
-                }
-            }
-        } else {
-            IndexWordSet indexWordSet = dictionary.lookupAllIndexWords(lemma);
-            for (IndexWord indexWord : indexWordSet.getIndexWordCollection()) {
-                if (indexWord != null) {
-                    for (Synset synset : indexWord.getSenses()) {
-                        PointerTargetNodeList pointerTargetNodes = PointerUtils.getAntonyms(synset);
-                        for (PointerTargetNode pointerTargetNode : pointerTargetNodes) {
-                            PointerTarget pointerTarget = pointerTargetNode.getPointerTarget();
-                            Synset antSynset = pointerTarget.getSynset();
-                            for (Word word : antSynset.getWords()) {
-                                antonyms.add(word.getLemma());
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        return antonyms;
     }
 
 }

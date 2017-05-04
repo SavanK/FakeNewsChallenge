@@ -32,3 +32,21 @@ debunk
 prank
 retract
 won't
+unsure
+unlikely
+don't know
+doubt
+almost never
+improbable
+inconclusive
+presumable
+alleged
+allege
+rare
+never
+false
+mistrust
+untruthful
+tangential
+indisputable
+indisputably

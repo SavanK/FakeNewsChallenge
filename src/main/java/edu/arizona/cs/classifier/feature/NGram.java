@@ -2,7 +2,8 @@ package edu.arizona.cs.classifier.feature;
 
 import edu.arizona.cs.data.Body;
 import edu.arizona.cs.data.Headline;
-import edu.arizona.cs.utils.StopwordsUtils;
+import edu.arizona.cs.utils.LemmaCleanser;
+import edu.arizona.cs.utils.WordsUtils;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -42,7 +43,7 @@ public class NGram implements Feature {
     }
 
     public void computeScore() {
-        System.out.println("\t\t" + NAME + "-" + n + ", computing score ...");
+        //System.out.println("\t\t" + NAME + "-" + n + ", computing score ...");
 
         StanfordCoreNLP pipeline = new StanfordCoreNLP(PropertiesUtils.asProperties(
                 "annotators", "tokenize,ssplit,pos,lemma",
@@ -62,15 +63,17 @@ public class NGram implements Feature {
 
         for (CoreLabel coreLabel : bodyCoreLabels) {
             String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
-            lemma.toLowerCase();
-            if(!StopwordsUtils.getInstance().isStopWord(lemma))
+            lemma = LemmaCleanser.getInstance().cleanse(lemma);
+            //noinspection Since15
+            if(!lemma.isEmpty() && !WordsUtils.getInstance().isStopWord(lemma))
                 bodyTokens.add(lemma);
         }
 
         for (CoreLabel coreLabel : headlineCoreLabels) {
             String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
-            lemma.toLowerCase();
-            if(!StopwordsUtils.getInstance().isStopWord(lemma)) {
+            lemma = LemmaCleanser.getInstance().cleanse(lemma);
+            //noinspection Since15
+            if(!lemma.isEmpty() && !WordsUtils.getInstance().isStopWord(lemma)) {
                 headlineTokens.add(lemma);
             }
         }
@@ -116,7 +119,7 @@ public class NGram implements Feature {
                 }
             }
 
-            score = coOccurenceCount / (double) (headlineNGrams.size()+bodyTokens.size());
+            score = coOccurenceCount / (double) (headlineNGrams.size());//+bodyTokens.size());
         } else {
             score = 0;
         }

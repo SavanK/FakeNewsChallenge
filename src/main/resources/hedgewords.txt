@@ -1,0 +1,151 @@
+argue
+argument
+believe
+belief
+conjecture
+consider
+hint
+hypothesis
+hypotheses
+hypothesize
+implication
+imply
+indicate
+predict
+prediction
+previous
+previously
+proposal
+propose
+question
+speculate
+speculation
+suggest
+suspect
+theorize
+theory
+think
+whether
+generally
+largely
+often
+rarely
+sometimes
+frequently
+occasionally
+seldom
+usually
+most
+several
+some
+almost
+practically
+apparently
+virtually
+basically
+approximately
+roughly
+somewhat
+somehow
+partially
+actually
+like
+something
+someone
+somebody
+somewhere
+think
+thinks
+thought
+believe
+believed
+believes
+consider
+considers
+considered
+assume
+assumes
+assumed
+understand
+understands
+understood
+find
+found
+finds
+appear
+appears
+appeared
+seem
+seems
+seemed
+suppose
+supposes
+supposed
+guess
+guesses
+guessed
+estimate
+estimates
+estimated
+speculate
+speculates
+speculated
+suggest
+suggests
+suggested
+may
+could
+should
+might
+probably
+likely
+maybe
+perhaps
+probable
+possibly
+possible
+read
+say
+says
+looks like
+look like
+necessarily
+kind of
+much
+bunch
+couple
+few
+little
+really
+all that
+so forth
+et cetera
+in my mind
+in my opinion
+their impression
+my impression
+my understanding
+my thinking
+my understanding
+my view
+so far
+at least
+hopefully
+in general
+about
+around
+can
+in general
+overall
+presumably
+pretty
+quite
+rather
+sort of
+supposedly
+suggestive
+diagnostic
+seem
+tend
+look like
+appear

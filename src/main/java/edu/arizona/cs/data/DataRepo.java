@@ -1,17 +1,5 @@
 package edu.arizona.cs.data;
 
-import edu.arizona.cs.utils.PosUtils;
-import edu.arizona.cs.utils.StopwordsUtils;
-import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import edu.stanford.nlp.util.CoreMap;
-import edu.stanford.nlp.util.PropertiesUtils;
-import net.sf.extjwnl.JWNLException;
-import net.sf.extjwnl.data.*;
-import net.sf.extjwnl.data.list.PointerTargetNode;
-import net.sf.extjwnl.data.list.PointerTargetNodeList;
 import net.sf.extjwnl.dictionary.Dictionary;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -28,10 +16,10 @@ import java.util.*;
  */
 public class DataRepo {
 
-    private static final String BODY_ID = "Body ID";
-    private static final String ARTICLE_BODY = "articleBody";
-    private static final String HEADLINE = "Headline";
-    private static final String STANCE = "Stance";
+    public static final String BODY_ID = "Body ID";
+    public static final String ARTICLE_BODY = "articleBody";
+    public static final String HEADLINE = "Headline";
+    public static final String STANCE = "Stance";
 
     private Map<Integer, Body> bodies;
     private List<Document> documents;

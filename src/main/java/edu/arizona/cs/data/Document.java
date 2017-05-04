@@ -34,6 +34,10 @@ public class Document {
         return stance;
     }
 
+    public void setStance(Stance stance) {
+        this.stance = stance;
+    }
+
     public void addFeature(Feature feature) {
         feature.computeScore();
         features.add(feature);
@@ -41,18 +45,19 @@ public class Document {
 
     public FeatureNode[] getSparseFeaturesScore() {
         List<Pair<Integer, Double>> sparseFeatureScores = new ArrayList<Pair<Integer, Double>>();
-        int i=0;
+        int i=1;
         for(Feature feature : features) {
             if(feature.getScore() != 0) {
                 sparseFeatureScores.add(new Pair<Integer, Double>(i, feature.getScore()));
             }
             i++;
         }
+        // for bias
+        sparseFeatureScores.add(new Pair<Integer, Double>(i, (double)1));
 
         Collections.sort(sparseFeatureScores, new Comparator<Pair<Integer, Double>>() {
             public int compare(Pair<Integer, Double> o1, Pair<Integer, Double> o2) {
-                double diff = o1.getValue() - o2.getValue();
-                return diff > 0 ? 1 : diff < 0 ? -1 : 0;
+                return o1.getKey() - o2.getKey();
             }
         });
 

@@ -3,6 +3,7 @@ package edu.arizona.cs.classifier.feature;
 import edu.arizona.cs.data.Body;
 import edu.arizona.cs.data.Headline;
 import edu.arizona.cs.utils.LemmaCleanser;
+import edu.arizona.cs.utils.WordsUtils;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -10,22 +11,19 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.PropertiesUtils;
 import net.sf.extjwnl.dictionary.Dictionary;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
- * Created by savan on 4/29/17.
+ * Created by savan on 5/3/17.
  */
-public class BagOfWords implements Feature {
-
-    private static final String NAME = "Bag_of_Words";
+public class HedgeWords implements Feature {
+    private static final String NAME = "Hedge_Words";
+    double score = 0;
 
     private Headline headline;
     private Body body;
-    double score = 0;
 
-    public BagOfWords(Headline headline, Body body) {
+    public HedgeWords(Headline headline, Body body) {
         this.headline = headline;
         this.body = body;
     }
@@ -49,40 +47,23 @@ public class BagOfWords implements Feature {
 
         Annotation bodyAnnot = new Annotation(body.getText());
         pipeline.annotate(bodyAnnot);
-        Annotation headlineAnnot = new Annotation(headline.getText());
-        pipeline.annotate(headlineAnnot);
 
         List<CoreLabel> bodyCoreLabels = bodyAnnot.get(CoreAnnotations.TokensAnnotation.class);
-        List<CoreLabel> headlineCoreLabels = headlineAnnot.get(CoreAnnotations.TokensAnnotation.class);
-        Set<String> bodyTokens = new HashSet<String>();
-        Set<String> headlineTokens = new HashSet<String>();
+        int bodyTokenCount=0;
+        int hedgeWordCount=0;
 
         for (CoreLabel coreLabel : bodyCoreLabels) {
             String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
             lemma = LemmaCleanser.getInstance().cleanse(lemma);
             //noinspection Since15
-            if(!lemma.isEmpty())
-                bodyTokens.add(lemma);
+            if(!lemma.isEmpty() && !WordsUtils.getInstance().isStopWord(lemma) &&
+                    WordsUtils.getInstance().isHedgeWord(lemma)) {
+                hedgeWordCount++;
+            }
+            bodyTokenCount++;
         }
 
-        for (CoreLabel coreLabel : headlineCoreLabels) {
-            String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
-            lemma = LemmaCleanser.getInstance().cleanse(lemma);
-            //noinspection Since15
-            if(!lemma.isEmpty())
-                headlineTokens.add(lemma);
-        }
-
-        Set<String> union = new HashSet<String>();
-        Set<String> intersection = new HashSet<String>();
-
-        intersection.addAll(headlineTokens);
-        intersection.retainAll(bodyTokens);
-
-        union.addAll(headlineTokens);
-        union.addAll(bodyTokens);
-
-        score = intersection.size() / (double) union.size();
+        score = hedgeWordCount / (double) bodyTokenCount;
     }
 
     public double getScore() {

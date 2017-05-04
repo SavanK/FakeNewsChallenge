@@ -2,8 +2,9 @@ package edu.arizona.cs.classifier.feature;
 
 import edu.arizona.cs.data.Body;
 import edu.arizona.cs.data.Headline;
+import edu.arizona.cs.utils.LemmaCleanser;
 import edu.arizona.cs.utils.PosUtils;
-import edu.arizona.cs.utils.StopwordsUtils;
+import edu.arizona.cs.utils.WordsUtils;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -43,7 +44,7 @@ public class Synonym implements Feature {
     }
 
     public void computeScore() {
-        System.out.println("\t\t" + NAME + ", computing score ...");
+        //System.out.println("\t\t" + NAME + ", computing score ...");
 
         StanfordCoreNLP pipeline = new StanfordCoreNLP(PropertiesUtils.asProperties(
                 "annotators", "tokenize,ssplit,pos,lemma",
@@ -62,8 +63,9 @@ public class Synonym implements Feature {
 
         for (CoreLabel coreLabel : bodyCoreLabels) {
             String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
-            lemma.toLowerCase();
-            if(!StopwordsUtils.getInstance().isStopWord(lemma))
+            lemma = LemmaCleanser.getInstance().cleanse(lemma);
+            //noinspection Since15
+            if(!lemma.isEmpty() && !WordsUtils.getInstance().isStopWord(lemma))
                 bodyTokens.add(lemma);
         }
 
@@ -72,8 +74,9 @@ public class Synonym implements Feature {
             for (CoreLabel coreLabel : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                 String pos = coreLabel.get(CoreAnnotations.PartOfSpeechAnnotation.class);
                 String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
-                lemma.toLowerCase();
-                if(!StopwordsUtils.getInstance().isStopWord(lemma)) {
+                lemma = LemmaCleanser.getInstance().cleanse(lemma);
+                //noinspection Since15
+                if(!lemma.isEmpty() && !WordsUtils.getInstance().isStopWord(lemma)) {
                     try {
                         headlineSynset.add(lemma);
                         addSynonymsToSet(headlineSynset, PosUtils.getWordnetPosMapping(pos), lemma);
@@ -90,7 +93,7 @@ public class Synonym implements Feature {
                 coOccurenceCount++;
         }
 
-        score = coOccurenceCount / (double) (headlineSynset.size()+bodyTokens.size());
+        score = coOccurenceCount / (double) (headlineSynset.size());//+bodyTokens.size());
     }
 
     public double getScore() {

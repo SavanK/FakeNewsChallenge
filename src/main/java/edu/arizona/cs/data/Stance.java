@@ -4,11 +4,13 @@ package edu.arizona.cs.data;
  * Created by savan on 4/28/17.
  */
 public class Stance {
+    public static final int STANCE_UNCLASSIFIED = -1;
     public static final int STANCE_DISCUSS = 0;
     public static final int STANCE_AGREE = 1;
     public static final int STANCE_DISAGREE = 2;
     public static final int STANCE_UNRELATED = 3;
 
+    public static final String STANCE_STR_UNCLASSIFIED = "unclassified";
     public static final String STANCE_STR_DISCUSS = "discuss";
     public static final String STANCE_STR_AGREE = "agree";
     public static final String STANCE_STR_DISAGREE = "disagree";
@@ -42,6 +44,10 @@ public class Stance {
             case STANCE_UNRELATED:
                 stanceStr = STANCE_STR_UNRELATED;
                 break;
+
+            case STANCE_UNCLASSIFIED:
+                stanceStr = STANCE_STR_UNCLASSIFIED;
+                break;
         }
         return stanceStr;
     }
@@ -56,6 +62,8 @@ public class Stance {
             stance = STANCE_DISCUSS;
         } else if(stanceStr.compareToIgnoreCase(STANCE_STR_UNRELATED) == 0) {
             stance = STANCE_UNRELATED;
+        } else if(stanceStr.compareToIgnoreCase(STANCE_STR_UNCLASSIFIED) == 0) {
+            stance = STANCE_UNCLASSIFIED;
         }
         return stance;
     }

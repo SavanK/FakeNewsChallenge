@@ -3,6 +3,7 @@ package edu.arizona.cs;
 import de.bwaldvogel.liblinear.Problem;
 import edu.arizona.cs.classifier.Classifier;
 import edu.arizona.cs.data.DataRepo;
+import edu.arizona.cs.utils.ThreadPoolExecutorWrapper;
 import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.dictionary.Dictionary;
 
@@ -16,6 +17,7 @@ public class Main {
     private static final String TRAIN_STANCES = "src/main/resources/fnc_2/train_stances_csc483583.csv";
     private static final String TRAIN_BODIES = "src/main/resources/fnc_2/train_bodies.csv";
     private static final String WN_PROPERTIES = "/wn_file_properties.xml";
+    private static final String TEST_STANCES = "src/main/resources/fnc_2/test_stances_csc483583.csv";
 
     private static Dictionary dictionary;
     private static DataRepo dataRepo;
@@ -29,6 +31,8 @@ public class Main {
 
             classifier = new Classifier(dataRepo, dictionary);
             classifier.train();
+            classifier.classify(TEST_STANCES);
+            ThreadPoolExecutorWrapper.getInstance().getThreadPoolExecutor().shutdown();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (JWNLException e) {

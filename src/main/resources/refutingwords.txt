@@ -48,7 +48,10 @@ false
 mistrust
 untruthful
 tangential
-indisputable
-indisputably
+isn't
 no
 nor
+incorrect
+rumour
+defend
+but

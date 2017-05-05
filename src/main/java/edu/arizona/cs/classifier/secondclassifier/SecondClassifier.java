@@ -89,7 +89,7 @@ public class SecondClassifier {
         Problem problem = new Problem();
         problem.bias = 1;
         problem.l = documents.size();
-        problem.n = 3 + (int)problem.bias;
+        problem.n = 5 + (int)problem.bias;
         problem.y = y;
         problem.x = x;
 
@@ -234,7 +234,7 @@ public class SecondClassifier {
             /*System.out.println("\tExtracting features from doc:" + docIndex +
                     " by thread:" + Thread.currentThread().getId());*/
             try {
-                Feature binaryCoOccurrence = new BinaryCoOccurrence(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                /*Feature binaryCoOccurrence = new BinaryCoOccurrence(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(binaryCoOccurrence);
                 Feature nGram_2 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 2);
                 document.addFeature(nGram_2);
@@ -243,19 +243,28 @@ public class SecondClassifier {
                 Feature nGram_4 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 4);
                 document.addFeature(nGram_4);
                 Feature nGram_5 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 5);
-                document.addFeature(nGram_5);
+                document.addFeature(nGram_5);*/
                 Feature synonym = new Synonym(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 synonym.setDictionary(dictionary);
                 document.addFeature(synonym);
                 Feature antonym = new Antonym(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 antonym.setDictionary(dictionary);
                 document.addFeature(antonym);
-                Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                /*Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(refutingWords);
                 Feature hedgeFeature = new HedgeWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(hedgeFeature);
                 Feature supportiveFeature = new SupportiveWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(supportiveFeature);
+                document.addFeature(supportiveFeature);*/
+                Feature discuss = new Discuss(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                discuss.setDictionary(dictionary);
+                document.addFeature(discuss);
+                Feature agree = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                agree.setDictionary(dictionary);
+                document.addFeature(agree);
+                Feature disagree = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                disagree.setDictionary(dictionary);
+                document.addFeature(disagree);
             } catch (Exception e) {
                 System.out.println("Exception for doc: " + document.getHeadline() +
                         ", bodyID:" + document.getBodyId() + e.getCause());

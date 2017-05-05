@@ -13,6 +13,7 @@ import java.util.StringTokenizer;
  */
 public class WordsUtils {
     private static final String STOP_WORDS = "/stopwords.txt";
+    private static final String CONTEXT_PRESERVING_STOP_WORDS = "/context_preserving_stopwords.txt";
     private static final String REFUTING_WORDS = "/refutingwords.txt";
     private static final String HEDGE_WORDS = "/hedgewords.txt";
     private static final String SUPPORTIVE_WORDS = "/supportivewords.txt";
@@ -25,6 +26,7 @@ public class WordsUtils {
     }
 
     private Set<String> stopwordsSet;
+    private Set<String> contextStopwordsSet;
     private Set<String> refutingSet;
     private Set<String> hedgeSet;
     private Set<String> supportiveSet;
@@ -36,6 +38,7 @@ public class WordsUtils {
         hedgeSet = new HashSet<String>();
         supportiveSet = new HashSet<String>();
         idfScores = new HashMap<String, Double>();
+        contextStopwordsSet = new HashSet<String>();
 
         try {
             BufferedReader stopReader = new BufferedReader(
@@ -45,6 +48,13 @@ public class WordsUtils {
                 stopwordsSet.add(line);
             }
             stopReader.close();
+
+            BufferedReader contextStopReader = new BufferedReader(
+                    new InputStreamReader(WordsUtils.class.getResourceAsStream(CONTEXT_PRESERVING_STOP_WORDS)));
+            while ((line = contextStopReader.readLine()) != null) {
+                contextStopwordsSet.add(line);
+            }
+            contextStopReader.close();
 
             BufferedReader refuteReader = new BufferedReader(
                     new InputStreamReader(WordsUtils.class.getResourceAsStream(REFUTING_WORDS)));
@@ -107,5 +117,9 @@ public class WordsUtils {
         } else {
             return 0;
         }
+    }
+
+    public boolean isContextPreservingStopWord(String lemma) {
+        return contextStopwordsSet.contains(lemma);
     }
 }

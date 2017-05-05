@@ -149,3 +149,5 @@ seem
 tend
 look like
 appear
+explained
+explain

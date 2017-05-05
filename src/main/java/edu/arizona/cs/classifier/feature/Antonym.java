@@ -94,7 +94,7 @@ public class Antonym implements Feature {
                 coOccurenceCount++;
         }
 
-        score = coOccurenceCount; /// (double) (headlineAntset.size());//+bodyTokens.size());
+        score = coOccurenceCount / (double) (headlineAntset.size());//+bodyTokens.size());
     }
 
     private void addAntonymsToSet(Set<String> antonymSet, POS pos, String lemma) throws JWNLException {

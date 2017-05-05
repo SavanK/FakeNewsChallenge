@@ -116,7 +116,12 @@ public class RefutingWords implements Feature {
             }
         }
 
-        score = refutingCount / (double) headlineTokens.size();
+        for (String word : bodyTokens) {
+            if(WordsUtils.getInstance().isRefutingWord(word))
+                refutingCount++;
+        }
+
+        score = refutingCount; /// (double) headlineTokens.size();
     }
 
     public double getScore() {

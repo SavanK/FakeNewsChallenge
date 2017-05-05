@@ -43,6 +43,10 @@ public class Document {
         features.add(feature);
     }
 
+    public void cleaFeatures() {
+        features.clear();
+    }
+
     public FeatureNode[] getSparseFeaturesScore() {
         List<Pair<Integer, Double>> sparseFeatureScores = new ArrayList<Pair<Integer, Double>>();
         int i=1;

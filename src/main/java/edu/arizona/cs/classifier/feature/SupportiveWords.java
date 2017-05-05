@@ -63,7 +63,7 @@ public class SupportiveWords implements Feature {
             bodyTokenCount++;
         }
 
-        score = supportiveWordCount / (double) bodyTokenCount;
+        score = supportiveWordCount; /// (double) bodyTokenCount;
     }
 
     public double getScore() {

@@ -1,7 +1,6 @@
 package edu.arizona.cs;
 
-import de.bwaldvogel.liblinear.Problem;
-import edu.arizona.cs.classifier.Classifier;
+import edu.arizona.cs.classifier.firstclassifier.FirstClassifier;
 import edu.arizona.cs.data.DataRepo;
 import edu.arizona.cs.utils.ThreadPoolExecutorWrapper;
 import net.sf.extjwnl.JWNLException;
@@ -21,7 +20,7 @@ public class Main {
 
     private static Dictionary dictionary;
     private static DataRepo dataRepo;
-    private static Classifier classifier;
+    private static FirstClassifier firstClassifier;
 
     public static void main(String[] args) {
         try {
@@ -29,9 +28,9 @@ public class Main {
             dataRepo = new DataRepo(dictionary);
             dataRepo.readData(TRAIN_STANCES, TRAIN_BODIES);
 
-            classifier = new Classifier(dataRepo, dictionary);
-            classifier.train();
-            classifier.classify(TEST_STANCES);
+            firstClassifier = new FirstClassifier(dataRepo, dictionary);
+            firstClassifier.train();
+            firstClassifier.classify(TEST_STANCES);
             ThreadPoolExecutorWrapper.getInstance().getThreadPoolExecutor().shutdown();
         } catch (FileNotFoundException e) {
             e.printStackTrace();

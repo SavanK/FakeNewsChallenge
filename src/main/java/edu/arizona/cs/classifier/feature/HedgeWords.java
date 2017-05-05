@@ -63,7 +63,7 @@ public class HedgeWords implements Feature {
             bodyTokenCount++;
         }
 
-        score = hedgeWordCount / (double) bodyTokenCount;
+        score = hedgeWordCount; /// (double) bodyTokenCount;
     }
 
     public double getScore() {

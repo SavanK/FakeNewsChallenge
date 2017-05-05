@@ -50,3 +50,5 @@ untruthful
 tangential
 indisputable
 indisputably
+no
+nor

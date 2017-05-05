@@ -93,7 +93,7 @@ public class Synonym implements Feature {
                 coOccurenceCount++;
         }
 
-        score = coOccurenceCount / (double) (headlineSynset.size());//+bodyTokens.size());
+        score = coOccurenceCount; /// (double) (headlineSynset.size());//+bodyTokens.size());
     }
 
     public double getScore() {

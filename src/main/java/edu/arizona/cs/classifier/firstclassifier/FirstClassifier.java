@@ -12,7 +12,6 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 
-import javax.print.Doc;
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.Callable;
@@ -84,7 +83,7 @@ public class FirstClassifier {
         Problem problem = new Problem();
         problem.bias = 1;
         problem.l = dataRepo.getDocuments().size();
-        problem.n = 1 + (int)problem.bias;
+        problem.n = 4 + (int)problem.bias;
         problem.y = y;
         problem.x = x;
 
@@ -102,7 +101,7 @@ public class FirstClassifier {
         }
 
         for (Document document : secondClassiferDocs) {
-            document.cleaFeatures();
+            document.clearFeatures();
         }
         secondClassifier.setTrainDocs(secondClassiferDocs);
         secondClassifier.train();
@@ -189,7 +188,7 @@ public class FirstClassifier {
 
             if(document.getStance().getStance() == Stance.STANCE_TEMP_RELATED) {
                 document.setStance(new Stance(Stance.STANCE_UNCLASSIFIED));
-                document.cleaFeatures();
+                document.clearFeatures();
                 documentStanceMapNextClassifier.put(document, actualStance);
             }
         }
@@ -268,6 +267,16 @@ public class FirstClassifier {
                 //document.addFeature(bagOfWords);
                 Feature tfIdf = new TfIdf(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(tfIdf);
+                Feature binaryCoOccurrence = new BinaryCoOccurrence(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                document.addFeature(binaryCoOccurrence);
+                Feature nGram_2 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 2);
+                document.addFeature(nGram_2);
+                Feature nGram_3 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 3);
+                document.addFeature(nGram_3);
+                /*Feature nGram_4 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 4);
+                document.addFeature(nGram_4);
+                Feature nGram_5 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 5);
+                document.addFeature(nGram_5);*/
             } catch (Exception e) {
                 System.out.println("Exception for doc: " + document.getHeadline() +
                         ", bodyID:" + document.getBodyId() + e.getCause());

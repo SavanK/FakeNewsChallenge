@@ -10,6 +10,7 @@ public class Stance {
     public static final int STANCE_DISAGREE = 2;
     public static final int STANCE_UNRELATED = 3;
     public static final int STANCE_TEMP_RELATED = 4;
+    public static final int STANCE_TEMP_OPINIONATED = 5;
 
     public static final String STANCE_STR_UNCLASSIFIED = "unclassified";
     public static final String STANCE_STR_DISCUSS = "discuss";
@@ -17,6 +18,7 @@ public class Stance {
     public static final String STANCE_STR_DISAGREE = "disagree";
     public static final String STANCE_STR_UNRELATED = "unrelated";
     public static final String STANCE_STR_TEMP_RELATED = "related";
+    public static final String STANCE_STR_TEMP_OPINIONATED = "opinionated";
 
     private int stance;
 
@@ -54,6 +56,10 @@ public class Stance {
             case STANCE_TEMP_RELATED:
                 stanceStr = STANCE_STR_TEMP_RELATED;
                 break;
+
+            case STANCE_TEMP_OPINIONATED:
+                stanceStr = STANCE_STR_TEMP_OPINIONATED;
+                break;
         }
         return stanceStr;
     }
@@ -72,6 +78,8 @@ public class Stance {
             stance = STANCE_UNCLASSIFIED;
         } else if(stanceStr.compareToIgnoreCase(STANCE_STR_TEMP_RELATED) == 0) {
             stance = STANCE_TEMP_RELATED;
+        } else if(stanceStr.compareToIgnoreCase(STANCE_STR_TEMP_OPINIONATED) == 0) {
+            stance = STANCE_TEMP_OPINIONATED;
         }
         return stance;
     }

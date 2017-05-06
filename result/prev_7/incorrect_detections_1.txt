@@ -1,0 +1,1142 @@
+Headline,Body ID,Detected Stance,Actual Stance
+US drones hunt Isis leader in Syria,2129,unrelated,discuss
+You all had an abortion! [Google Translate],2508,unrelated,agree
+ISIS Getting Ebola,2180,unrelated,disagree
+Catholic Priest Dies for 48 Minutes, Comes Back to Life and Claims God Is Female,1055,unrelated,agree
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,1679,unrelated,discuss
+James Foley, Missing American Photojournalist, Reportedly Executed By ISIS In Syria,1580,unrelated,discuss
+Source: Pot in NYC may soon net just a ticket, not arrest,1368,unrelated,discuss
+KC hospital: Patient does not have symptom profile of Ebola,1404,unrelated,agree
+ISIS Militants Allegedly Contracted Ebola,2180,unrelated,discuss
+Attorney: New audio reveals pause in gunfire when Michael Brown was shot,1379,unrelated,agree
+Eyewitness: Viral Video That Netted $130K in Donations "is Bullshit",1996,unrelated,disagree
+FIDEL CASTRO DEATH WATCH: RUMORS HEAT UP, CUBA DENIES,1401,unrelated,discuss
+Knightscope Security Robots Are Keeping Microsoft Campuses Safe (and They Look Really Scary),2529,unrelated,agree
+Small Meteorite Hits Managua,2475,unrelated,disagree
+Meteorite Strikes Nicaraguan Capital, Creates 16-Foot-Deep Crater,1731,unrelated,agree
+ISIS leader ‘killed’ in US airstrikes,1889,unrelated,discuss
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,2135,unrelated,discuss
+In Vogue vs Rats War, the Rats Are Winning,1045,unrelated,agree
+Texas Truck Winds Up in Syria With Islamic Militants,1614,unrelated,agree
+Iraq: US to Probe ISIS' Chlorine Attack on Iraqi Security Personnel,1590,unrelated,discuss
+Batmobile Stolen From "Batman v Superman: Dawn of Justice" Set, Zack Snyder Knows Who Did It,1177,unrelated,discuss
+ISIS cracks down on five confirmed Ebola cases among fighters: official,1689,unrelated,discuss
+IRAQI HEALTH OFFICIAL: EBOLA HAS KILLED 5 ISIS FIGHTERS,1122,unrelated,discuss
+ISIS fighters seize weapons airdrop meant for Kurds,2172,unrelated,agree
+ISIS Beheads American Journalist,1580,unrelated,agree
+Cameron vows to hunt down IS 'monsters' after Haines murder,1989,unrelated,agree
+Video Purports To Show Beheading Of U.S. Journalist By Militants,880,unrelated,discuss
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,578,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,1336,unrelated,discuss
+Predator Drone Reportedly Spotted Over ISIS Stronghold,1509,unrelated,discuss
+New ISIS Video Shows Militants Seizing Weapons Airdropped By US Near Kobani,2200,unrelated,discuss
+David Haines Beheaded By ISIS, Execution Video Contains Threats Against UK: Reports,2206,unrelated,agree
+Video: Marine survives Taliban sniper headshot thanks to helmet,2046,unrelated,agree
+ISIS Video Claims to Show Beheading of British Hostage,2241,unrelated,discuss
+Jeh Johnson shoots down Duncan Hunter's assertion IS is entering U.S. via Mexico,1931,unrelated,disagree
+Conflicting reports on alleged IS capture of Canadian woman,1862,unrelated,discuss
+Watch: US marine survives Taliban sniper headshot in Afghanistan,1180,unrelated,agree
+Kim Jong-Un 'in hospital with two fractured ankles' after ballooning to around 20 stone and going on numerous 'meet the people' walkabout PR stunts,2022,unrelated,discuss
+ISIS Leader Killed: Abu Bakr Al-Baghdadi Reportedly Killed By U.S. Airstrike,1466,unrelated,discuss
+Has this Argentine woman fallen victim to a cruel online hoax? Adult video claiming to show teacher having sex with pupil isn't all it seems,1018,unrelated,discuss
+BATMOBILE NOT STOLEN, MTV CONTEST PRIZE REMAINS UNCLAIMED,1459,unrelated,discuss
+IRAQI HEALTH OFFICIAL: EBOLA HAS KILLED 5 ISIS FIGHTERS,1615,unrelated,discuss
+Teen Made $72 Million Trading Stocks, Confirms Teen Dominance Worldwide,1987,unrelated,discuss
+Texas Truck Winds Up in Syria With Islamic Militants,2145,unrelated,agree
+WHO ‘probing’ whether ISIS fighters got Ebola,2138,unrelated,discuss
+Street Artist BANKSY Arrested? Again?,974,unrelated,discuss
+Cameron vows to hunt down IS 'monsters' after Haines murder,2206,unrelated,agree
+Seven High School Girls Get Pregnant On Five-Day School Trip, Parents Outraged,2504,unrelated,agree
+IRAQI AND KURDISH MEDIA REPORTS: ISIS FIGHTERS HAVE CONTRACTED EBOLA,1175,unrelated,discuss
+WHO says reports of suspected Ebola cases in Iraq are untrue,1689,unrelated,discuss
+This Is a Truly Horrifying Story About a Spider,1880,unrelated,disagree
+Bergdahl: Senator Says Jihadists Swapped For U.S. Troop ‘In Touch’ With Al-Qaida Affiliate,371,unrelated,discuss
+WAS NBC METEOROLOGIST MIKE SEIDEL PEEING IN THE SNOW ON CAMERA? A TESTY BRIAN WILLIAMS EXPLAINS,1855,unrelated,discuss
+Cold Turkey,2397,unrelated,discuss
+Report: Nearly a Dozen Commercial Airliners Missing Ahead of 9/11 Anniversary After Islamists Overrun Libyan Airport,2448,unrelated,discuss
+Pictured: Heroic sergeant-at-arms, 58, walking through Parliament gun in hand just moments after he killed gunman Michael Zehaf-Bibeau,611,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,2524,unrelated,discuss
+Lawmaker Says ‘At Least 10′ Islamic State Fighters Have Been Captured at the Southern U.S. Border,1890,unrelated,discuss
+Does ISIS Have Ebola? Probably Not! Media Reports It Anyway,2138,unrelated,agree
+Mexico hit by student massacre: At least 17 anti-corruption protesters 'rounded up, murdered and dumped in a mass grave' - and another 26 are missing,1109,unrelated,disagree
+Emotional sergeant-at-arms is greeted back to parliament with a rousing standing ovation a day after he heroically shot dead terrorist - the first time he used weapon in 30 year career,1631,unrelated,discuss
+Michael Zehaf-Bibeau, slain Ottawa shooter, had criminal record in Quebec, B.C.,1331,unrelated,agree
+Predator Drone Reportedly Spotted Over ISIS Stronghold,2129,unrelated,discuss
+Fidel Castro Dead? Yes, He Is… But The Cuban Leader Is Alive, Death Rumors Proven False,1003,unrelated,discuss
+Calm Yourselves, Durex Has NOT Come Out With A Pumpkin Spice Condom,1833,unrelated,agree
+FIDEL CASTRO DEATH WATCH: RUMORS HEAT UP, CUBA DENIES,2221,unrelated,discuss
+Marine Gets Shot in the Head, Walks Away,2267,unrelated,agree
+Unconfirmed Reports Say UK Hostage Held By ISIS Found Innocent,1416,unrelated,discuss
+This Soap Opera Star Reportedly Had His Testicles Stolen By An ‘Attractive Blonde’ Organ Trafficker,2044,unrelated,discuss
+ISIS Leader Killed: Abu Bakr Al-Baghdadi Reportedly Killed By U.S. Airstrike,1889,unrelated,discuss
+Man Chops Off and Throws Away His Small Penis After Bad Breakup,1799,unrelated,agree
+Lynch mob chop man's penis off after catching him allegedly trying to rape teenager,650,unrelated,agree
+Detroit Police Issue Statement That The Batmobile Is Safe,1459,unrelated,discuss
+Video: Marine saved by helmet after Taliban sniper attack,1180,unrelated,agree
+Spider burrowed into appendix scar, crawled through WA man's body,1602,unrelated,discuss
+Government employee fired after skipping work for 24 years,1162,unrelated,agree
+Israeli-Canadian Woman 'Captured' By ISIS Says She Is 'Safe And Secure',2471,unrelated,discuss
+SEE IT: California homeless man uses $100 gift to give food to others,2305,unrelated,agree
+Predator drones being flown over Isil's Syrian 'capital',1657,unrelated,discuss
+Iraqi social-media rumors claim IS leader slain,1889,unrelated,discuss
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,1671,unrelated,discuss
+DHS Rebuffs Congressman’s Claim ISIS Infiltrating Southern Border,2249,unrelated,agree
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,1594,unrelated,discuss
+An Indian Civil Servant Just Got Sacked After Not Turning Up For Work For 25 Years,1162,unrelated,agree
+Eyewitness: Viral Video That Netted $130K in Donations "is Bullshit",1971,unrelated,agree
+'Banksy' Reacts To Paris Attack With Poignant Drawing,1688,unrelated,discuss
+No, there aren’t any Ebola cases in Iraq,1689,unrelated,discuss
+Report: Amazon to Launch Ad-Supported Streaming Service,698,unrelated,discuss
+Ottawa investigates reports that Isis has captured Canadian-Israeli woman,1774,unrelated,discuss
+Catholic Priest Dead For 48 Minutes, Is Miraculously Revived – His Revelations About God Are Even More Shocking,1014,unrelated,agree
+Vogue’s Shiny New Office Has a Big Rat Problem,1149,unrelated,discuss
+ISIS Video Shows Execution of David Cawthorne Haines, British Aid Worker,2206,unrelated,agree
+KIM DINE WITH ME: Porky president Kim Jong-un to open UK restaurant serving DOG,2225,unrelated,disagree
+Weather Reporter Caught Writing His Name In The Snow Was NOT Ready To Go On Camera (UPDATED),1046,unrelated,disagree
+Thanks Uncle Sam, we have your weapons airdrop: ISIS taunts America over intercepted weapons meant for Kurds,2397,unrelated,discuss
+CBI registers 'criminal conspiracy' case against Dera chief after claims 400 male followers were forcibly castrated,1654,unrelated,discuss
+David Haines Beheaded By ISIS, Execution Video Contains Threats Against UK: Reports,1757,unrelated,discuss
+NEWS/ You'll Never Guess How a Homeless Man Spent $100—Watch the Touching Video!,2305,unrelated,agree
+Nigeria: hopes for return of kidnapped schoolgirls rise after ceasefire reported,1896,unrelated,discuss
+Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',1931,unrelated,disagree
+WAS NBC METEOROLOGIST MIKE SEIDEL PEEING IN THE SNOW ON CAMERA? A TESTY BRIAN WILLIAMS EXPLAINS,1319,unrelated,discuss
+NEWS/ Meet the Teletubbies Sun Baby: 19-Year-Old Jess Smith Reveals Herself as the Smiling Face Who Looked Over Teletubbyland,2284,unrelated,discuss
+Al-Shabab leader who ordered Kenya mall massacre believed killed in US drone attack in Somalia,313,unrelated,discuss
+Militant Group Says It Killed American Journalist in Syria,1679,unrelated,discuss
+280 Pound Catfish: Fisherman Makes Huge Catch In Italy, Catfish Could Set Record,1652,unrelated,agree
+GCPD Solved Stolen Batmobile Case?,1177,unrelated,discuss
+Indian civil servant sacked 'after 24-year sickie',1951,unrelated,agree
+Calm Yourselves, Durex Has NOT Come Out With A Pumpkin Spice Condom,1060,unrelated,discuss
+Durex Is Not Making Pumpkin Spice Condoms After All: A Hoax Debunked,1833,unrelated,agree
+In Moscow, police are looking for a felon, cut the male genitals,2044,unrelated,agree
+#ISIS beheads photojournalist James Wright Foley in a massage to US to end its intervention in #Iraq.,1336,unrelated,agree
+FIDEL CASTRO DEATH WATCH: RUMORS HEAT UP, CUBA DENIES,1305,unrelated,discuss
+Israeli Canadian fighting ISIS posts on Facebook: I'm safe and secure,1862,unrelated,disagree
+Government fires employee who skipped work for 24 years,225,unrelated,agree
+Two GOP Congressmen Say Suspected Terrorists Caught Crossing U.S.–Mexico Border,2249,unrelated,discuss
+Watch moment TV weatherman is caught urinating in the bushes LIVE on camera,2034,unrelated,disagree
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,942,unrelated,discuss
+Obama Denounces James Foley's Execution: 'Today The Entire World Is Appalled',1580,unrelated,agree
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,1731,unrelated,discuss
+Soldier shot, Parliament locked down after gunfire erupts at war memorial,2347,unrelated,agree
+Batmobile Stolen From "Batman v Superman: Dawn of Justice" Set, Zack Snyder Knows Who Did It,1671,unrelated,discuss
+ISIS Video: America’s Air Dropped Weapons Now in Our Hands,1485,unrelated,discuss
+BREAKING: British-born hostage 'KILLED in failed rescue attempt',1187,unrelated,discuss
+N Korean leader misses annual ritual; sister ‘takes over duties’,1836,unrelated,discuss
+US Lawmaker: Ten ISIS Fighters Have Been Apprehended Coming Across Southern Border (Video),1890,unrelated,discuss
+ISIS Militants Allegedly Contracted Ebola,2138,unrelated,discuss
+Missing jetliners raise fear of new 9/11-style attacks after Libyan airport falls to Islamic militants,1165,unrelated,discuss
+ISIS Getting Ebola,1689,unrelated,discuss
+Meteorite Strikes Nicaraguan Capital, Creates 16-Foot-Deep Crater,1573,unrelated,disagree
+N Korean leader misses annual ritual; sister ‘takes over duties’,744,unrelated,discuss
+In Vogue vs Rats War, the Rats Are Winning,2064,unrelated,agree
+Nujaifi Condemns / Daash / crime in Saqlawiyah and Alsiger areas of Anbar.,2224,unrelated,discuss
+NBC weatherman caught urinating in the woods live on air,686,unrelated,disagree
+An Indian Civil Servant Just Got Sacked After Not Turning Up For Work For 25 Years,1951,unrelated,agree
+Jilted lover chops off his penis after girlfriend dumps him,1517,unrelated,agree
+Pentagon Denies It Killed ISIS Chief As Airstrikes Hit Top Extremists,394,unrelated,discuss
+Video messaging service verifies timing of CNN audio recording,1564,unrelated,disagree
+Someone painted a graffiti dick on a $2.5 million car,1148,unrelated,disagree
+FIDEL CASTRO DEATH WATCH: RUMORS HEAT UP, CUBA DENIES,2399,unrelated,discuss
+US probing claims ISIS fighters seized airdropped weapons meant for Kurds,1076,unrelated,discuss
+ISIS Video: America’s Air Dropped Weapons Now in Our Hands,2200,unrelated,discuss
+GOP Rep: ‘At Least Ten ISIS Fighters Have Been Caught Coming Across The Mexican Border’,1764,unrelated,discuss
+An accidental delivery of arms to the Islamic State and the problem with airdrops,2172,unrelated,agree
+Weather Reporter Caught Writing His Name In The Snow Was NOT Ready To Go On Camera (UPDATED),2034,unrelated,disagree
+Man Severed Penis That Failed To Impress Girls,1171,unrelated,agree
+ISIS Video Purports To Show Beheading Of British Aid Worker,2206,unrelated,discuss
+Islamic State accused of using chlorine gas on Iraqi soldiers,1590,unrelated,discuss
+Journalist James Wright Foley reportedly beheaded by ISIS,1206,unrelated,discuss
+ISIS Appears To Behead American Photojournalist In YouTube Video,991,unrelated,discuss
+The Man Who Says Comcast Got Him Fired Has Filed a Lawsuit,2238,unrelated,discuss
+Report: ISIS Leader Abu Bakr Al-Baghdadi Assassinated In U.S. Airstrike,1466,unrelated,discuss
+This boy nearly died, now he has a superpower like Marvel’s Magneto,2215,unrelated,agree
+At CBS Detroit, Fan Site 'Scuttlebutt' Is Enough to Publish Batmobile Rumor,2135,unrelated,discuss
+Woman Spends Entire Week In KFC After Getting Dumped By Her Boyfriend,2414,unrelated,agree
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,880,unrelated,discuss
+Meteorite 'caused mysterious boom in Nicaragua',1731,unrelated,discuss
+Is Kim Jong-Un Really Opening a Restaurant in Scotland?,2225,unrelated,discuss
+Homeless man who became a YouTube sensation after spending $100 on food for his beggar friends gets a surprise Christmas meal, makeover and night in a hotel in new video... but is it all a hoax by a 'serial prankster'?,2132,unrelated,discuss
+Pentagon Denies It Killed ISIS Chief As Airstrikes Hit Top Extremists,263,unrelated,agree
+Emotional sergeant-at-arms is greeted back to parliament with a rousing standing ovation a day after he heroically shot dead terrorist - the first time he used weapon in 30 year career,1121,unrelated,discuss
+MACAULAY CULKIN IS THE LATEST VICTIM OF A CELEBRITY DEATH HOAX — AND THESE 9 STARS KNOW EXACTLY HOW HE FEELS!,1805,unrelated,agree
+Cameron vows to hunt down IS 'monsters' after Haines murder,1182,unrelated,agree
+ISIL Beheads American Photojournalist in Iraq,206,unrelated,agree
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,1120,unrelated,discuss
+According to some Russians this dark figure stumbling through the snowy woods is a Yeti - and they even have a footprint. Hmmmmm,2377,unrelated,discuss
+Rumors of ISIS leader's death debunked,1889,unrelated,discuss
+The Guy Who Said a Spider Burrowed Under His Skin? Experts Say…,1602,unrelated,discuss
+Spider Burrows Into Australian Man's Appendix Scar (VIDEO),1531,unrelated,disagree
+Setting the record straight on tor,2178,unrelated,agree
+First Human Death Confirmed From Eating GMO [Satire],2098,unrelated,disagree
+Eyewitness: Viral Video That Netted $130K in Donations "is Bullshit",1925,unrelated,disagree
+Officials: Report That Area Town Is Under Ebola Quarantine Is False,410,unrelated,agree
+BATMAN VS. SUPERMAN BATMOBILE STOLEN,1459,unrelated,discuss
+BREAKING: ISIS USES CHEMICAL WEAPONS – Murders 300 Iraqi Soldiers in Chlorine Gas Attack,956,unrelated,discuss
+Guantanamo Detainee Exchanged for American POW Attempts a Return to Battle,2207,unrelated,discuss
+In Vogue vs Rats War, the Rats Are Winning,2031,unrelated,agree
+IRAQI AND KURDISH MEDIA REPORTS: ISIS FIGHTERS HAVE CONTRACTED EBOLA,1689,unrelated,discuss
+Mirfield man's tears of joy after lost voicemail of wife retrieved,1053,unrelated,agree
+Obama, Outraged Over Beheading, Vows to Stay on Course,2386,unrelated,agree
+Meteorite makes big crater in Nicaragua, government says,1731,unrelated,agree
+Female teacher facing sack after making SEX TAPE with teenager,379,unrelated,discuss
+Sadly Vladimir Putin Hasn’t Been Driving Round In A Motorcade Shaped Like A Penis,2391,unrelated,disagree
+'Spiderman' squished: Experts debunk claims,2042,unrelated,agree
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,885,unrelated,discuss
+British hostage David Haines beheaded by Islamic State terrorists,2206,unrelated,agree
+Two GOP Congressmen Say Suspected Terrorists Caught Crossing U.S.–Mexico Border,2249,unrelated,discuss
+GRAPHIC CONTENT: Girl sneers at man's tiny penis so he CHOPS IT OFF and bins it,1410,unrelated,agree
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,672,unrelated,discuss
+Is Durex Planning To Release A Pumpkin Spice Condom?,1060,unrelated,discuss
+Kim Jong-Un's Scottish Dog Meat Restaurant Is Probably Fabricated Shite,2148,unrelated,discuss
+US officials: Video shows American's execution,481,unrelated,discuss
+Lynch mob use butcher's meat cleaver to castrate rapist they caught attacking teenage girl in alleyway in Indian city,1959,unrelated,agree
+Pants on Fire: Duncan Hunter makes unconfirmed claim Border Patrol caught at least 10 ISIS fighters,1931,unrelated,disagree
+Vogue’s Shiny New Office Has a Big Rat Problem,2031,unrelated,agree
+Here Are Microsoft's New Robot Security Guards,1837,unrelated,agree
+Angry mob cut off rapist’s penis with meat cleaver (VIEWER DISCRETION),1673,unrelated,agree
+More American Weapons for ISIS,2168,unrelated,discuss
+IRAQI HEALTH OFFICIAL: EBOLA HAS KILLED 5 ISIS FIGHTERS,2138,unrelated,discuss
+[UPDATED] 11 Men and 0 Women on Tonight's ESPN Domestic Violence Panel,2181,unrelated,disagree
+Leader of Qaeda-Linked Somali Group Is Dead, U.S. Says,427,unrelated,discuss
+WAS NBC METEOROLOGIST MIKE SEIDEL PEEING IN THE SNOW ON CAMERA? A TESTY BRIAN WILLIAMS EXPLAINS,686,unrelated,discuss
+Nicaragua meteorite: Experts attempt to understand whether mysterious meteorite fell from passing Pitbull asteroid,2475,unrelated,disagree
+Source: Pot in NYC may soon net just a ticket, not arrest,1732,unrelated,discuss
+Macaulay Culkin NOT Dead: Facebook, Twitter Death Hoax Goes Viral,1805,unrelated,agree
+Was Heart-Tugging Viral Video Of Generous Homeless Man All A Hoax?,1996,unrelated,disagree
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,726,unrelated,discuss
+The Guy Who Said a Spider Burrowed Under His Skin? Experts Say…,1860,unrelated,discuss
+Source: Pot in NYC may soon net just a ticket, not arrest,1920,unrelated,discuss
+Batmobile Stolen From 'Batman V Superman: Dawn Of Justice' Set? Report Claims That One Of The Batmobile Models Is Missing! Detroit Locals Responsible?,684,unrelated,discuss
+NBC weatherman caught urinating in the woods live on air,1968,unrelated,disagree
+Surreal Photos of Fisherman’s Jaw-Dropping Catch Will Likely Have People Wondering If It’s Real,2196,unrelated,discuss
+ISIL Beheads American Photojournalist in Iraq,991,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,2386,unrelated,discuss
+Meteorite Strikes Nicaraguan Capital, Creates 16-Foot-Deep Crater,2475,unrelated,disagree
+BATMAN VS. SUPERMAN BATMOBILE STOLEN,2135,unrelated,discuss
+The “Flood Libel” Propagandists of 2015,1965,unrelated,agree
+Elderly Woman Arrested for Kidnapping Neighbor’s Cats & Making Fur Coats,2451,unrelated,agree
+More American Weapons for ISIS,1120,unrelated,discuss
+US Lawmaker: Ten ISIS Fighters Have Been Apprehended Coming Across Southern Border (Video),1398,unrelated,discuss
+Did Josh Paler Lin Stage His Viral Video About Helping the Homeless?,1996,unrelated,disagree
+SEE IT: ISIS militants caught trying to cross border into Texas, Congressman claims,1931,unrelated,discuss
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,632,unrelated,discuss
+Questions raised over Nicaragua 'meteorite',2475,unrelated,discuss
+Teacher sex tape exposed as a FAKE after internet detectives trace the origin of pornographic clip,1018,unrelated,disagree
+Judd Nelson Death Hoax: FOX News Impersonator Claims Actor Found Dead In Los Angeles Condo,2286,unrelated,agree
+Israeli-Canadian Woman 'Captured' By ISIS Says She Is 'Safe And Secure',2037,unrelated,agree
+Al-Shabaab Terror Group Leader Killed in U.S. Airstrike,1835,unrelated,discuss
+ISIS Claims To Have Captured US Airdrop Weapons,2397,unrelated,discuss
+You all had an abortion! [Google Translate],2504,unrelated,agree
+More American Weapons for ISIS,2397,unrelated,discuss
+Putin’s motorcade looks suspiciously like a massive…,1283,unrelated,agree
+MPs credit sergeant-at-arms for saving lives in Parliament Hill shootings,1666,unrelated,discuss
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,1206,unrelated,discuss
+ISIL video claims beheading of kidnapped journalist James Foley,368,unrelated,discuss
+BATMOBILE NOT STOLEN, MTV CONTEST PRIZE REMAINS UNCLAIMED,2135,unrelated,agree
+The @FoxNewsPress Account Tweeting Lawsuit Threats Is a Fake,748,unrelated,agree
+Pentagon: 1 weapons bundle seized by militants,2172,unrelated,agree
+Al-Shabab leader who ordered Kenya mall massacre believed killed in US drone attack in Somalia,1610,unrelated,discuss
+Meet The College Student Who Claims She Was The ‘Teletubbies’ Sun Baby,2371,unrelated,discuss
+Doubts cast over Nicaragua meteorite claim,1731,unrelated,disagree
+U.S. arms airdrop fell into ISIS hands: Pentagon,2397,unrelated,discuss
+HORROR: ISIS Fighters Have Reportedly Contracted Ebola,2003,unrelated,discuss
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,465,unrelated,discuss
+‘Teletubbies’ Sun Baby: Fans Freak Out Over Jess Smith, 19,615,unrelated,discuss
+Apple-HBO Deal Seen Launching Web-only Apple TV Streaming Service For $15 Per Month,1074,unrelated,discuss
+Iraq: US to Probe ISIS' Chlorine Attack on Iraqi Security Personnel,969,unrelated,discuss
+Staff Reporter,1784,unrelated,discuss
+Spider burrowed through tourist's stomach and up into his chest,1880,unrelated,disagree
+White House Fence-Jumper Overpowered Secret Service Officer, Ran Through Much of Main Floor,1365,unrelated,agree
+Did a Meteorite Impact in Nicaragua over the Weekend?,2264,unrelated,discuss
+It was me! Student, 19, reveals SHE was the Teletubbies' giggling baby in the sky - and was paid just £250 and a box of toys,2284,unrelated,discuss
+Cold Turkey,2168,unrelated,discuss
+Tips for Chinese choosing an English name,624,unrelated,agree
+Is Durex Planning To Release A Pumpkin Spice Condom?,1833,unrelated,discuss
+Eyewitness: Viral Video That Netted $130K in Donations "is Bullshit",2132,unrelated,agree
+Leader of Qaeda-Linked Somali Group Is Dead, U.S. Says,1835,unrelated,discuss
+In Moscow, police are looking for a felon, cut the male genitals,1231,unrelated,agree
+CNN Expert on Brown Audio: At First I Thought ‘Someone’s Trying to Punk CNN’,1818,unrelated,disagree
+WHO: Isis does not have Ebola – but contingency plan being developed for Iraq,2180,unrelated,agree
+Pentagon Denies It Killed ISIS Chief As Airstrikes Hit Top Extremists,1466,unrelated,discuss
+Lynch Mob Castrates Alleged Rapist In Rajasthan,650,unrelated,agree
+Mass Graves Found In Mexico, Near Place Where 43 Students Went Missing,1984,unrelated,discuss
+Lady on FB: I'm 41, Intersex, and Fucked Michael Phelps on First Date,1806,unrelated,discuss
+Canadian-Israeli Woman Says She Hasn’t Been Captured By ISIS,2471,unrelated,discuss
+Spider burrowed through tourist's stomach and up into his chest,1860,unrelated,agree
+Pure Evil: Islamic State Beheads American Journalist James Wright Foley,2386,unrelated,agree
+Meteorite 'caused mysterious boom in Nicaragua',2475,unrelated,discuss
+ISIS fighters seize weapons airdrop meant for Kurds,465,unrelated,agree
+Obama Denounces James Foley's Execution: 'Today The Entire World Is Appalled',1288,unrelated,discuss
+GCPD Solved Stolen Batmobile Case?,1313,unrelated,discuss
+US Marine survives headshot from Taliban (video),2267,unrelated,agree
+Scientists Doubt That Meteor Caused Crater In Nicaragua,2475,unrelated,agree
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,1177,unrelated,discuss
+US Lawmaker: Ten ISIS Fighters Have Been Apprehended Coming Across Southern Border (Video),1764,unrelated,discuss
+White House Fence Jumper Actually Made It Pretty Far Inside,1365,unrelated,agree
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,1529,unrelated,discuss
+ISIS Reportedly Beheads American Photojournalist in Iraq,2524,unrelated,discuss
+IRAQI HEALTH OFFICIAL: EBOLA HAS KILLED 5 ISIS FIGHTERS,1175,unrelated,discuss
+A Predator Drone Has Reportedly Been Spotted Circling Above ISIS's Capital City,2129,unrelated,discuss
+Islamist websites claim Israeli-Canadian woman kidnapped by IS: report,1862,unrelated,discuss
+DNA tests prove Lebanon IS holding ISIS chief al-Baghdadi's ex-wife and daughter after they were caught with fake passports,931,unrelated,discuss
+Texas Truck Winds Up in Syria With Islamic Militants,2015,unrelated,agree
+The baby from Teletubbies reveals herself,2284,unrelated,discuss
+US confirms death of Somalia terror group leader,313,unrelated,disagree
+Weather Reporter Caught Writing His Name In The Snow Was NOT Ready To Go On Camera (UPDATED),1855,unrelated,discuss
+Street Artist BANKSY Arrested? Again?,2051,unrelated,discuss
+Lynch Mob Castrates Alleged Rapist In Rajasthan,2005,unrelated,agree
+Al-Shabaab Terror Group Leader Killed in U.S. Airstrike,981,unrelated,agree
+The Man Who Says Comcast Got Him Fired Has Filed a Lawsuit,2438,unrelated,discuss
+WFB’s Bill Gertz: Obama Administration ‘Trying to Play Down’ Missing Libyan Airliners,1865,unrelated,discuss
+BREAKING NEWS: Gunman 'shot dead' after wounding soldier near Canada parliament,2410,unrelated,discuss
+This Soap Opera Star Reportedly Had His Testicles Stolen By An ‘Attractive Blonde’ Organ Trafficker,573,unrelated,discuss
+Unconfirmed reports saying ISIS UK Hostage David Haines Beheaded,2206,unrelated,discuss
+Street Artist BANKSY Arrested? Again?,709,unrelated,discuss
+Lady on FB: I'm 41, Intersex, and Fucked Michael Phelps on First Date,247,unrelated,discuss
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,1253,unrelated,discuss
+The “Flood Libel” Propagandists of 2015,1967,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,1288,unrelated,discuss
+KIM JONG-UN NECKS SNAKE WINE FOR VIRILITY,2018,unrelated,discuss
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,740,unrelated,agree
+Sources: Guns N' Roses Frontman Axl Rose Found Dead in West Hollywood Home at Age 52,2166,unrelated,discuss
+Rajasthan: Angry mob teaches rapist a lesson; chops penis off,1959,unrelated,agree
+NET Extra: Back-from-the-dead Catholic priest claims God is a female,2515,unrelated,agree
+Weaponized Ebola? ISIS Militants Said To Contract Deadly Virus,1689,unrelated,discuss
+Mexico hit by student massacre: At least 17 anti-corruption protesters 'rounded up, murdered and dumped in a mass grave' - and another 26 are missing,1984,unrelated,disagree
+Watch moment TV weatherman is caught urinating in the bushes LIVE on camera,1968,unrelated,disagree
+America's oldest time capsule unearthed at Boston statehouse after being buried in 1795 by Sam Adams and Paul Revere,1273,unrelated,agree
+ISIL Beheads American Photojournalist in Iraq,880,unrelated,discuss
+BATMAN VS. SUPERMAN BATMOBILE STOLEN,1671,unrelated,discuss
+ISIL Beheads American Photojournalist in Iraq,1336,unrelated,agree
+NYC High School Student Nicknamed ‘Teen Wolf’ Made $72 Million On Stock Market,1184,unrelated,agree
+#ISIS beheads photojournalist James Wright Foley in a massage to US to end its intervention in #Iraq.,1206,unrelated,agree
+Spec leak suggests Apple Watch will be on par with Android Wear rivals,1277,unrelated,discuss
+Weaponized Ebola? ISIS Militants Said To Contract Deadly Virus,2138,unrelated,discuss
+WATCH: Bird Launches Airstrike on Putin’s Shoulder (UPDATED),1957,unrelated,disagree
+World's oldest burger,793,unrelated,agree
+Police hunt tweed-jacket wearing man who slaps shoppers for SNEEZING,1952,unrelated,discuss
+In Vogue vs Rats War, the Rats Are Winning,1149,unrelated,discuss
+Is There an ISIS Threat on the Texas-Mexico Border or Not?,1931,unrelated,discuss
+Luckiest Pizza Delivery Guy Ever Gets $2,000 Tip,2122,unrelated,agree
+HORROR: ISIS Fighters Have Reportedly Contracted Ebola,1175,unrelated,discuss
+You all had an abortion! [Google Translate],2170,unrelated,agree
+Is Ebola Virus Spreading Among ISIS Militants? Reports Claim Jihadists Seeking Cure at Mosul Hospital,2003,unrelated,discuss
+Meteorite Strikes Nicaraguan Capital, Creates 16-Foot-Deep Crater,1056,unrelated,disagree
+‘Photo of slain IS leader’ reported to be doctored,1522,unrelated,discuss
+Media Fooled Again? Story Claims 7 of 28 Girls On School Trip Came Home Pregnant,2125,unrelated,agree
+Two GOP Congressmen Say Suspected Terrorists Caught Crossing U.S.–Mexico Border,1764,unrelated,discuss
+Managua explosion not a meteorite, NASA suggests,1731,unrelated,disagree
+Elderly Woman Arrested for Kidnapping Neighbor's Cats & Making Fur Coats,2451,unrelated,agree
+Founding Fathers-Era Time Capsule Found in Boston,2288,unrelated,agree
+Jeh Johnson: Politicians Shouldn't 'Feed The Flames Of Fear' Over ISIS, Ebola,1931,unrelated,disagree
+Ebola Outbreak 2015 Update: ISIS Fighters May Have Contracted Deadly Virus,1689,unrelated,discuss
+WAS NBC METEOROLOGIST MIKE SEIDEL PEEING IN THE SNOW ON CAMERA? A TESTY BRIAN WILLIAMS EXPLAINS,1046,unrelated,discuss
+Vandals add rude paint job to $2.5m Bugatti (but luckily for the owner it all turned out to be a hoax),1453,unrelated,agree
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,1060,unrelated,discuss
+Don't forget to tip...especially if you spend $300,000,1791,unrelated,agree
+Predator Drone Reportedly Spotted Over ISIS Stronghold,1159,unrelated,discuss
+Source: Pot in NYC may soon net just a ticket, not arrest,2217,unrelated,discuss
+REPORT: JETLINERS STOLEN FROM LIBYA COULD BE USED TO ATTACK U.S. ON 9/11,653,unrelated,discuss
+ISIS Claims To Have Captured US Airdrop Weapons,2200,unrelated,discuss
+Homeless man who became a YouTube sensation after spending $100 on food for his beggar friends gets a surprise Christmas meal, makeover and night in a hotel in new video... but is it all a hoax by a 'serial prankster'?,1925,unrelated,discuss
+ISIS Video Purports To Show Beheading Of British Aid Worker,1757,unrelated,discuss
+Woman Dumped by Boyfriend Spends Entire Week Mourning at KFC,2414,unrelated,agree
+Islamic State Leader al-Baghdadi “Not Dead”,1522,unrelated,discuss
+Seven High School Girls Get Pregnant On Five-Day School Trip, Parents Outraged,1140,unrelated,agree
+Leader of Qaeda-Linked Somali Group Is Dead, U.S. Says,1610,unrelated,discuss
+That Story About a Catholic Priest Dying, Seeing God as a Woman, and Coming Back to Life? It’s Almost Definitely Fake,2515,unrelated,disagree
+Mum Offers to Sell Twin Boy to Save Twin Girl,1698,unrelated,agree
+Video Purports to Show Beheading of American Journalist,2524,unrelated,discuss
+Mexico hit by student massacre: At least 17 anti-corruption protesters 'rounded up, murdered and dumped in a mass grave' - and another 26 are missing,1156,unrelated,disagree
+Nationwide turkey recall? Ebola-infected birds? USDA debunks the hoax,1035,unrelated,agree
+Leader of Qaeda-Linked Somali Group Is Dead, U.S. Says,839,unrelated,discuss
+Pentagon: ISIS Got U.S. Weapons Package,2172,unrelated,agree
+Iraq: US to Probe ISIS' Chlorine Attack on Iraqi Security Personnel,956,unrelated,discuss
+LOL: RICH JOHNSTON SAYS THE BATMOBILE HAS BEEN STOLEN IN DETROIT,1671,unrelated,discuss
+In Vogue vs Rats War, the Rats Are Winning,1693,unrelated,discuss
+Vice squad’s $1m win lights up Las Vegas,1834,unrelated,agree
+Islamic State releases video apparently showing the beheading of missing US journalist James Foley,368,unrelated,discuss
+WAS NBC METEOROLOGIST MIKE SEIDEL PEEING IN THE SNOW ON CAMERA? A TESTY BRIAN WILLIAMS EXPLAINS,2034,unrelated,discuss
+ISIS Claims to Have Intercepted Supplies From U.S. Airdrop,1485,unrelated,discuss
+Meteorite strike in Nicaragua puzzles experts,1722,unrelated,discuss
+Ebola Outbreak 2015 Update: ISIS Fighters May Have Contracted Deadly Virus,639,unrelated,discuss
+ISIL Beheads American Photojournalist in Iraq,632,unrelated,discuss
+Two blokes dared to eat 20-year-old burger for charity,628,unrelated,discuss
+BATMOBILE NOT STOLEN, MTV CONTEST PRIZE REMAINS UNCLAIMED,1671,unrelated,discuss
+Weather Reporter Caught Writing His Name In The Snow Was NOT Ready To Go On Camera (UPDATED),1333,unrelated,disagree
+Street Artist BANKSY Arrested? Again?,949,unrelated,discuss
+Does ISIS Have Ebola? Probably Not! Media Reports It Anyway,2075,unrelated,discuss
+NYC High School Student Nicknamed ‘Teen Wolf’ Made $72 Million On Stock Market,1167,unrelated,discuss
+Accountant Says Comcast Got Him Fired for Contesting Bogus Charges,1007,unrelated,discuss
+Catholic Priest Dies for 48 Minutes, Comes Back to Life and Claims God Is Female,2515,unrelated,agree
+'I aborted my baby because it was a boy': Outrage after 'feminist' blogger claims gender prompted termination,2014,unrelated,disagree
+Meteor Leaves 40-Foot Crater Near Managua's Airport,2475,unrelated,disagree
+Heartwarming video shows son revealing he’s paid off parent’s mortgage as a Christmas gift,888,unrelated,agree
+GRAPHIC CONTENT: Girl sneers at man's tiny penis so he CHOPS IT OFF and bins it,1517,unrelated,agree
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,767,unrelated,discuss
+ISIS Video: America’s Air Dropped Weapons Now in Our Hands,2172,unrelated,discuss
+WAS NBC METEOROLOGIST MIKE SEIDEL PEEING IN THE SNOW ON CAMERA? A TESTY BRIAN WILLIAMS EXPLAINS,1333,unrelated,discuss
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,1056,unrelated,discuss
+BiH: Seven Primary School Students Pregnant After Five-Day Excursion,2103,unrelated,discuss
+In Moscow, police are looking for a felon, cut the male genitals,573,unrelated,discuss
+ISIS Claims to Have Intercepted Supplies From U.S. Airdrop,1120,unrelated,discuss
+How did Fake Chinese News Site Dupe Washington Post, Atlantic, BBC?,2260,unrelated,agree
+Spider burrowed into appendix scar, crawled through WA man's body,1819,unrelated,agree
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,2168,unrelated,discuss
+Al-Shabaab Terror Group Leader Killed in U.S. Airstrike,2374,unrelated,agree
+It’s Okay To Laugh About The Fact That The Vogue Rat Infestation is Getting Worse,788,unrelated,discuss
+Say 'eh-oh!' to the Teletubbies SUN BABY - can you still recognise her after 19 years?,1327,unrelated,discuss
+James Wright Foley, Kidnapped Journalist, Apparently Executed by ISIS,1206,unrelated,discuss
+Spider Burrows Into Australian Man's Appendix Scar (VIDEO),1819,unrelated,agree
+Turkish Leader Says U.S. Airdrop Aided ISIS Militants,2397,unrelated,discuss
+No, Banksy Didn't Create That 'Charlie Hebdo' Tribute Cartoon, But That Doesn't Mean You Can't Appreciate It,1532,unrelated,agree
+Report: Nigerian Woman Quarantined in KC with Ebola-Like Symptoms (Video),2127,unrelated,discuss
+ISIL Beheads American Photojournalist in Iraq,726,unrelated,agree
+Fidel Castro Dead? Yes, He Is… But The Cuban Leader Is Alive, Death Rumors Proven False,1305,unrelated,discuss
+Bergdahl: Senator Says Jihadists Swapped For U.S. Troop ‘In Touch’ With Al-Qaida Affiliate,773,unrelated,discuss
+KIM JONG-UN NECKS SNAKE WINE FOR VIRILITY,1827,unrelated,discuss
+This Is Why Rumors That ISIS Is Crossing The Border Into The U.S. Aren’t Going Away,1764,unrelated,discuss
+Surreal Photos of Fisherman’s Jaw-Dropping Catch Will Likely Have People Wondering If It’s Real,331,unrelated,discuss
+Amazon Reportedly Planning An Ad-Supported Video Service That Will Be Cheaper Than Netflix,1323,unrelated,discuss
+Brian Williams: No, Our Meteorologist Was Not Peeing on Live TV,1046,unrelated,agree
+How did Fake Chinese News Site Dupe Washington Post, Atlantic, BBC?,674,unrelated,agree
+Islamic State militants allegedly used chlorine gas against Iraqi security forces,1590,unrelated,discuss
+IRAQI HEALTH OFFICIAL: EBOLA HAS KILLED 5 ISIS FIGHTERS,2003,unrelated,discuss
+FIDEL CASTRO DEATH WATCH: RUMORS HEAT UP, CUBA DENIES,1918,unrelated,discuss
+Now the Vogue Rats Are Chewing Through Couture,2031,unrelated,agree
+Mexico hit by student massacre: At least 17 anti-corruption protesters 'rounded up, murdered and dumped in a mass grave' - and another 26 are missing,1405,unrelated,discuss
+RCMP release security footage of Michael Zehaf Bibeau during attack, say he shot soldier in back,1380,unrelated,agree
+LOL: RICH JOHNSTON SAYS THE BATMOBILE HAS BEEN STOLEN IN DETROIT,2135,unrelated,discuss
+Here Are Microsoft's New Robot Security Guards,2228,unrelated,agree
+These LEGO Instructions from 1974 Are Awesome (And Yes, They're Real),547,unrelated,agree
+Lynch Mob Castrates Alleged Rapist In Rajasthan,1476,unrelated,discuss
+After ISIS trick mum into eating son - 5 other reluctant cannibals including those forced to eat own body parts,2219,unrelated,discuss
+Predator Drone Reportedly Spotted Over ISIS Stronghold,1657,unrelated,discuss
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,266,unrelated,discuss
+Did a Meteorite Impact in Nicaragua over the Weekend?,1722,unrelated,discuss
+ISIL Beheads American Photojournalist in Iraq,419,unrelated,agree
+India Rape Crisis Sees Mob Castrate Alleged Sex Attacker in Shocking Scenes,2005,unrelated,agree
+Ebola Outbreak 2015 Update: ISIS Fighters May Have Contracted Deadly Virus,2003,unrelated,discuss
+Source: Pot in NYC may soon net just a ticket, not arrest,2163,unrelated,discuss
+Pumpkin Spice Condoms Could Be The Only Thing To Save The World From Basic Children,1833,unrelated,discuss
+US officials: Video shows American's execution,1011,unrelated,discuss
+ISIS Militants Allegedly Contracted Ebola,1175,unrelated,discuss
+BREAKING UDPATED: ISIS REPORTEDLY USE CHEMICAL WEAPONS IN KOBANE,1369,unrelated,discuss
+New ISIS Video Shows Militants Seizing Weapons Airdropped By US Near Kobani,2397,unrelated,discuss
+US officials: Video shows American's execution,726,unrelated,discuss
+Nicaragua Meteorite Impact Theory May Be Meteor-wrong,2475,unrelated,agree
+Air travelers wary of Ebola fears seen with surgical masks ... and a HAZMAT suit,1955,unrelated,discuss
+Don't forget to tip...especially if you spend $300,000,1834,unrelated,agree
+Has this Argentine woman fallen victim to a cruel online hoax? Adult video claiming to show teacher having sex with pupil isn't all it seems,379,unrelated,discuss
+Ottawa investigates reports that Isis has captured Canadian-Israeli woman,474,unrelated,discuss
+80's Brat Pack star Judd Nelson forced to deny that he's dead after fake news story starts trending on social media,2332,unrelated,agree
+IRAQI HEALTH OFFICIAL: EBOLA HAS KILLED 5 ISIS FIGHTERS,2075,unrelated,discuss
+Web of confusion as scientists cast doubt on man's claims that a spider burrowed into his stomach through his SCAR,1819,unrelated,disagree
+The Case of the Stolen Batmobile Has Been Solved,1313,unrelated,discuss
+Militant Group Says It Killed American Journalist in Syria,726,unrelated,discuss
+Spider Burrows Into Australian Man's Appendix Scar (VIDEO),1860,unrelated,agree
+"Categorically False": DHS Debunks Right-Wing Fiction That ISIS Attempted To Cross The U.S.- Mexico Border,1764,unrelated,agree
+U.S. accidentally delivered weapons to the Islamic State by airdrop, militants say,2172,unrelated,discuss
+NASA: Planetary Alignment On Jan 4, 2015 Will Decrease Gravity For 5 Minutes Causing Partial Weightlessness???,175,unrelated,discuss
+KC Man Does Not Have Ebola,1404,unrelated,agree
+Durex Is Not Making Pumpkin Spice Condoms After All: A Hoax Debunked,1060,unrelated,discuss
+New ISIS Video Shows Militants Seizing Weapons Airdropped By US Near Kobani,2172,unrelated,agree
+CARLISLE HEAD SLAPPER ATTACKS SNEEZING WOMEN,1952,unrelated,discuss
+Woman At Dulles Plays It Safe, Wears A Rain Poncho And Mask,1955,unrelated,discuss
+Graphic Photo: Oliver Ilic Uses Razor Blade To Slice Off Own Manhood After Girlfriend Broke Up With Him,2496,unrelated,agree
+James Foley remembered as 'brave and tireless' journalist,368,unrelated,agree
+Turkish Leader Says U.S. Airdrop Aided ISIS Militants,2172,unrelated,agree
+See the Crater a Meteorite Made in Nicaragua,1731,unrelated,agree
+Meteorite Strikes Nicaraguan Capital, Creates 16-Foot-Deep Crater,1068,unrelated,discuss
+"Categorically False": DHS Debunks Right-Wing Fiction That ISIS Attempted To Cross The U.S.- Mexico Border,1931,unrelated,disagree
+The Unluckiest Man In The World Set His College On Fire With A Fireworks Marriage Proposal,1592,unrelated,agree
+More American Weapons for ISIS,2200,unrelated,discuss
+BREAKING: ISIS USES CHEMICAL WEAPONS – Murders 300 Iraqi Soldiers in Chlorine Gas Attack,1590,unrelated,agree
+Apple-HBO Deal Seen Launching Web-only Apple TV Streaming Service For $15 Per Month,1534,unrelated,discuss
+Nicaragua Meteorite Impact Theory May Be Meteor-wrong,1594,unrelated,agree
+IRAQI HEALTH OFFICIAL: EBOLA HAS KILLED 5 ISIS FIGHTERS,1689,unrelated,discuss
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,1573,unrelated,discuss
+Detroit Police Issue Statement That The Batmobile Is Safe,1671,unrelated,discuss
+IS Militants Kill 300 Iraqi Soldiers with Chlorine Gas,763,unrelated,discuss
+Teen Made $72 Million Trading Stocks, Confirms Teen Dominance Worldwide,1858,unrelated,disagree
+US Drones, Hunting for ISIS Leader, Seen Flying over Syrian Airspace,1501,unrelated,agree
+Weaponized Ebola? ISIS Militants Said To Contract Deadly Virus,1175,unrelated,discuss
+Spider burrowed through tourist's stomach and up into his chest,2042,unrelated,disagree
+Unconfirmed Reports Say UK Hostage Held By ISIS Found Innocent,347,unrelated,discuss
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,1068,unrelated,discuss
+Meteorite Strikes Nicaraguan Capital, Creates 16-Foot-Deep Crater,2264,unrelated,discuss
+Sadly, Pumpkin Spice Condoms Aren't A Thing After All,1060,unrelated,discuss
+Shots Heard In Alleged Brown Shooting Recording [AUDIO],1818,unrelated,discuss
+ISIS Beheads American Journalist,2386,unrelated,agree
+Russian Yeti Or Bigfoot Hoax? New Footage Sparks Debate,2377,unrelated,discuss
+Hundreds of dog-lovers from around the world offer home to pet abandoned at the railway station with a suitcase containing his pillow, toy, bowl and favourite food,2523,unrelated,agree
+ISIS Video: America’s Air Dropped Weapons Now in Our Hands,2168,unrelated,discuss
+TEXAS TURKEY FARM CONTAMINATED WITH EBOLA, OVER 250,000 HOLIDAY TURKEYS INFECTED,2210,unrelated,agree
+WHO says reports of suspected Ebola cases in Iraq are untrue,1689,unrelated,discuss
+US Drones, Hunting for ISIS Leader, Seen Flying over Syrian Airspace,1509,unrelated,discuss
+US officials: Video shows American's execution,311,unrelated,discuss
+Priest Dies, Wakes Up, Claims God Is a Woman. Huh?,2515,unrelated,discuss
+Priest' claim of seeing God as a woman dismissed as hoax,2515,unrelated,disagree
+Woman Spends Entire Week In KFC After Getting Dumped By Her Boyfriend,1551,unrelated,agree
+ISIS Claims To Have Captured US Airdrop Weapons,2295,unrelated,discuss
+Macaulay Culkin Dead: Internet Death Hoax Claims Actor Found Dead In Apartment,1805,unrelated,agree
+ISIS Border Crisis: DHS Chief Says Terrorists Not Entering US Through Mexico,1931,unrelated,disagree
+Brian Williams Demands Apology From Social Media Over Erroneous Urination Reports (Video),2034,unrelated,agree
+Marine Gets Shot in the Head, Walks Away,2360,unrelated,agree
+Ebola Outbreak 2015 Update: ISIS Fighters May Have Contracted Deadly Virus,2180,unrelated,discuss
+Man Severed Penis That Failed To Impress Girls,1799,unrelated,agree
+‘Photo of slain IS leader’ reported to be doctored,1473,unrelated,disagree
+Video: Marine survives Taliban sniper headshot thanks to helmet,1180,unrelated,agree
+Pumpkin Spice Condoms Could Be The Only Thing To Save The World From Basic Children,1060,unrelated,discuss
+Daash Ebola transferred to Mosul {Google Translate],2003,unrelated,discuss
+Predator Drone Reportedly Spotted Over ISIS Hotbed in Syria; Airstrikes Hit ISIS Targets,1657,unrelated,discuss
+DNA tests prove Lebanon IS holding ISIS chief al-Baghdadi's ex-wife and daughter after they were caught with fake passports,1468,unrelated,disagree
+ISIS Claims It Kidnapped Gill Rosenberg, The First Western Woman To Fall Into The Group's Hands,2471,unrelated,discuss
+Meet The College Student Who Claims She Was The ‘Teletubbies’ Sun Baby,1327,unrelated,discuss
+Fisherman lands 19 STONE catfish which could be biggest in world to be hooked,2196,unrelated,agree
+Congressman: ‘At least 10 ISIS fighters’ caught trying to cross into US,1931,unrelated,discuss
+MPs credit sergeant-at-arms for saving lives in Parliament Hill shootings,1666,unrelated,discuss
+Michael Abdul Zehaf Bibeau Pictures: Photos of Alleged ISIS-Linked Gunman in Canada,2246,unrelated,discuss
+Ebola Outbreak 2015 Update: ISIS Fighters May Have Contracted Deadly Virus,1175,unrelated,discuss
+BiH: Seven Primary School Students Pregnant After Five-Day Excursion,2508,unrelated,agree
+ISIS Appears To Behead American Photojournalist In YouTube Video,2524,unrelated,discuss
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,1288,unrelated,discuss
+Report: Exec popped for $300k dinner after run at blackjack,1682,unrelated,discuss
+God Is A Woman – Resurrected Father Narated,2515,unrelated,agree
+Seven High School Girls Get Pregnant On Five-Day School Trip, Parents Outraged,2103,unrelated,discuss
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,456,unrelated,discuss
+Predator drones being flown over Isil's Syrian 'capital',1159,unrelated,discuss
+Teen Makes $72 Million on the Stock Market,1987,unrelated,discuss
+Weather Reporter Mike Seidel Was Caught Off Guard on Live TV and Appeared to Be Urinating in the Snow -- Watch!,2034,unrelated,discuss
+Is Kim Jong-Un Really Opening a Restaurant in Scotland?,2148,unrelated,discuss
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,2172,unrelated,discuss
+ISIS Border Crisis: DHS Chief Says Terrorists Not Entering US Through Mexico,1376,unrelated,agree
+Seven High School Girls Get Pregnant On Five-Day School Trip, Parents Outraged,1103,unrelated,discuss
+Isis claims it has US airdrop of weapons,2172,unrelated,discuss
+Does ISIS Have Ebola? Probably Not! Media Reports It Anyway,2003,unrelated,discuss
+British aid worker David Haines beheaded by ISIL,2206,unrelated,agree
+Meteorite strike in Nicaragua puzzles experts,173,unrelated,agree
+The Unluckiest Man In The World Set His College On Fire With A Fireworks Marriage Proposal,669,unrelated,discuss
+Shocking Photos! Mom Tries To Sell Son To Pay For Daughter's Cancer Treatment,1698,unrelated,agree
+Pentagon Denies It Killed ISIS Chief As Airstrikes Hit Top Extremists,1889,unrelated,discuss
+Nicaragua Meteorite Impact Theory May Be Meteor-wrong,2264,unrelated,discuss
+Hidden Diagnostic Port on Apple Watch Could Allow for Smart Band Accessories [Updated],1455,unrelated,discuss
+US officials: Video shows American's execution,206,unrelated,discuss
+A Husband Breaks Down In Tears After Lost Voicemail Message By His Late Wife Is Recovered,1208,unrelated,agree
+Jeh Johnson: Politicians Shouldn't 'Feed The Flames Of Fear' Over ISIS, Ebola,416,unrelated,discuss
+BATMOBILE NOT STOLEN, MTV CONTEST PRIZE REMAINS UNCLAIMED,942,unrelated,discuss
+Electric shock turns Russian boy into Marvel's Magneto,2215,unrelated,agree
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,1313,unrelated,discuss
+Penis Spray-Painted on a $2.5 Million Car Was Just for a Prank Video,124,unrelated,disagree
+How did Fake Chinese News Site Dupe Washington Post, Atlantic, BBC?,1137,unrelated,agree
+Texas Plumber Has ‘No Idea’ How Company Truck Ended Up With ISIS,2242,unrelated,agree
+Street Artist BANKSY Arrested? Again?,1884,unrelated,discuss
+Report: ISIS Leader Abu Bakr Al-Baghdadi Assassinated In U.S. Airstrike,1889,unrelated,discuss
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,2154,unrelated,discuss
+According to some Russians this dark figure stumbling through the snowy woods is a Yeti - and they even have a footprint. Hmmmmm,359,unrelated,discuss
+Axl Rose NOT Dead: Fake MSNBC Death Hoax Goes Viral On Facebook,2166,unrelated,agree
+Man who skipped work for 24 years is finally fired,1162,unrelated,agree
+Incredible Video Shows A US Marine Surviving Being Shot In The Head By A Sniper In Afghanistan,305,unrelated,agree
+Watch marine take sniper shot to the head and live,2267,unrelated,agree
+Canadian-Israeli Woman May Have Been Captured In Syria: Reports,1862,unrelated,discuss
+The Guy Who Said a Spider Burrowed Under His Skin? Experts Say…,2042,unrelated,discuss
+ISIS: We have our hands on weapons, ammo air-dropped by U.S.,2397,unrelated,discuss
+ISIS Claims to Have Intercepted Supplies From U.S. Airdrop,2172,unrelated,discuss
+Pentagon Denies It Killed ISIS Chief As Airstrikes Hit Top Extremists,1254,unrelated,agree
+Zack Snyder’s ‘Batman V Superman: Dawn Of Justice’ Stolen Batmobile Rumor Put To Rest,1671,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,1011,unrelated,discuss
+BREAKING: ISIS USES CHEMICAL WEAPONS – Murders 300 Iraqi Soldiers in Chlorine Gas Attack,1233,unrelated,discuss
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,2200,unrelated,discuss
+Israeli-Canadian Woman 'Captured' By ISIS Says She Is 'Safe And Secure',346,unrelated,discuss
+American Predator Drone Circling Islamic State’s Stronghold,1740,unrelated,discuss
+More American Weapons for ISIS,1253,unrelated,discuss
+Texas, Hold 'Em,638,unrelated,discuss
+Spider Burrows Into Australian Man's Appendix Scar (VIDEO),1880,unrelated,disagree
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,1485,unrelated,discuss
+Passenger Wears A Hazmat Suit To Dulles Airport [PHOTO],1826,unrelated,agree
+These LEGO Instructions from 1974 Are Awesome (And Yes, They're Real),779,unrelated,agree
+ISIS Video Purports To Show Beheading Of British Aid Worker,1097,unrelated,discuss
+ISIS Claims It Kidnapped Gill Rosenberg, The First Western Woman To Fall Into The Group's Hands,2037,unrelated,discuss
+ESPN's Domestic Violence Panel Is Missing Something Important,1370,unrelated,discuss
+Biological Warfare on the Horizon? ISIS Soldiers May Be Infected With Ebola,2180,unrelated,discuss
+The @FoxNewsPress Account Tweeting Lawsuit Threats Is a Fake,1728,unrelated,agree
+Mexico Says Students Not Among Dead in Mass Grave,1984,unrelated,agree
+Brian Williams Insists NBC News Meteorologist Did Not Pee in the Snow While on Air,1855,unrelated,discuss
+Israeli Canadian fighting ISIS posts on Facebook: I'm safe and secure,1168,unrelated,discuss
+Street Artist BANKSY Arrested? Again?,1739,unrelated,discuss
+Lynch mob use butcher's meat cleaver to castrate rapist they caught attacking teenage girl in alleyway in Indian city,1673,unrelated,agree
+Batmobile Stolen From 'Batman V Superman: Dawn Of Justice' Set? Report Claims That One Of The Batmobile Models Is Missing! Detroit Locals Responsible?,672,unrelated,discuss
+Founding Fathers-Era Time Capsule Found in Boston,1273,unrelated,agree
+"This is the recording you thought you'd lost forever",1640,unrelated,agree
+CNN Broadcasts Purported Audio Containing Gunshots That Felled Michael Brown Jr.; Leaders, Celebrities Fill Pews At Teen’s Funeral,2481,unrelated,discuss
+Chinese State Media Warns People To Stop Calling Themselves Dumbledore,1660,unrelated,agree
+Graphic Photo: Oliver Ilic Uses Razor Blade To Slice Off Own Manhood After Girlfriend Broke Up With Him,1799,unrelated,agree
+Predator Drone Reportedly Spotted Over ISIS Stronghold,1740,unrelated,discuss
+Spider Burrows Into Australian Man's Appendix Scar (VIDEO),1579,unrelated,discuss
+India Rape Crisis Sees Mob Castrate Alleged Sex Attacker in Shocking Scenes,1959,unrelated,agree
+Schoolboy almost killed by electric shock claims he now has superpowers like Magneto,2215,unrelated,discuss
+Vice CEO Throws Down $300K on Lavish Vegas Dinner,2130,unrelated,discuss
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,2295,unrelated,discuss
+Report: 4 ISIS Terrorists Caught at Southern Border in 36 Hrs,2249,unrelated,discuss
+Say 'eh-oh!' to the Teletubbies SUN BABY - can you still recognise her after 19 years?,2284,unrelated,discuss
+Spider Burrows Into Australian Man's Appendix Scar (VIDEO),1321,unrelated,disagree
+Kim Jong-Un's Scottish Dog Meat Restaurant Is Probably Fabricated Shite,2418,unrelated,discuss
+An Indian Civil Servant Just Got Sacked After Not Turning Up For Work For 25 Years,1318,unrelated,agree
+NYC relaxes response to marijuana possession,2217,unrelated,agree
+No, a spider (probably) didn't crawl through a man's body for several days,1819,unrelated,disagree
+Ebola Outbreak 2015 Update: ISIS Fighters May Have Contracted Deadly Virus,1615,unrelated,discuss
+HORROR: ISIS Fighters Have Reportedly Contracted Ebola,1891,unrelated,discuss
+Officials: Report That Area Town Is Under Ebola Quarantine Is False,1467,unrelated,agree
+This Woman Is Wrongly Being Called A Sexual Predator After Her Private Sex Tape Was Used For A Hoax,1018,unrelated,disagree
+ISIL Beheads American Photojournalist in Iraq,337,unrelated,discuss
+The Case of the Stolen Batmobile Has Been Solved,1459,unrelated,discuss
+Emotional sergeant-at-arms is greeted back to parliament with a rousing standing ovation a day after he heroically shot dead terrorist - the first time he used weapon in 30 year career,1356,unrelated,discuss
+#ISIS beheads photojournalist James Wright Foley in a massage to US to end its intervention in #Iraq.,2386,unrelated,agree
+Weaponized Ebola? ISIS Militants Said To Contract Deadly Virus,2180,unrelated,discuss
+N Korean leader misses annual ritual; sister ‘takes over duties’,1152,unrelated,discuss
+Ebola Scare in Kansas City,1015,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,1580,unrelated,discuss
+Surreal Photos of Fisherman’s Jaw-Dropping Catch Will Likely Have People Wondering If It’s Real,842,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,1206,unrelated,discuss
+Reports say North Korea's Kim insists on being the only Jong Un,1678,unrelated,discuss
+The Arrest of the ISIS Leader's Wife and Son,931,unrelated,discuss
+WATCH: Bird Launches Airstrike on Putin’s Shoulder (UPDATED),1051,unrelated,disagree
+Pentagon: ISIS Got U.S. Weapons Package,1120,unrelated,discuss
+Dera Sacha Sauda Chief Forced Castration of 400 Devotees? CBI Files Case Against 'MSG: The Messenger of God' Actor,1654,unrelated,discuss
+ISIL Beheads American Photojournalist in Iraq,782,unrelated,agree
+Guantanamo Detainee Exchanged for American POW Attempts a Return to Battle,2236,unrelated,discuss
+Man who skipped work for 24 years is finally fired,1318,unrelated,agree
+Lynch Mob Castrates Alleged Rapist In Rajasthan,1959,unrelated,agree
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,684,unrelated,discuss
+News sites fall for Putin bird-dropping video,1087,unrelated,discuss
+This Is a Truly Horrifying Story About a Spider,1860,unrelated,agree
+IRAQI HEALTH OFFICIAL: EBOLA HAS KILLED 5 ISIS FIGHTERS,1891,unrelated,discuss
+Newly Discovered Mass Grave Linked to Missing Mexican Students,1109,unrelated,disagree
+Leader of Qaeda-Linked Somali Group Is Dead, U.S. Says,2374,unrelated,discuss
+US officials: Video shows American's execution,1580,unrelated,discuss
+Rumors of ISIS leader's death debunked,1889,unrelated,discuss
+Officials Refute Iraqi Media Reports That ISIS Members Have Contracted Ebola In Mosul,2180,unrelated,agree
+Does ISIS Have Ebola? Probably Not! Media Reports It Anyway,1891,unrelated,discuss
+Homeland Security: No ISIL fighters on U.S. border,1931,unrelated,disagree
+Street Artist BANKSY Arrested? Again?,107,unrelated,discuss
+Iraqi social-media rumors claim IS leader slain,1473,unrelated,discuss
+Report: Nearly a Dozen Commercial Airliners Missing Ahead of 9/11 Anniversary After Islamists Overrun Libyan Airport,508,unrelated,discuss
+Jeh Johnson: Politicians Shouldn't 'Feed The Flames Of Fear' Over ISIS, Ebola,425,unrelated,discuss
+US officials: Video shows American's execution,1206,unrelated,discuss
+Turkish president says American weapons drop for Kurdish fighters was 'wrong' after supplies end up in the hands of ISIS,2397,unrelated,discuss
+Texas Plumber Has ‘No Idea’ How Company Truck Ended Up With ISIS,1906,unrelated,agree
+Cold Turkey,2172,unrelated,agree
+Pentagon: ISIS Got U.S. Weapons Package,1485,unrelated,agree
+Indian civil servant sacked 'after 24-year sickie',432,unrelated,agree
+Eyewitness: Viral Video That Netted $130K in Donations "is Bullshit",1611,unrelated,discuss
+Weaponized Ebola? ISIS Militants Said To Contract Deadly Virus,1891,unrelated,discuss
+ISIL Beheads American Photojournalist in Iraq,1011,unrelated,discuss
+Meteorite Strikes Nicaraguan Capital, Creates 16-Foot-Deep Crater,1722,unrelated,discuss
+Meteorite strike in Nicaragua puzzles experts,767,unrelated,disagree
+Web of confusion as scientists cast doubt on man's claims that a spider burrowed into his stomach through his SCAR,1860,unrelated,disagree
+Report: Nigerian Woman Quarantined in KC with Ebola-Like Symptoms (Video),2104,unrelated,discuss
+Two blokes dared to eat 20-year-old burger for charity,793,unrelated,agree
+Turkish Leader Says U.S. Airdrop Aided ISIS Militants,2200,unrelated,discuss
+Now the Vogue Rats Are Chewing Through Couture,2064,unrelated,agree
+US officials: Video shows American's execution,419,unrelated,discuss
+ISIS Militants Allegedly Contracted Ebola,1615,unrelated,discuss
+Turkish Leader Says U.S. Airdrop Aided ISIS Militants,1485,unrelated,agree
+IRAQI AND KURDISH MEDIA REPORTS: ISIS FIGHTERS HAVE CONTRACTED EBOLA,2180,unrelated,discuss
+Woman, Ting Su, Finds Husband Cheating With Her Own Twin, Gets Spectacular Revenge,1725,unrelated,agree
+US officials: Video shows American's execution,1288,unrelated,discuss
+GRAPHIC CONTENT: Girl sneers at man's tiny penis so he CHOPS IT OFF and bins it,1799,unrelated,agree
+Teen Made $72 Million Trading Stocks, Confirms Teen Dominance Worldwide,1184,unrelated,agree
+Islamic State May Have Fighter Jets Now After Seizing Russian-Made MiGs,630,unrelated,discuss
+Apple-HBO Deal Seen Launching Web-only Apple TV Streaming Service For $15 Per Month,815,unrelated,discuss
+Brian Williams: No, Our Meteorologist Was Not Peeing on Live TV,1319,unrelated,disagree
+Islamic State May Have Fighter Jets Now After Seizing Russian-Made MiGs,2408,unrelated,discuss
+US officials: Video shows American's execution,337,unrelated,discuss
+ISIS Claims to Have Intercepted Supplies From U.S. Airdrop,2200,unrelated,discuss
+Real-life Magneto boy 'becomes living magnet' after getting massive electric shock from street lamp,2215,unrelated,agree
+Nasa questions whether crater in Nicaragua caused by meteorite,1731,unrelated,disagree
+#ISIS beheads photojournalist James Wright Foley in a massage to US to end its intervention in #Iraq.,578,unrelated,discuss
+NASA Raises Doubts About Reports of Nicaraguan Meteorite,1068,unrelated,discuss
+Axl Rose Dies? Guns N’ Roses Singer Dead ‘West Hollywood Home at Age 52′ is Fake,2166,unrelated,agree
+Soldier shot near Canadian parliament building,2347,unrelated,agree
+Islamic State May Have Fighter Jets Now After Seizing Russian-Made MiGs,2406,unrelated,discuss
+More American Weapons for ISIS,465,unrelated,agree
+Video Purports To Show Beheading Of U.S. Journalist By Militants,991,unrelated,discuss
+Viral Photo Shows How Chinese Workers Are Used to Manipulate App Store Rankings,1711,unrelated,agree
+Hidden Diagnostic Port on Apple Watch Could Allow for Smart Band Accessories [Updated],664,unrelated,discuss
+China: Satirical site warns citizens over name choices,1660,unrelated,disagree
+Founding Fathers-Era Time Capsule Found in Boston,1997,unrelated,discuss
+Meteorite 'caused mysterious boom in Nicaragua',1722,unrelated,discuss
+Eyewitness: Viral Video That Netted $130K in Donations "is Bullshit",1245,unrelated,disagree
+These LEGO Instructions from 1974 Are Awesome (And Yes, They're Real),1292,unrelated,agree
+Islamic State May Have Fighter Jets Now After Seizing Russian-Made MiGs,1341,unrelated,discuss
+US Drones, Hunting for ISIS Leader, Seen Flying over Syrian Airspace,1657,unrelated,discuss
+IRAQI AND KURDISH MEDIA REPORTS: ISIS FIGHTERS HAVE CONTRACTED EBOLA,2138,unrelated,discuss
+Homeless man who received a meal and hotel stay after spending $100 donation on food for friends insists it was NOT a hoax – despite new witness insisting there was no way he could have been secretly filmed,1925,unrelated,discuss
+Rajasthan: Angry mob teaches rapist a lesson; chops penis off,2005,unrelated,agree
+Cold Turkey,2200,unrelated,discuss
+Elderly Woman Arrested for Kidnapping Neighbor's Cats & Making Fur Coats,1938,unrelated,agree
+Report: Exec popped for $300k dinner after run at blackjack,1791,unrelated,discuss
+Weatherman caught peeing live on camera,1968,unrelated,disagree
+After ISIS trick mum into eating son - 5 other reluctant cannibals including those forced to eat own body parts,1956,unrelated,discuss
+Canadian-Israeli woman reportedly kidnapped by ISIS: Jerusalem Post,1862,unrelated,discuss
+ESPN's Domestic Violence Panel Is Missing Something Important,1261,unrelated,agree
+GCPD Solved Stolen Batmobile Case?,2135,unrelated,discuss
+Pentagon: ISIS Got U.S. Weapons Package,2397,unrelated,discuss
+Surreal Photos of Fisherman’s Jaw-Dropping Catch Will Likely Have People Wondering If It’s Real,1652,unrelated,discuss
+Indian 'Rapist' Castrated By Angry Mob Who Hack Off Gentials With Meat Cleaver (GRAPHIC PICTURES),2005,unrelated,agree
+Pentagon Denies It Killed ISIS Chief As Airstrikes Hit Top Extremists,1473,unrelated,disagree
+N Korean leader misses annual ritual; sister ‘takes over duties’,780,unrelated,discuss
+Street Artist BANKSY Arrested? Again?,1940,unrelated,discuss
+IS Militants Kill 300 Iraqi Soldiers with Chlorine Gas,2224,unrelated,discuss
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,1010,unrelated,discuss
+BiH: Seven Primary School Students Pregnant After Five-Day Excursion,2504,unrelated,agree
+iPhone Game Developer Quits Job By Hiding The Greatest Letter Of Resignation Ever Inside His Game,2185,unrelated,discuss
+Iraqi airstrike kills key ISIL leader,1889,unrelated,discuss
+ISIS Blasts 'Scorpion Bombs' At Civilian Areas In Iraq; Mosul Residents Living In Fear,1474,unrelated,agree
+PopWatch Teenager fights for the right to be recognized as Teletubbies' smiling sun-baby,2371,unrelated,discuss
+Lawmaker Says ‘At Least 10′ Islamic State Fighters Have Been Captured at the Southern U.S. Border,1931,unrelated,discuss
+ISIS Video Shows Execution of David Cawthorne Haines, British Aid Worker,1757,unrelated,discuss
+ISIS Beheads Kidnapped Photojournalist James Wright Foley in Horrific Video Message to the U.S.,2386,unrelated,agree
+Now the Vogue Rats Are Chewing Through Couture,1693,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,726,unrelated,discuss
+The Guy Who Said a Spider Burrowed Under His Skin? Experts Say…,1579,unrelated,discuss
+CNN Expert on Brown Audio: At First I Thought ‘Someone’s Trying to Punk CNN’,2481,unrelated,discuss
+Nigeria: hopes for return of kidnapped schoolgirls rise after ceasefire reported,1099,unrelated,discuss
+Meteorite Strikes Nicaraguan Capital, Creates 16-Foot-Deep Crater,1594,unrelated,disagree
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,991,unrelated,discuss
+Report: Nearly a Dozen Commercial Airliners Missing Ahead of 9/11 Anniversary After Islamists Overrun Libyan Airport,653,unrelated,discuss
+Vogue’s Rat Infestation: Disturbing New Details,2031,unrelated,agree
+Rajasthan: Angry mob teaches rapist a lesson; chops penis off,1673,unrelated,agree
+Ebola Outbreak 2015 Update: ISIS Fighters May Have Contracted Deadly Virus,1891,unrelated,discuss
+GCPD Solved Stolen Batmobile Case?,1459,unrelated,discuss
+Nicaragua Meteorite Impact Theory May Be Meteor-wrong,1722,unrelated,discuss
+Is Ebola Virus Spreading Among ISIS Militants? Reports Claim Jihadists Seeking Cure at Mosul Hospital,639,unrelated,discuss
+Did a Meteorite Impact in Nicaragua over the Weekend?,2475,unrelated,discuss
+Rep. Duncan Hunter: 'At Least 10' ISIS Fighters Caught at Mexican Border,1931,unrelated,discuss
+More American Weapons for ISIS,2172,unrelated,agree
+Now the Vogue Rats Are Chewing Through Couture,788,unrelated,discuss
+Ottawa investigates reports that Isis has captured Canadian-Israeli woman,756,unrelated,discuss
+Predator Drone Reportedly Spotted Over ISIS Stronghold,1501,unrelated,discuss
+US Lawmaker: Ten ISIS Fighters Have Been Apprehended Coming Across Southern Border (Video),1376,unrelated,discuss
+Report: Nigerian Woman Quarantined in KC with Ebola-Like Symptoms (Video),51,unrelated,discuss
+HORROR: ISIS Fighters Have Reportedly Contracted Ebola,1615,unrelated,discuss
+Government employee fired after skipping work for 24 years,1318,unrelated,agree
+Police hunt tweed-jacket wearing man who slaps shoppers for SNEEZING,148,unrelated,agree
+GOP Rep: ‘At Least Ten ISIS Fighters Have Been Caught Coming Across The Mexican Border’,1931,unrelated,discuss
+#ISIS beheads photojournalist James Wright Foley in a massage to US to end its intervention in #Iraq.,632,unrelated,discuss
+Was Heart-Tugging Viral Video Of Generous Homeless Man All A Hoax?,1971,unrelated,agree
+Weaponized Ebola? ISIS Militants Said To Contract Deadly Virus,1615,unrelated,discuss
+Surreal Photos of Fisherman’s Jaw-Dropping Catch Will Likely Have People Wondering If It’s Real,1028,unrelated,discuss
+‘Evocative shape': Is Vladimir Putin trolling the world with his motorcade formation?,1283,unrelated,discuss
+Man Severed Penis That Failed To Impress Girls,1560,unrelated,discuss
+Video shows ISIL beheading of photojournalist James Foley,1288,unrelated,discuss
+Zack Snyder’s ‘Batman V Superman: Dawn Of Justice’ Stolen Batmobile Rumor Put To Rest,1459,unrelated,discuss
+Saudi Arabia Cleric Issues Fatwa Against Building Snowmen,2456,unrelated,agree
+Israeli-Canadian Woman 'Captured' By ISIS Says She Is 'Safe And Secure',276,unrelated,agree
+Fidel Castro Dead? Yes, He Is… But The Cuban Leader Is Alive, Death Rumors Proven False,2399,unrelated,discuss
+Two GOP Congressmen Say Suspected Terrorists Caught Crossing U.S.–Mexico Border,871,unrelated,discuss
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,1580,unrelated,discuss
+Cameron vows to hunt down IS 'monsters' after Haines murder,1757,unrelated,discuss
+Did NBC Nightly News Go Live To A Man Who Was Taking A Piss?,1319,unrelated,discuss
+Small Meteorite Strikes in Nicaragua's Capital City of Managua,2475,unrelated,disagree
+ISIL Beheads American Photojournalist in Iraq,608,unrelated,discuss
+WAS NBC METEOROLOGIST MIKE SEIDEL PEEING IN THE SNOW ON CAMERA? A TESTY BRIAN WILLIAMS EXPLAINS,1968,unrelated,discuss
+WATCH: Bird Launches Airstrike on Putin’s Shoulder (UPDATED),772,unrelated,disagree
+Penis Spray-Painted on a $2.5 Million Car Was Just for a Prank Video,1148,unrelated,agree
+HORROR: ISIS Fighters Have Reportedly Contracted Ebola,2180,unrelated,discuss
+Axl Rose Dead? Of Course Not — Tiresome Internet Death Hoax Plague Hits Guns N’ Roses Frontman,2166,unrelated,agree
+Predator Drone Reportedly Spotted Over ISIS Hotbed in Syria; Airstrikes Hit ISIS Targets,1740,unrelated,discuss
+Elderly Woman Arrested for Kidnapping Neighbor’s Cats & Making Fur Coats,1938,unrelated,agree
+Man Severed Penis That Failed To Impress Girls,1410,unrelated,agree
+Whiz kid stock picker: I didn't actually make $72M trading,1184,unrelated,disagree
+ISIS Video Shows Execution of David Cawthorne Haines, British Aid Worker,1989,unrelated,agree
+Say 'eh-oh!' to the Teletubbies SUN BABY - can you still recognise her after 19 years?,2371,unrelated,discuss
+Don't forget to tip...especially if you spend $300,000,2111,unrelated,discuss
+Bergdahl: Senator Says Jihadists Swapped For U.S. Troop ‘In Touch’ With Al-Qaida Affiliate,2236,unrelated,discuss
+Spider burrowed through tourist's stomach and up into his chest,1819,unrelated,agree
+UPDATE: BATMAN v SUPERMAN Batmobile Reportedly Stolen By (Shocker!) Detroit Locals,1459,unrelated,discuss
+A soldier has been shot at Canada’s war memorial just steps away from the nation’s parliament,2410,unrelated,discuss
+IRAQI AND KURDISH MEDIA REPORTS: ISIS FIGHTERS HAVE CONTRACTED EBOLA,2003,unrelated,discuss
+Israeli-Canadian Woman 'Captured' By ISIS Says She Is 'Safe And Secure',1106,unrelated,discuss
+Mystery woman behind the 'richest hands on the internet' revealed: Former pornstar 'makes $5m a year unwrapping Disney toys on YouTube',1315,unrelated,agree
+Source: Pot in NYC may soon net just a ticket, not arrest,1802,unrelated,discuss
+These LEGO Instructions from 1974 Are Awesome (And Yes, They're Real),2171,unrelated,agree
+Lawmaker Says ‘At Least 10′ Islamic State Fighters Have Been Captured at the Southern U.S. Border,871,unrelated,discuss
+ISIS Border Crisis: DHS Chief Says Terrorists Not Entering US Through Mexico,1764,unrelated,agree
+Spider burrowed through tourist's stomach and up into his chest,1531,unrelated,disagree
+Pants on Fire: Duncan Hunter makes unconfirmed claim Border Patrol caught at least 10 ISIS fighters,1764,unrelated,agree
+Biological Warfare on the Horizon? ISIS Soldiers May Be Infected With Ebola,2138,unrelated,discuss
+Jordan king cites Clint Eastwood in revenge vow,2433,unrelated,discuss
+BATMAN VS. SUPERMAN BATMOBILE STOLEN,1529,unrelated,discuss
+Man who skipped work for 24 years is finally fired,432,unrelated,agree
+Two GOP Congressmen Say Suspected Terrorists Caught Crossing U.S.–Mexico Border,1931,unrelated,discuss
+Catholic Priest Claims God Is Female After Clinically Dead Experience,2515,unrelated,agree
+Large space object slams Nicaragua’s capital as asteroid passes Earth,2475,unrelated,discuss
+Teacher sex tape exposed as a FAKE after internet detectives trace the origin of pornographic clip,1496,unrelated,disagree
+'Banksy' Reacts To Paris Attack With Poignant Drawing,2024,unrelated,discuss
+Senator: Detainees swapped for Bergdahl have contacted militants,1628,unrelated,discuss
+One gunman killed in shooting on Parliament Hill in Ottawa, hunt on for other shooters,2410,unrelated,discuss
+BATMOBILE NOT STOLEN, MTV CONTEST PRIZE REMAINS UNCLAIMED,1529,unrelated,discuss
+Street Artist BANKSY Arrested? Again?,48,unrelated,discuss
+David Haines Beheaded By ISIS, Execution Video Contains Threats Against UK: Reports,1182,unrelated,agree
+Isis claims to behead US journalist,1336,unrelated,discuss
+Feminist Aborts Baby For Being A Boy, Shocked People Don’t Approve,2014,unrelated,disagree
+Isis claims it has US airdrop of weapons,1485,unrelated,discuss
+Al-Shabab leader who ordered Kenya mall massacre believed killed in US drone attack in Somalia,427,unrelated,discuss
+Saudi cleric condemns snowmen as anti-Islamic,2456,unrelated,agree
+A soldier has been shot at Canada’s war memorial just steps away from the nation’s parliament,2347,unrelated,agree
+Female teacher facing sack after making SEX TAPE with teenager,285,unrelated,agree
+No, that broken pencil illustration isn't by Banksy,2024,unrelated,agree
+Jeh Johnson: Politicians Shouldn't 'Feed The Flames Of Fear' Over ISIS, Ebola,1376,unrelated,agree
+Is this proof of bigfoot? New 'yeti' video shows giant hairy beast walking through forest,2377,unrelated,discuss
+ISIS Beheads American Journalist,2524,unrelated,agree
+ISIS chlorine attack on security forces confirmed – Iraq officials,1590,unrelated,discuss
+Seven High School Girls Get Pregnant On Five-Day School Trip, Parents Outraged,2170,unrelated,agree
+Pumpkin Spice Condoms Could Be The Only Thing To Save The World From Basic Children,523,unrelated,discuss
+A Husband Breaks Down In Tears After Lost Voicemail Message By His Late Wife Is Recovered,1640,unrelated,agree
+US probing claims ISIS fighters seized airdropped weapons meant for Kurds,2200,unrelated,discuss
+Vandals add rude paint job to $2.5m Bugatti (but luckily for the owner it all turned out to be a hoax),1148,unrelated,agree
+Russian Man Wakes Up to Find His Testicles Have Been Stolen,1231,unrelated,agree
+ISIS leader dead?,1473,unrelated,discuss
+Pictured: Heroic sergeant-at-arms, 58, walking through Parliament gun in hand just moments after he killed gunman Michael Zehaf-Bibeau,1356,unrelated,discuss
+How did Fake Chinese News Site Dupe Washington Post, Atlantic, BBC?,1660,unrelated,disagree
+Was Heart-Tugging Viral Video Of Generous Homeless Man All A Hoax?,2305,unrelated,disagree
+Jeh Johnson: Politicians Shouldn't 'Feed The Flames Of Fear' Over ISIS, Ebola,742,unrelated,discuss
+David Haines Beheaded By ISIS, Execution Video Contains Threats Against UK: Reports,1989,unrelated,agree
+Penis Spray-Painted on a $2.5 Million Car Was Just for a Prank Video,1320,unrelated,discuss
+Sadly, Pumpkin Spice Condoms Aren't A Thing After All,1833,unrelated,agree
+The Arrest of the ISIS Leader's Wife and Son,703,unrelated,disagree
+ISLAMIC STATE BEHEADS MISSING AMERICAN JOURNALIST JAMES WRIGHT FOLEY,2524,unrelated,agree
+Bigfoot Strolls Through A Russian Forest -- At Least That's The Claim [VIDEO],2377,unrelated,discuss
+Staff Reporter,1711,unrelated,agree
+ISIS Leader Killed: Abu Bakr Al-Baghdadi Reportedly Killed By U.S. Airstrike,1473,unrelated,discuss
+Doubts raised over authenticity of Charlie Hebdo footage.,1683,unrelated,agree
+Video Purports To Show Beheading Of U.S. Journalist By Militants,1116,unrelated,discuss
+US officials: Video shows American's execution,368,unrelated,discuss
+IRAQI AND KURDISH MEDIA REPORTS: ISIS FIGHTERS HAVE CONTRACTED EBOLA,620,unrelated,discuss
+Rep. Duncan Hunter: 'At Least 10' ISIS Fighters Caught at Mexican Border,1764,unrelated,discuss
+Accountant Says Comcast Got Him Fired for Contesting Bogus Charges,2238,unrelated,discuss
+This Soap Opera Star Reportedly Had His Testicles Stolen By An ‘Attractive Blonde’ Organ Trafficker,1231,unrelated,discuss
+Israeli-Canadian Woman 'Captured' By ISIS Says She Is 'Safe And Secure',474,unrelated,agree
+Jeh Johnson: Politicians Shouldn't 'Feed The Flames Of Fear' Over ISIS, Ebola,1890,unrelated,agree
+Pentagon: 1 weapons bundle seized by militants,2397,unrelated,discuss
+Nicaragua Meteorite Impact Theory May Be Meteor-wrong,1573,unrelated,agree
+US officials: Video shows American's execution,1679,unrelated,discuss
+Weaponized Ebola? ISIS Militants Said To Contract Deadly Virus,2003,unrelated,discuss
+ISIL Beheads American Photojournalist in Iraq,1580,unrelated,agree
+Unverified video shows beheading of aid worker David Haines,2206,unrelated,discuss
+Homeless man who received a meal and hotel stay after spending $100 donation on food for friends insists it was NOT a hoax – despite new witness insisting there was no way he could have been secretly filmed,2305,unrelated,discuss
+More American Weapons for ISIS,1076,unrelated,discuss
+Surreal Photos of Fisherman’s Jaw-Dropping Catch Will Likely Have People Wondering If It’s Real,2161,unrelated,discuss
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,1954,unrelated,agree
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,523,unrelated,discuss
+This Is Why Rumors That ISIS Is Crossing The Border Into The U.S. Aren’t Going Away,1931,unrelated,discuss
+No, there aren’t any Ebola cases in Iraq,1615,unrelated,discuss
+Reports: Islamic State uses chlorine gas against Iraqi forces,1590,unrelated,discuss
+Fears Islamic State could launch EBOLA attack on Britain after fighters 'contract virus',1175,unrelated,discuss
+James Foley, Missing American Photojournalist, Reportedly Executed By ISIS In Syria,1206,unrelated,discuss
+ISIS Getting Ebola,1891,unrelated,discuss
+James Wright Foley, Kidnapped Journalist, Apparently Executed by ISIS,1336,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,632,unrelated,discuss
+BATMOBILE NOT STOLEN, MTV CONTEST PRIZE REMAINS UNCLAIMED,1177,unrelated,discuss
+BATMOBILE NOT STOLEN, MTV CONTEST PRIZE REMAINS UNCLAIMED,1313,unrelated,agree
+Ottawa investigates reports that Isis has captured Canadian-Israeli woman,1862,unrelated,discuss
+American Predator Drone Circling Islamic State’s Stronghold,1657,unrelated,discuss
+Questions raised over Nicaragua 'meteorite',1731,unrelated,discuss
+Report: Amazon to Launch Ad-Supported Streaming Service,1323,unrelated,discuss
+Report: Nearly a Dozen Commercial Airliners Missing Ahead of 9/11 Anniversary After Islamists Overrun Libyan Airport,1865,unrelated,discuss
+Pentagon: ISIS Got U.S. Weapons Package,1076,unrelated,discuss
+WATCH: Bird Launches Airstrike on Putin’s Shoulder (UPDATED),1087,unrelated,agree
+Teen Made $72 Million Trading Stocks, Confirms Teen Dominance Worldwide,1167,unrelated,discuss
+Nationwide turkey recall? Ebola-infected birds? USDA debunks the hoax,2210,unrelated,disagree
+Staff Reporter,1132,unrelated,discuss
+Suspected meteorite leaves crater in Managua, is linked to asteroid,2475,unrelated,discuss
+These LEGO Instructions from 1974 Are Awesome (And Yes, They're Real),1969,unrelated,discuss
+ESPN’s Domestic Abuse Tonight Panel Will Be 100% Dudes,2181,unrelated,disagree
+US Drones, Hunting for ISIS Leader, Seen Flying over Syrian Airspace,1740,unrelated,agree
+KC Man Does Not Have Ebola,2127,unrelated,agree
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,2475,unrelated,discuss
+Video: Marine saved by helmet after Taliban sniper attack,2046,unrelated,agree
+GCPD Solved Stolen Batmobile Case?,1671,unrelated,discuss
+These egalitarian Lego instructions from the 1970s are pretty cool, but are they real?,2171,unrelated,discuss
+US probing claims ISIS fighters seized airdropped weapons meant for Kurds,465,unrelated,discuss
+Gateway Pundit,1202,unrelated,discuss
+Obama Denounces James Foley's Execution: 'Today The Entire World Is Appalled',1679,unrelated,discuss
+More American Weapons for ISIS,1010,unrelated,discuss
+India Rape Crisis Sees Mob Castrate Alleged Sex Attacker in Shocking Scenes,1673,unrelated,agree
+‘Photo of slain IS leader’ reported to be doctored,394,unrelated,discuss
+Research Medical Center denies reports that a patient has Ebola,2127,unrelated,agree
+Militant Group Says It Killed American Journalist in Syria,1580,unrelated,discuss
+Op-Ed: Hoax – Priest who never existed claims he died, saw female God,2515,unrelated,disagree
+Report: ISIS Leader Abu Bakr Al-Baghdadi Assassinated In U.S. Airstrike,1473,unrelated,discuss
+Nigeria: hopes for return of kidnapped schoolgirls rise after ceasefire reported,1298,unrelated,discuss
+IRAQI AND KURDISH MEDIA REPORTS: ISIS FIGHTERS HAVE CONTRACTED EBOLA,1615,unrelated,discuss
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,1833,unrelated,agree
+Armed U.S. drones spotted flying over Syria in possible hunt for ISIS leader,1657,unrelated,discuss
+ISIS Reportedly Beheads U.S. Journalist James Wright Foley on Camera,2386,unrelated,discuss
+Is Ebola Virus Spreading Among ISIS Militants? Reports Claim Jihadists Seeking Cure at Mosul Hospital,1175,unrelated,discuss
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,2264,unrelated,discuss
+$YUM Serving Up #Marijuana & Fried Chicken,1933,unrelated,disagree
+NYC High School Student Nicknamed ‘Teen Wolf’ Made $72 Million On Stock Market,1858,unrelated,disagree
+‘Teletubbies’ Sun Baby: Fans Freak Out Over Jess Smith, 19,2284,unrelated,discuss
+WAS NBC METEOROLOGIST MIKE SEIDEL PEEING IN THE SNOW ON CAMERA? A TESTY BRIAN WILLIAMS EXPLAINS,555,unrelated,discuss
+This College Student Claims She Was The 'Teletubbies' Sun Baby,2371,unrelated,discuss
+REVEALED: Woman Behind $5 Million Per Year Youtube Channel Is a Former Porn Star  Read more at: http://nextshark.com/revealed-woman-behind-5-million-per-year-youtube-channel-is-a-former-porn-star/#rmns,1315,unrelated,agree
+Rare meteorite impact causes blast in Nicaragua's capital, Managua,1731,unrelated,agree
+KANE'S FUTURE IN WINNIPEG IN DOUBT?,1577,unrelated,discuss
+Here Are Microsoft's New Robot Security Guards,2529,unrelated,agree
+Meet the X-BOY: Electric shock turns kid into MAGNETO,2215,unrelated,agree
+Fears Islamic State could launch EBOLA attack on Britain after fighters 'contract virus',639,unrelated,discuss
+Man Severed Penis That Failed To Impress Girls,1517,unrelated,agree
+Spider Burrows Into Australian Man's Appendix Scar (VIDEO),1104,unrelated,agree
+Media Fooled Again? Story Claims 7 of 28 Girls On School Trip Came Home Pregnant,2508,unrelated,disagree
+Hoax Alert: Father O’Neal, Who Has Met God and Thinks She’s a Woman, Is Made Up (Just Like God Herself),2515,unrelated,disagree
+Lynch Mob Castrates Alleged Rapist In Rajasthan,1673,unrelated,agree
+ISIS Claims to Have Intercepted Supplies From U.S. Airdrop,2397,unrelated,discuss
+Missing Libyan jetliners raise fears of terror attacks on 9/11,1515,unrelated,agree
+Has this Argentine woman fallen victim to a cruel online hoax? Adult video claiming to show teacher having sex with pupil isn't all it seems,1496,unrelated,discuss
+Meteorite Strikes Nicaraguan Capital, Creates 16-Foot-Deep Crater,2154,unrelated,discuss
+Catholic Priest Dead For 48 Minutes, Is Miraculously Revived – His Revelations About God Are Even More Shocking,1227,unrelated,disagree
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,608,unrelated,discuss
+Eyewitness: Viral Video That Netted $130K in Donations "is Bullshit",1922,unrelated,discuss
+The Guy Who Said a Spider Burrowed Under His Skin? Experts Say…,1819,unrelated,discuss
+Female teacher facing sack after making SEX TAPE with teenager,795,unrelated,disagree
+Bergdahl: Senator Says Jihadists Swapped For U.S. Troop ‘In Touch’ With Al-Qaida Affiliate,2159,unrelated,discuss
+BREAKING NEWS: Gunman 'shot dead' after wounding soldier near Canada parliament,2347,unrelated,discuss
+Batmobile Stolen From "Batman v Superman: Dawn of Justice" Set, Zack Snyder Knows Who Did It,1459,unrelated,discuss
+Lawmaker Says ‘At Least 10′ Islamic State Fighters Have Been Captured at the Southern U.S. Border,1764,unrelated,discuss
+Vogue’s Shiny New Office Has a Big Rat Problem,2064,unrelated,agree
+WHO ‘probing’ whether ISIS fighters got Ebola,2180,unrelated,discuss
+Man Severed Penis That Failed To Impress Girls,827,unrelated,agree
+A soldier has been shot at Canada’s war memorial just steps away from the nation’s parliament,1071,unrelated,discuss
+20-Year-Old Quarter Pounder Looks About the Same,793,unrelated,agree
+Cameron vows to hunt down IS 'monsters' after Haines murder,2241,unrelated,discuss
+280 Pound Catfish: Fisherman Makes Huge Catch In Italy, Catfish Could Set Record,1028,unrelated,agree
+Small Meteorite Hits Managua,1731,unrelated,agree
+Militant Group Says It Killed American Journalist in Syria,1206,unrelated,discuss
+Emotional sergeant-at-arms is greeted back to parliament with a rousing standing ovation a day after he heroically shot dead terrorist - the first time he used weapon in 30 year career,1666,unrelated,agree
+Isis claims to behead US journalist,2386,unrelated,discuss
+Indian civil servant sacked 'after 24-year sickie',1162,unrelated,agree
+Fears Islamic State could launch EBOLA attack on Britain after fighters 'contract virus',2180,unrelated,discuss
+280 Pound Catfish: Fisherman Makes Huge Catch In Italy, Catfish Could Set Record,2161,unrelated,agree
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,781,unrelated,discuss
+Penis Spray-Painted on a $2.5 Million Car Was Just for a Prank Video,1144,unrelated,discuss
+Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',1764,unrelated,agree
+US probing claims ISIS fighters seized airdropped weapons meant for Kurds,1485,unrelated,discuss
+Two GOP Congressmen Say Suspected Terrorists Caught Crossing U.S.–Mexico Border,1376,unrelated,discuss
+Meteorite strike in Nicaragua puzzles experts,1068,unrelated,discuss
+Man Severed Penis That Failed To Impress Girls,1434,unrelated,discuss
+BREAKING: ISIS USES CHEMICAL WEAPONS – Murders 300 Iraqi Soldiers in Chlorine Gas Attack,636,unrelated,agree
+Incredible Video Shows A US Marine Surviving Being Shot In The Head By A Sniper In Afghanistan,2267,unrelated,agree
+Texas Truck Winds Up in Syria With Islamic Militants,2242,unrelated,agree
+Kim Jong-Un's Scottish Dog Meat Restaurant Is Probably Fabricated Shite,2225,unrelated,agree
+Report: Nearly a Dozen Commercial Airliners Missing Ahead of 9/11 Anniversary After Islamists Overrun Libyan Airport,1515,unrelated,discuss
+ISIS leader dead?,1466,unrelated,discuss
+Vigilantes cut off alleged rapist's penis,86,unrelated,agree
+Pentagon: ISIS seized materials airdropped to Kurds,2397,unrelated,discuss
+ISIS Appears To Behead American Photojournalist In YouTube Video,1206,unrelated,discuss
+First Human Death Confirmed From Eating GMO [Satire],2013,unrelated,discuss
+Media Fooled Again? Story Claims 7 of 28 Girls On School Trip Came Home Pregnant,2170,unrelated,disagree
+Fidel Castro Dead? Yes, He Is… But The Cuban Leader Is Alive, Death Rumors Proven False,2221,unrelated,agree
+The Arrest of the ISIS Leader's Wife and Son,670,unrelated,discuss
+Boy who suffered powerful electric shock claims he now has 'superpowers' like X-Men's Magneto as metal objects stick to him,2215,unrelated,discuss
+Now the Vogue Rats Are Chewing Through Couture,1149,unrelated,discuss
+High school student scores $72M playing the stock market,1987,unrelated,discuss
+Blundering boyfriend burns down college after trying to impress his girlfriend with elaborate marriage proposal,669,unrelated,discuss
+Two GOP Congressmen Say Suspected Terrorists Caught Crossing U.S.–Mexico Border,1890,unrelated,discuss
+US Drones, Hunting for ISIS Leader, Seen Flying over Syrian Airspace,2129,unrelated,discuss
+Leader of Qaeda-Linked Somali Group Is Dead, U.S. Says,981,unrelated,discuss
+Hostage David Haines' Murder 'Evil', PM Says,2206,unrelated,agree
+Man chops off own penis, throws it in a dustbin after poor show in bed,1799,unrelated,agree
+$YUM Serving Up #Marijuana & Fried Chicken,1360,unrelated,agree
+Nicaragua Meteorite Impact Theory May Be Meteor-wrong,1731,unrelated,disagree
+ISIS: Desperate mum told 'you've just eaten your son' after visiting militants' base in search of kidnap victim,2219,unrelated,discuss
+Report: Nearly a Dozen Commercial Airliners Missing Ahead of 9/11 Anniversary After Islamists Overrun Libyan Airport,170,unrelated,discuss
+Report: Michael Phelps’ Tinder ‘Girlfriend’ Was Born Male; “We Made Love During Halftime”,1029,unrelated,discuss
+Catholic Priest Dies for 48 Minutes, Comes Back to Life and Claims God Is Female,1521,unrelated,disagree
+Spider Burrows Into Australian Man's Appendix Scar (VIDEO),1602,unrelated,discuss
+‘Evocative shape': Is Vladimir Putin trolling the world with his motorcade formation?,2391,unrelated,discuss
+Fidel Castro Dead? Yes, He Is… But The Cuban Leader Is Alive, Death Rumors Proven False,1918,unrelated,discuss
+Congressman: ‘At least 10 ISIS fighters’ caught trying to cross into US,1764,unrelated,discuss
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,1247,unrelated,agree
+Report: Nigerian Woman Quarantined in KC with Ebola-Like Symptoms (Video),1404,unrelated,discuss
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,1336,unrelated,discuss
+ISIS Video: America’s Air Dropped Weapons Now in Our Hands,2295,unrelated,discuss
+The Case of the Stolen Batmobile Has Been Solved,942,unrelated,discuss
+Texas, Hold 'Em,1467,unrelated,discuss
+Meteorite Leaves House-Sized Crater in Nicaragua’s Capital,2475,unrelated,disagree
+WHO ‘probing’ whether ISIS fighters got Ebola,1891,unrelated,discuss
+HORROR: ISIS Fighters Have Reportedly Contracted Ebola,2138,unrelated,discuss
+US probing claims ISIS fighters seized airdropped weapons meant for Kurds,2172,unrelated,discuss
+See How This Homeless Man Spends A Hundred Dollars, And Keep A Tissue Handy [Video],2305,unrelated,agree
+ISIL Beheads American Photojournalist in Iraq,368,unrelated,agree
+Watch: ISIS Claims to Have Captured U.S. Airdropped Weapons,1120,unrelated,discuss
+Spider Burrows Into Australian Man's Appendix Scar (VIDEO),2042,unrelated,disagree
+Report: Nearly a Dozen Commercial Airliners Missing Ahead of 9/11 Anniversary After Islamists Overrun Libyan Airport,1165,unrelated,discuss
+Fears Islamic State could launch EBOLA attack on Britain after fighters 'contract virus',2003,unrelated,discuss
+Watch marine take sniper shot to the head and live,1180,unrelated,agree
+Rumors of King Abdullah Flying in Airstrikes Not True, Fox Excited Anyway,2433,unrelated,discuss
+Obama, Outraged Over Beheading, Vows to Stay on Course,1679,unrelated,discuss
+Gateway Pundit,2327,unrelated,discuss
+What This Homeless Guy Did With $100 Completely Stunned The Man Who Gave It To Him,2305,unrelated,agree
+Two GOP Congressmen Say Suspected Terrorists Caught Crossing U.S.–Mexico Border,1398,unrelated,discuss
+Is Ebola Virus Spreading Among ISIS Militants? Reports Claim Jihadists Seeking Cure at Mosul Hospital,1891,unrelated,discuss
+Two blokes dared to eat 20-year-old burger for charity,1311,unrelated,discuss
+This Is a Truly Horrifying Story About a Spider,2042,unrelated,disagree
+Developer quits using the app he was hired to make—or did he?,2185,unrelated,discuss
+Has this Argentine woman fallen victim to a cruel online hoax? Adult video claiming to show teacher having sex with pupil isn't all it seems,795,unrelated,discuss
+Report: Exec popped for $300k dinner after run at blackjack,2111,unrelated,discuss
+David Haines beheading video confirmed genuine; UK PM Cameron vows to hunt down ISIS 'monsters',2206,unrelated,agree
+Hoax 'Banksy Arrested in London' Story Dupes the Internet Again,949,unrelated,agree
+SMALL METEORITE STRIKES NICARAGUA, GOVERNMENT SAYS,1722,unrelated,discuss
+Media Fooled Again? Story Claims 7 of 28 Girls On School Trip Came Home Pregnant,2504,unrelated,disagree
+Meteorite makes big crater in Nicaragua, government says,2475,unrelated,disagree
+Pentagon: ISIS Got U.S. Weapons Package,2295,unrelated,discuss
+That ESPN Domestic Violence Panel You Keep Hearing About Isn't Real,2181,unrelated,agree
+SEE IT: ISIS militants caught trying to cross border into Texas, Congressman claims,1764,unrelated,discuss
+Is this proof of bigfoot? New 'yeti' video shows giant hairy beast walking through forest,1656,unrelated,discuss
+GRAPHIC CONTENT: Girl sneers at man's tiny penis so he CHOPS IT OFF and bins it,1560,unrelated,discuss
+Confusion swirls, details murky in arrest of ISIS leader's 'wife',1468,unrelated,discuss
+The Guy Who Said a Spider Burrowed Under His Skin? Experts Say…,1531,unrelated,discuss
+NET Extra: Back-from-the-dead Catholic priest claims God is a female...,2515,unrelated,agree
+New ISIS Video Shows Militants Seizing Weapons Airdropped By US Near Kobani,1485,unrelated,agree
+In Moscow, police are looking for a felon, cut the male genitals,516,unrelated,agree
+Pumpkin Spice Condoms, And 6 Other Flavors That Aren’t Happening,1833,unrelated,agree
+IRAQI HEALTH OFFICIAL: EBOLA HAS KILLED 5 ISIS FIGHTERS,2180,unrelated,discuss
+Saudi cleric condemns snowmen as anti-Islamic,2456,unrelated,agree
+Does ISIS Have Ebola? Probably Not! Media Reports It Anyway,2180,unrelated,agree
+ISIS fighters ‘have contracted Ebola’,2180,unrelated,discuss
+Video Purports To Show Beheading Of U.S. Journalist By Militants,1679,unrelated,discuss
+Police hunting mystery 'slapper' in tweed jacket who attacks people who sneeze in town's high street,1952,unrelated,discuss
+Texas Truck Winds Up in Syria With Islamic Militants,119,unrelated,agree
+ISIS Video: America’s Air Dropped Weapons Now in Our Hands,1120,unrelated,discuss
+Report: Nigerian Woman Quarantined in KC with Ebola-Like Symptoms (Video),1015,unrelated,discuss
+Homeless man who became a YouTube sensation after spending $100 on food for his beggar friends gets a surprise Christmas meal, makeover and night in a hotel in new video... but is it all a hoax by a 'serial prankster'?,2305,unrelated,discuss
+Weather Reporter Mike Seidel Was Caught Off Guard on Live TV and Appeared to Be Urinating in the Snow -- Watch!,1968,unrelated,discuss
+ISIS Unleash "Scorpion" Bombs In Iraq,1474,unrelated,agree
+KC Man Does Not Have Ebola,2104,unrelated,agree
+Kim Jong-Un 'in hospital with two fractured ankles' after ballooning to around 20 stone and going on numerous 'meet the people' walkabout PR stunts,1480,unrelated,discuss
+The Case of the Stolen Batmobile Has Been Solved,1671,unrelated,discuss
+The Man Who Says Comcast Got Him Fired Has Filed a Lawsuit,2133,unrelated,discuss
+REPORT: JETLINERS STOLEN FROM LIBYA COULD BE USED TO ATTACK U.S. ON 9/11,1515,unrelated,discuss
+GCPD Solved Stolen Batmobile Case?,942,unrelated,discuss
+Islamic Militants Post Video Claiming to Show Beheading of U.S. Journalist,2386,unrelated,discuss
+Seven High School Girls Get Pregnant On Five-Day School Trip, Parents Outraged,1667,unrelated,discuss
+Vandals add rude paint job to $2.5m Bugatti (but luckily for the owner it all turned out to be a hoax),1320,unrelated,discuss
+Turkish president says American weapons drop for Kurdish fighters was 'wrong' after supplies end up in the hands of ISIS,2172,unrelated,agree
+ISIS Video: America’s Air Dropped Weapons Now in Our Hands,2397,unrelated,discuss
+Seven High School Girls Get Pregnant On Five-Day School Trip, Parents Outraged,2508,unrelated,agree
+Was Heart-Tugging Viral Video Of Generous Homeless Man All A Hoax?,2132,unrelated,agree
+Nationwide turkey recall? Ebola-infected birds? USDA debunks the hoax,1335,unrelated,disagree
+The Case of the Stolen Batmobile Has Been Solved,2135,unrelated,discuss
+Predator Drone Reportedly Spotted Over ISIS Hotbed in Syria; Airstrikes Hit ISIS Targets,2129,unrelated,discuss
+This College Student Claims She Was The 'Teletubbies' Sun Baby,2284,unrelated,discuss
+Iraq: US to Probe ISIS' Chlorine Attack on Iraqi Security Personnel,2224,unrelated,discuss
+Did a Meteorite Impact in Nicaragua over the Weekend?,1731,unrelated,discuss
+Texas Truck Winds Up in Syria With Islamic Militants,1906,unrelated,agree
+The Unluckiest Man In The World Set His College On Fire With A Fireworks Marriage Proposal,1876,unrelated,agree
+ISIS Claims It Kidnapped Gill Rosenberg, The First Western Woman To Fall Into The Group's Hands,346,unrelated,discuss
+Al-Shabaab co-founder confirmed killed by US air strike in Somalia,1610,unrelated,agree
+Israeli-Canadian Woman 'Captured' By ISIS Says She Is 'Safe And Secure',1690,unrelated,discuss
+Is Ebola Virus Spreading Among ISIS Militants? Reports Claim Jihadists Seeking Cure at Mosul Hospital,2180,unrelated,discuss
+This Soap Opera Star Reportedly Had His Testicles Stolen By An ‘Attractive Blonde’ Organ Trafficker,516,unrelated,discuss
+NBC weatherman caught urinating in the woods live on air,1333,unrelated,disagree
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,2055,unrelated,agree
+Meteorite 'caused mysterious boom in Nicaragua',2264,unrelated,discuss
+Did a Meteorite Impact in Nicaragua over the Weekend?,2154,unrelated,discuss
+Obama, Outraged Over Beheading, Vows to Stay on Course,2524,unrelated,agree
+Weather Reporter Caught Writing His Name In The Snow Was NOT Ready To Go On Camera (UPDATED),1319,unrelated,agree
+Mass Graves Found In Mexico, Near Place Where 43 Students Went Missing,1156,unrelated,discuss
+Teen Makes $72 Million on the Stock Market,1184,unrelated,agree
+US officials: Video shows American's execution,632,unrelated,discuss
+Missing American journalist reportedly beheaded by Islamic State ,368,unrelated,discuss
+This Is What The Sun Baby From ‘Teletubbies’ Looks Like Now,2371,unrelated,discuss
+HORROR: ISIS Fighters Have Reportedly Contracted Ebola,1689,unrelated,discuss
+Accountant Claims Comcast Got Him Fired From His Job for Reporting a Customer Service Issue,1007,unrelated,discuss
+In Kim Jong Un's absence, his sister may rule. Or not.,817,unrelated,discuss
+If you really believed Colorado KFCs were selling pot, here’s a reality check,1973,unrelated,discuss
+Isilkulskom student has gained superhero powers after shock,2215,unrelated,agree
+$YUM Serving Up #Marijuana & Fried Chicken,1973,unrelated,agree
+‘Photo of slain IS leader’ reported to be doctored,1889,unrelated,discuss
+This Week In Weird News: Horrible Human Slaps Elderly Woman For Sneezing,1952,unrelated,discuss
+More American Weapons for ISIS,1485,unrelated,agree
+Vigilantes cut off alleged rapist's penis,1673,unrelated,agree
+Unhappy Customer: Comcast Told My Employer About Complaint, Got Me Fired,1007,unrelated,discuss
+Will King of Jordan lead airstrikes on ISIS HIMSELF? Reports say trained pilot plans to take part in attack after quoting Clint Eastwood's Unforgiven to Congressmen,2274,unrelated,discuss
+Vogue’s Rat Infestation: Disturbing New Details,2064,unrelated,agree
+Soldier, Gunman Killed In Shooting Incident Near Canadian Parliament,2410,unrelated,discuss
+Is Ebola Virus Spreading Among ISIS Militants? Reports Claim Jihadists Seeking Cure at Mosul Hospital,1689,unrelated,discuss
+ISIS Leader Killed: Abu Bakr Al-Baghdadi Reportedly Killed By U.S. Airstrike,1889,unrelated,discuss
+ISIL Beheads American Photojournalist in Iraq,1679,unrelated,discuss
+Emotional sergeant-at-arms is greeted back to parliament with a rousing standing ovation a day after he heroically shot dead terrorist - the first time he used weapon in 30 year career,1472,unrelated,discuss
+Jess Smith, 19, Claims She Was Teletubbies' Giggling Baby: What Did She Get Paid?,2284,unrelated,discuss
+Prankster Gives Homeless Man $100, Secretly Follows Him And Learns He Buys Food For Others,2305,unrelated,agree
+Watch moment TV weatherman is caught urinating in the bushes LIVE on camera,1333,unrelated,disagree
+ESPN's Domestic Violence Panel Is Missing Something Important,2181,unrelated,disagree
+ISIL Beheads American Photojournalist in Iraq,1288,unrelated,discuss
+Video messaging service verifies timing of CNN audio recording,1817,unrelated,discuss
+BATMAN VS. SUPERMAN BATMOBILE STOLEN,1313,unrelated,discuss
+Report: Exec popped for $300k dinner after run at blackjack,2130,unrelated,discuss
+Pentagon Denies It Killed ISIS Chief As Airstrikes Hit Top Extremists,1522,unrelated,discuss
+Chinese 'mistress' is stripped naked and beaten senseless in backlash against booming country's 'concubine culture',1334,unrelated,agree
+According to some Russians this dark figure stumbling through the snowy woods is a Yeti - and they even have a footprint. Hmmmmm,2256,unrelated,discuss
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,288,unrelated,discuss
+Fears Islamic State could launch EBOLA attack on Britain after fighters 'contract virus',1122,unrelated,discuss
+British man pays $460 to save constipated goldfish's life,803,unrelated,agree
+Catholic Priest Dead For 48 Minutes, Is Miraculously Revived – His Revelations About God Are Even More Shocking,2515,unrelated,agree
+Italian fisherman catches monstrous 280-pound catfish,1652,unrelated,agree
+Pictured: Heroic sergeant-at-arms, 58, walking through Parliament gun in hand just moments after he killed gunman Michael Zehaf-Bibeau,1631,unrelated,discuss
+Israeli-Canadian Woman 'Captured' By ISIS Says She Is 'Safe And Secure',1168,unrelated,discuss
+US Lawmaker: Ten ISIS Fighters Have Been Apprehended Coming Across Southern Border (Video),1931,unrelated,discuss
+Accountant Claims Comcast Got Him Fired From His Job for Reporting a Customer Service Issue,475,unrelated,discuss
+Al-Shabaab Terror Group Leader Killed in U.S. Airstrike,1610,unrelated,agree
+Shots Heard In Alleged Brown Shooting Recording [AUDIO],1379,unrelated,discuss
+News sites fall for Putin bird-dropping video,2174,unrelated,discuss
+Catholic Priest Dies for 48 Minutes, Comes Back to Life and Claims God Is Female,1014,unrelated,agree
+Video Purports To Show Beheading Of U.S. Journalist By Militants,782,unrelated,discuss
+Moment U.S. Marine is saved by his Kevlar helmet as Taliban sniper bullet hits him in head,2046,unrelated,agree
+Meet The College Student Who Claims She Was The ‘Teletubbies’ Sun Baby,2284,unrelated,discuss
+IRAQI AND KURDISH MEDIA REPORTS: ISIS FIGHTERS HAVE CONTRACTED EBOLA,1891,unrelated,discuss
+Catholic Priest Dies for 48 Minutes, Comes Back to Life and Claims God Is Female,1407,unrelated,agree
+ISIS Extremists Claim to Behead British Hostage David Haines,2206,unrelated,discuss
+Isis claims it has US airdrop of weapons,2200,unrelated,discuss
+Snowmen Declared Anti-Islamic As Snow Falls in Saudi Arabia,2456,unrelated,agree
+Armed U.S. drones spotted flying over Syria in possible hunt for ISIS leader,1501,unrelated,agree
+Bergdahl: Senator Says Jihadists Swapped For U.S. Troop ‘In Touch’ With Al-Qaida Affiliate,1628,unrelated,discuss
+American Predator Drone Circling Islamic State’s Stronghold,2129,unrelated,discuss
+Militant Group Says It Killed American Journalist in Syria,608,unrelated,discuss
+Man cuts off manhood, throws it in the bin, after girlfriend leaves over small penis,1171,unrelated,agree
+280 Pound Catfish: Fisherman Makes Huge Catch In Italy, Catfish Could Set Record,2196,unrelated,agree
+That's one way to get through security! Frustrated traveller strips completely NAKED at airport to pass through metal detectors,1733,unrelated,agree
+Catholic priest dies for 48 mins, wakes up claiming God is a woman,2515,unrelated,agree
+Terrorism fears rise amid reports of stolen jetliners,1515,unrelated,discuss
+James Wright Foley, Kidnapped Journalist, Apparently Executed by ISIS,632,unrelated,discuss
+Jeh Johnson shoots down Duncan Hunter's assertion IS is entering U.S. via Mexico,1764,unrelated,agree
+Blundering boyfriend burns down college after trying to impress his girlfriend with elaborate marriage proposal,1876,unrelated,agree
+WATCH: Bird Launches Airstrike on Putin’s Shoulder (UPDATED),2174,unrelated,agree
+ISIS Getting Ebola,2138,unrelated,disagree
+Eyewitness: Viral Video That Netted $130K in Donations "is Bullshit",2305,unrelated,disagree
+Nicaraguan commission on possible meteorite crash presents rock samples,2475,unrelated,discuss
+Emotional sergeant-at-arms is greeted back to parliament with a rousing standing ovation a day after he heroically shot dead terrorist - the first time he used weapon in 30 year career,611,unrelated,discuss
+Penis Spray-Painted on a $2.5 Million Car Was Just for a Prank Video,1453,unrelated,agree
+Indian civil servant sacked 'after 24-year sickie',1318,unrelated,agree
+This Is What The Sun Baby From ‘Teletubbies’ Looks Like Now,2284,unrelated,discuss
+Vandals add rude paint job to $2.5m Bugatti (but luckily for the owner it all turned out to be a hoax),2369,unrelated,disagree
+Small Meteorite Strikes in Nicaragua's Capital City of Managua,1731,unrelated,agree
+The Arrest of the ISIS Leader's Wife and Son,1468,unrelated,disagree
+Report: Nigerian Woman Quarantined in KC with Ebola-Like Symptoms (Video),1343,unrelated,discuss
+Man Severed Penis That Failed To Impress Girls,2496,unrelated,agree
+Homeland Security says terrorists haven't crossed U.S-Mexico border,1931,unrelated,disagree
+Video: Islamic State Claims to Have Captured US Weapons Airdrop Near Kobane,2397,unrelated,discuss
+ISIS Beheads American Journalist,1679,unrelated,discuss
+Vice Media Chief Said to Pay $300,000 for Dinner for 30,2111,unrelated,discuss
+See How This Homeless Man Spends A Hundred Dollars, And Keep A Tissue Handy [Video],1996,unrelated,agree
+The Case of the Stolen Batmobile Has Been Solved,1177,unrelated,discuss
+Soldier shot, Parliament locked down after gunfire erupts at war memorial,2410,unrelated,discuss
+Fake BBC News website set up to carry Charlie Hebdo attack conspiracy theories,1683,unrelated,disagree
+IS Militants Kill 300 Iraqi Soldiers with Chlorine Gas,636,unrelated,agree
+Nicaragua Meteorite Impact Theory May Be Meteor-wrong,2154,unrelated,discuss
+NET Extra: Back-from-the-dead Catholic priest claims God is a female,1014,unrelated,agree
+This Woman Is Wrongly Being Called A Sexual Predator After Her Private Sex Tape Was Used For A Hoax,1496,unrelated,disagree
+US Drones, Hunting for ISIS Leader, Seen Flying over Syrian Airspace,1159,unrelated,discuss

@@ -1,10 +1,12 @@
-package edu.arizona.cs.classifier.secondclassifier;
+package edu.arizona.cs.classifier.thirdclassifier;
 
 import de.bwaldvogel.liblinear.*;
 import edu.arizona.cs.classifier.ClassLabel;
 import edu.arizona.cs.classifier.feature.*;
 import edu.arizona.cs.classifier.feature.Feature;
-import edu.arizona.cs.classifier.thirdclassifier.ThirdClassifier;
+import edu.arizona.cs.classifier.secondclassifier.Agree;
+import edu.arizona.cs.classifier.secondclassifier.Disagree;
+import edu.arizona.cs.classifier.secondclassifier.Discuss;
 import edu.arizona.cs.data.DataRepo;
 import edu.arizona.cs.data.Document;
 import edu.arizona.cs.data.Stance;
@@ -23,11 +25,11 @@ import java.util.concurrent.ThreadPoolExecutor;
 /**
  * Created by savan on 4/29/17.
  */
-public class SecondClassifier {
-    private static final String MODEL = "src/main/resources/model_2";
-    private static final String RESULT = "result/result_2.txt";
-    private static final String CORRECT_DETECTION = "result/correct_detections_2.txt";
-    private static final String INCORRECT_DETECTION = "result/incorrect_detections_2.txt";
+public class ThirdClassifier {
+    private static final String MODEL = "src/main/resources/model_3";
+    private static final String RESULT = "result/result_3.txt";
+    private static final String CORRECT_DETECTION = "result/correct_detections_3.txt";
+    private static final String INCORRECT_DETECTION = "result/incorrect_detections_3.txt";
 
     private Dictionary dictionary;
     private DataRepo dataRepo;
@@ -36,19 +38,17 @@ public class SecondClassifier {
     private Model model;
     private Map<Document, Stance> testDocuments;
     private List<Document> documents;
-    private ThirdClassifier thirdClassifier;
 
-    public SecondClassifier(Dictionary dictionary, DataRepo dataRepo) {
+    public ThirdClassifier(Dictionary dictionary, DataRepo dataRepo) {
         this.dictionary = dictionary;
         testDocuments = new HashMap<Document, Stance>();
         this.dataRepo = dataRepo;
-        thirdClassifier = new ThirdClassifier(dictionary, dataRepo);
 
         classLabels = new ArrayList<ClassLabel>();
-        ClassLabel opinionated = new ClassLabel(new Stance(Stance.STANCE_TEMP_OPINIONATED));
-        ClassLabel discuss = new ClassLabel(new Stance(Stance.STANCE_DISCUSS));
-        classLabels.add(opinionated);
-        classLabels.add(discuss);
+        ClassLabel disagree = new ClassLabel(new Stance(Stance.STANCE_DISAGREE));
+        ClassLabel agree = new ClassLabel(new Stance(Stance.STANCE_AGREE));
+        classLabels.add(agree);
+        classLabels.add(disagree);
 
         threadPoolExecutor = ThreadPoolExecutorWrapper.getInstance().getThreadPoolExecutor();
     }
@@ -58,8 +58,7 @@ public class SecondClassifier {
     }
 
     public void train() {
-        System.out.println("Second classifier - Training in-progress...");
-        List<Document> thirdClassiferDocs = new ArrayList<Document>();
+        System.out.println("Third classifier - Training in-progress...");
 
         double y[] = new double[documents.size()];
         FeatureNode x[][] = new FeatureNode[documents.size()][];
@@ -71,9 +70,6 @@ public class SecondClassifier {
                     new FeatureExtractionTask(featureExtractionCallable);
             featureExtractionTasks.add(featureExtractionTask);
             threadPoolExecutor.execute(featureExtractionTask);
-            if(document.getStance().getStance() != Stance.STANCE_DISCUSS) {
-                thirdClassiferDocs.add(document);
-            }
         }
 
         waitUntilTasksComplete(featureExtractionTasks);
@@ -90,7 +86,7 @@ public class SecondClassifier {
         Problem problem = new Problem();
         problem.bias = 1;
         problem.l = documents.size();
-        problem.n = 5 + (int)problem.bias;
+        problem.n = 4 + (int)problem.bias;
         problem.y = y;
         problem.x = x;
 
@@ -106,12 +102,6 @@ public class SecondClassifier {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        for (Document document : thirdClassiferDocs) {
-            document.clearFeatures();
-        }
-        thirdClassifier.setTrainDocs(thirdClassiferDocs);
-        thirdClassifier.train();
     }
 
     public void classify(Map<Document, Stance> testDocs) throws FileNotFoundException {
@@ -144,7 +134,6 @@ public class SecondClassifier {
 
         int correctDetections = 0;
         int wrongDetections = 0;
-        Map<Document, Stance> documentStanceMapNextClassifier = new HashMap<Document, Stance>();
         for (Map.Entry<Document, Stance> documentStanceEntry : testDocuments.entrySet()) {
             Document document = documentStanceEntry.getKey();
             Stance actualStance = documentStanceEntry.getValue();
@@ -172,12 +161,6 @@ public class SecondClassifier {
                     }
                 }
             }
-
-            if(document.getStance().getStance() == Stance.STANCE_TEMP_OPINIONATED) {
-                document.setStance(new Stance(Stance.STANCE_UNCLASSIFIED));
-                document.clearFeatures();
-                documentStanceMapNextClassifier.put(document, actualStance);
-            }
         }
 
         System.out.println("Correct detections: " + correctDetections + " Wrong detections: " + wrongDetections);
@@ -195,8 +178,6 @@ public class SecondClassifier {
                 e.printStackTrace();
             }
         }
-
-        thirdClassifier.classify(documentStanceMapNextClassifier);
     }
 
     private void waitUntilTasksComplete(List<FeatureExtractionTask> futureTasks) {
@@ -250,21 +231,16 @@ public class SecondClassifier {
             /*System.out.println("\tExtracting features from doc:" + docIndex +
                     " by thread:" + Thread.currentThread().getId());*/
             try {
-                Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(refutingWords);
-                Feature hedgeFeature = new HedgeWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(hedgeFeature);
-                Feature supportiveFeature = new SupportiveWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(supportiveFeature);
-                /*Feature discuss = new Discuss(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                discuss.setDictionary(dictionary);
-                document.addFeature(discuss);*/
                 Feature agree = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 agree.setDictionary(dictionary);
                 document.addFeature(agree);
                 Feature disagree = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 disagree.setDictionary(dictionary);
                 document.addFeature(disagree);
+                Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                document.addFeature(refutingWords);
+                Feature supportiveFeature = new SupportiveWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                document.addFeature(supportiveFeature);
             } catch (Exception e) {
                 System.out.println("Exception for doc: " + document.getHeadline() +
                         ", bodyID:" + document.getBodyId() + e.getCause());

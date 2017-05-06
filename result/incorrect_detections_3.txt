@@ -1,0 +1,9 @@
+Headline,Body ID,Detected Stance,Actual Stance
+James Foley executioner said identified as British rapper  Read more: James Foley executioner said identified as British rapper,8,disagree,unrelated
+Michelle Obama Not Blurred Out on Saudi TV,8,disagree,unrelated
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,8,disagree,agree
+No, a Planetary Alignment on Jan. 4, 2015, Won’t Decrease Gravity,1123,disagree,agree
+Tom Brokaw 'wants Brian Williams out': NBC legend 'furious' at Iraq war lie, as it's claimed executives warned anchor to stop exaggerating the story in the past,110,disagree,discuss
+Saudis Say Michelle Obama Not Blurred on TV,8,disagree,unrelated
+Street Artist BANKSY Arrested? Again?,900,agree,discuss
+NASA: Planetary Alignment On Jan 4, 2015 Will Decrease Gravity For 5 Minutes Causing Partial Weightlessness???,1123,disagree,discuss

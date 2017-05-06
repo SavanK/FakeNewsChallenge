@@ -43,7 +43,7 @@ public class Document {
         features.add(feature);
     }
 
-    public void cleaFeatures() {
+    public void clearFeatures() {
         features.clear();
     }
 

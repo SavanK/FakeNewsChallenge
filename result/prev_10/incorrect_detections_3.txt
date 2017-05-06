@@ -1,0 +1,40 @@
+Headline,Body ID,Detected Stance,Actual Stance
+Nigeria Boko Haram blamed for raids despite truce claim,840,agree,discuss
+Nun complains of stomach pains... and GIVES BIRTH: Sister who had 'no idea' she was pregnant has a baby boy at hospital in Italy,1828,agree,discuss
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,840,agree,discuss
+Soon Marijuana May Lead to Ticket, Not Arrest, in New York,1732,agree,discuss
+Managua explosion not a meteorite, NASA suggests,2264,agree,discuss
+This Is Why Rumors That ISIS Is Crossing The Border Into The U.S. Aren’t Going Away,871,agree,discuss
+PGA Tour Denies Claim That Tiger Woods Failed A Drug Test,593,agree,discuss
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,1298,agree,discuss
+Pope Francis turns out not to have made pets in heaven comment,218,agree,disagree
+No, Banksy hasn’t been arrested,974,agree,disagree
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,600,agree,discuss
+Pull the other Un! North Korean dictator has not been seen for weeks because he 'pulled tendon while doing drill with his generals',117,agree,discuss
+Saudis Say Michelle Obama Not Blurred on TV,8,disagree,unrelated
+James Foley executioner said identified as British rapper  Read more: James Foley executioner said identified as British rapper,8,disagree,unrelated
+Kim Jong-un drinks rare snake wine to boost love life!,2018,agree,discuss
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,227,agree,discuss
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,1828,agree,discuss
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,1540,agree,discuss
+Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,2018,agree,discuss
+Woman detained in Lebanon is not al-Baghdadi's wife, Iraq says,1004,agree,discuss
+Israel denies causing Gaza floods by opening dams,1967,agree,discuss
+Boko Haram denies it has agreed ceasefire,1885,agree,discuss
+Managua explosion not a meteorite, NASA suggests,1722,agree,discuss
+Boko Haram leader denies ceasefire deal, says 200 abducted girls married off ,1885,agree,discuss
+Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,832,agree,discuss
+Soon Marijuana May Lead to Ticket, Not Arrest, in New York,1368,agree,discuss
+Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',742,agree,discuss
+Kim Jong-un drinks rare snake wine to boost love life!,832,agree,discuss
+Fidel Castro Rumors Sweep Internet, but No Sign in Cuba,1305,agree,discuss
+Nun who gave birth ‘had no idea’ she was pregnant,1828,agree,discuss
+Michelle Obama Not Blurred Out on Saudi TV,8,disagree,unrelated
+Nun who had no idea she was pregnant gives birth after going to hospital with stomach pains,1828,agree,discuss
+No, Banksy has not been arrested (sigh),974,agree,disagree
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,1885,agree,discuss
+Banksy arrest hoax: US website claims street artist caught in Watford,900,disagree,agree
+No, there aren’t any Ebola cases in Iraq,1122,agree,discuss
+Met police denies reports of Banksy arrest,974,agree,disagree
+North Korean leader Kim Jong-un not missing, just having ankle surgery,493,agree,discuss
+'No hard evidence' of Isis claims it kidnapped Canadian-Israeli woman Gill Rosenberg,2471,agree,discuss

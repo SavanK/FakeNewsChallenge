@@ -57,8 +57,8 @@ public class Disagree extends AbstractStanceFeature {
             if(bodyNGramList != null && bodyNGramList.size() > 0) {
                 for (Pair<List<String>, Integer> bodyNGram : bodyNGramList){
                     if(headlineNGram.getValue() != SPIN_NEUTRAL &&
-                            bodyNGram.second() != headlineNGram.getValue()) {
-                        // if opposite spin
+                            bodyNGram.second() == headlineNGram.getValue()) {
+                        // if same spin
                         disagreeCount++;
                     }
                 }

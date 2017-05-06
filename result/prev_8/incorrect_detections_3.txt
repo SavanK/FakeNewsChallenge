@@ -1,0 +1,111 @@
+Headline,Body ID,Detected Stance,Actual Stance
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1545,opinionated,agree
+No, Banksy hasn’t been arrested,1884,opinionated,agree
+Michael Phelps' girlfriend was born male but did not tell swimmer about her past,1029,opinionated,agree
+Whiz kid stock picker: I didn't actually make $72M trading,1858,opinionated,agree
+Hospital: Man not being treated for Ebola in Kansas City,2104,opinionated,agree
+Woman detained in Lebanon is not al-Baghdadi's wife, Iraq says,703,opinionated,agree
+Boko Haram leader denies ceasefire deal, says 200 abducted girls married off ,1885,opinionated,discuss
+Soon Marijuana May Lead to Ticket, Not Arrest, in New York,1732,opinionated,discuss
+'Spiderman' squished: Perth experts debunk spider burrowing claims,2042,opinionated,agree
+Boko Haram denies it has agreed ceasefire,1885,opinionated,discuss
+No, Banksy has not been arrested (sigh),1884,opinionated,agree
+Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,832,opinionated,discuss
+Nun complains of stomach pains... and GIVES BIRTH: Sister who had 'no idea' she was pregnant has a baby boy at hospital in Italy,1828,opinionated,discuss
+YPG Confirms: Gill Rosenberg Not Captured in Kobani,756,opinionated,agree
+Kim Jong-un drinks rare snake wine to boost love life!,832,opinionated,discuss
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,899,opinionated,agree
+This Is Why Rumors That ISIS Is Crossing The Border Into The U.S. Aren’t Going Away,871,opinionated,discuss
+Woman detained in Lebanon is not al-Baghdadi's wife, Iraq says,1004,opinionated,discuss
+YPG Confirms: Gill Rosenberg Not Captured in Kobani,474,opinionated,agree
+YPG Confirms: Gill Rosenberg Not Captured in Kobani,474,opinionated,agree
+Despite no Ebola case in Kansas City, the rumor goes viral,2104,opinionated,agree
+WHO: Isis does not have Ebola – but contingency plan being developed for Iraq,2138,opinionated,agree
+Elon University has not banned the term ‘freshman,’ despite rumors,1508,opinionated,agree
+Nun who had no idea she was pregnant gives birth after going to hospital with stomach pains,1828,opinionated,discuss
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,227,opinionated,discuss
+Nationwide turkey recall? Ebola-infected birds? USDA debunks the hoax,387,opinionated,agree
+Hospital: Man not being treated for Ebola in Kansas City,2104,opinionated,agree
+The iPhone 6 'Hairgate' Is Not a Thing,1646,opinionated,agree
+Boko Haram claims to have German hostage, denies ceasefire,1885,opinionated,agree
+No, Saudi TV Didn't Blur Out Michelle Obama's Face When the President Met King Salman,1742,opinionated,agree
+That Boko Haram Ceasefire in Nigeria Isn’t A Ceasefire,1885,opinionated,agree
+Met police denies reports of Banksy arrest,900,opinionated,agree
+Nun who gave birth ‘had no idea’ she was pregnant,1828,opinionated,discuss
+'Spiderman' squished: Perth experts debunk spider burrowing claims,1880,opinionated,agree
+Michelle Obama Not Blurred Out on Saudi TV,1975,opinionated,agree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1555,opinionated,agree
+PGA Tour Denies Claim That Tiger Woods Failed A Drug Test,593,opinionated,discuss
+No, that broken pencil illustration isn't by Banksy,1532,opinionated,agree
+Nun who gave birth ‘had no idea’ she was pregnant,899,opinionated,agree
+Duped again: Macaulay Culkin is not dead,1559,opinionated,agree
+Managua explosion not a meteorite, NASA suggests,1594,opinionated,agree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1559,opinionated,agree
+Met police denies reports of Banksy arrest,48,opinionated,agree
+Banksy arrest hoax: US website claims street artist caught in Watford,900,opinionated,agree
+Managua explosion not a meteorite, NASA suggests,1722,opinionated,discuss
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,2502,opinionated,agree
+Boko Haram denies ceasefire claim by Nigeria's government,1885,opinionated,agree
+No, Banksy has not been arrested (sigh),974,opinionated,disagree
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,8,opinionated,agree
+No, Saudi TV Didn't Blur Out Michelle Obama's Face When the President Met King Salman,691,opinionated,agree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1174,opinionated,agree
+Managua explosion not a meteorite, NASA suggests,2264,opinionated,discuss
+No, that high school kid didn't make $72 million trading stocks,1858,opinionated,agree
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,1540,opinionated,discuss
+Met police denies reports of Banksy arrest,1884,opinionated,agree
+No, a Planetary Alignment on Jan. 4, 2015, Won’t Decrease Gravity,1123,opinionated,agree
+Soon Marijuana May Lead to Ticket, Not Arrest, in New York,1368,opinionated,discuss
+Michael Phelps’ ‘girlfriend’ reveals she was born a man – and never told the swimmer,1029,opinionated,agree
+Saudis Say Michelle Obama Not Blurred on TV,1975,opinionated,agree
+No, Banksy hasn’t been arrested,1940,opinionated,agree
+The Image That Everyone Is Sharing By 'Banksy' Isn't By Banksy — But It's Awesome,1532,opinionated,agree
+"Categorically False": DHS Debunks Right-Wing Fiction That ISIS Attempted To Cross The U.S.- Mexico Border,1376,opinionated,agree
+YPG Confirms: Gill Rosenberg Not Captured in Kobani,756,opinionated,agree
+No, there aren’t any Ebola cases in Iraq,1175,opinionated,agree
+Woman detained in Lebanon is not al-Baghdadi's wife, Iraq says,1468,opinionated,agree
+Israel denies causing Gaza floods by opening dams,1967,opinionated,discuss
+Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',742,opinionated,discuss
+Met police denies reports of Banksy arrest,709,opinionated,agree
+No, there aren’t any Ebola cases in Iraq,1122,opinionated,discuss
+Hoax 'Banksy Arrested in London' Story Dupes the Internet Again,900,opinionated,agree
+Despite no Ebola case in Kansas City, the rumor goes viral,1343,opinionated,agree
+Michelle Obama Not Blurred Out on Saudi TV,8,opinionated,unrelated
+Fake BBC News website set up to carry Charlie Hebdo attack conspiracy theories,915,opinionated,agree
+Judd Nelson isn't dead; report is a hoax,2286,opinionated,agree
+Saudis Say Michelle Obama Not Blurred on TV,8,opinionated,unrelated
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,1885,opinionated,discuss
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,179,opinionated,agree
+No, it's not Tiger Woods selling an island in Lake Mälaren,383,opinionated,agree
+No, Banksy hasn’t been arrested,974,opinionated,disagree
+Kim Jong-un drinks rare snake wine to boost love life!,2018,opinionated,discuss
+No, Saudi TV Didn't Blur Out Michelle Obama's Face When the President Met King Salman,1975,opinionated,agree
+James Foley executioner said identified as British rapper  Read more: James Foley executioner said identified as British rapper,8,opinionated,unrelated
+Nigeria Boko Haram blamed for raids despite truce claim,840,opinionated,discuss
+Fidel Castro Rumors Sweep Internet, but No Sign in Cuba,1305,opinionated,discuss
+No, That Wasn’t Paul Rudd Tackling an Airport Homophobe,560,opinionated,agree
+Saudis Say Michelle Obama Not Blurred on TV,691,opinionated,agree
+Macaulay Culkin Hasn’t Died Despite What Everyone Is Saying On Facebook,1559,opinionated,agree
+Elon University has not banned the term ‘freshman,’ despite rumors,362,opinionated,agree
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,1298,opinionated,discuss
+No, Saudi TV Didn't Blur Out Michelle Obama's Face When the President Met King Salman,343,opinionated,agree
+Boko Haram denies it has agreed ceasefire,1195,opinionated,discuss
+No, a Planetary Alignment on Jan. 4, 2015, Won’t Decrease Gravity,1377,opinionated,agree
+No, That Wasn’t Paul Rudd Tackling an Airport Homophobe,176,opinionated,agree
+Mohammed Islam Denies Making $72 Million From Stock Market Trading,1858,opinionated,agree
+Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',391,opinionated,agree
+Pope Francis turns out not to have made pets in heaven comment,218,opinionated,disagree
+Met police denies reports of Banksy arrest,974,opinionated,disagree
+Met police denies reports of Banksy arrest,1940,opinionated,agree
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,840,opinionated,discuss
+Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,2018,opinionated,discuss
+Boko Haram Denies Nigeria Cease-Fire Claim,1885,opinionated,agree
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,1828,opinionated,discuss
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,600,opinionated,discuss
+Michael Phelps' girlfriend was born male but did not tell swimmer about her past,1342,opinionated,agree
+Michael Phelps’ ‘girlfriend’ reveals she was born a man – and never told the swimmer,1342,opinionated,agree
+'No hard evidence' of Isis claims it kidnapped Canadian-Israeli woman Gill Rosenberg,2471,opinionated,discuss
+No, Banksy hasn’t been arrested,900,opinionated,agree
+No, Banksy Didn't Create That 'Charlie Hebdo' Tribute Cartoon, But That Doesn't Mean You Can't Appreciate It,1196,opinionated,agree
+No, Banksy has not been arrested (sigh),1940,opinionated,agree
+Met police denies reports of Banksy arrest,107,opinionated,agree

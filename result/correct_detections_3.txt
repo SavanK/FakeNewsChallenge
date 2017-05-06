@@ -1,0 +1,12 @@
+Headline,Body ID,Detected Stance,Actual Stance
+“Willie Nelson dead 2015” : Guitarist killed by internet death hoax,553,agree,agree
+No, Banksy hasn’t been arrested,900,agree,agree
+Planetary Alignment On Jan 4, 2015 Will Decrease Gravity For 5 Minutes Causing Partial Weightlessness,1123,disagree,disagree
+Banksy arrest hoax: US website claims street artist caught in Watford,900,agree,agree
+Michael Phelps’ ‘girlfriend’ reveals she was born a man – and never told the swimmer,1029,agree,agree
+Fake BBC News website set up to carry Charlie Hebdo attack conspiracy theories,915,agree,agree
+Met police denies reports of Banksy arrest,900,agree,agree
+Hoax 'Banksy Arrested in London' Story Dupes the Internet Again,900,agree,agree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1545,agree,agree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1559,agree,agree
+“Axl Rose dead 2014” : Guns N' Roses frontman killed by internet death hoax,292,agree,agree

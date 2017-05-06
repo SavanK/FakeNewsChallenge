@@ -1,0 +1,7 @@
+Headline,Body ID,Detected Stance,Actual Stance
+Hoax 'Banksy Arrested in London' Story Dupes the Internet Again,900,agree,agree
+Banksy arrest hoax: US website claims street artist caught in Watford,900,agree,agree
+No, Banksy hasn’t been arrested,900,agree,agree
+Met police denies reports of Banksy arrest,900,agree,agree
+Planetary Alignment On Jan 4, 2015 Will Decrease Gravity For 5 Minutes Causing Partial Weightlessness,1123,disagree,disagree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1559,agree,agree

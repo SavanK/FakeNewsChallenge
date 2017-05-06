@@ -42,7 +42,7 @@ public class ThreadPoolExecutorWrapper {
         ThreadPoolExecutor threadPoolExecutor;
         threadPoolExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(
                 10,
-                new ThreadFactoryImpl("Feature extraction threads", Thread.MAX_PRIORITY-3));
+                new ThreadFactoryImpl("Feature extraction threads", Thread.NORM_PRIORITY));
         threadPoolExecutor.setCorePoolSize(10);
         threadPoolExecutor.setKeepAliveTime(1, TimeUnit.MINUTES);
         threadPoolExecutor.prestartAllCoreThreads();

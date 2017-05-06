@@ -1,0 +1,33 @@
+Headline,Body ID,Detected Stance,Actual Stance
+Managua explosion not a meteorite, NASA suggests,2264,agree,discuss
+Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',871,agree,discuss
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,1307,agree,discuss
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,433,agree,discuss
+Nun complains of stomach pains... and GIVES BIRTH: Sister who had 'no idea' she was pregnant has a baby boy at hospital in Italy,1828,agree,discuss
+Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,832,agree,discuss
+Nun who had no idea she was pregnant gives birth after going to hospital with stomach pains,1828,agree,discuss
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,840,agree,discuss
+Kim Jong-un drinks rare snake wine to boost love life!,832,agree,discuss
+This Is Why Rumors That ISIS Is Crossing The Border Into The U.S. Aren’t Going Away,871,agree,discuss
+No, Saudi TV Did Not Blur Out Images of Michelle Obama,8,disagree,unrelated
+James Foley executioner said identified as British rapper  Read more: James Foley executioner said identified as British rapper,8,disagree,unrelated
+Banksy arrest hoax: US website claims street artist caught in Watford,900,disagree,agree
+Man chops off his own penis after girlfriend told him he was no good in bed,522,agree,discuss
+Sources: Guns N' Roses Frontman Axl Rose Found Dead in West Hollywood Home at Age 52,1161,agree,discuss
+Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,2018,agree,discuss
+Nigeria Boko Haram blamed for raids despite truce claim,840,agree,discuss
+Kim Jong-un drinks rare snake wine to boost love life!,2018,agree,discuss
+Man chops off his own penis after girlfriend told him he was no good in bed,1560,agree,discuss
+'No hard evidence' of Isis claims it kidnapped Canadian-Israeli woman Gill Rosenberg,2471,agree,discuss
+No, Banksy hasn’t been arrested,900,disagree,agree
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,1298,agree,discuss
+Nun who gave birth ‘had no idea’ she was pregnant,1828,agree,discuss
+Pull the other Un! North Korean dictator has not been seen for weeks because he 'pulled tendon while doing drill with his generals',117,agree,discuss
+Nun who gave birth ‘had no idea’ she was pregnant,1307,agree,discuss
+Boko Haram leader denies ceasefire deal, says 200 abducted girls married off ,1885,agree,discuss
+Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',742,agree,discuss
+Soon Marijuana May Lead to Ticket, Not Arrest, in New York,1368,agree,discuss
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,227,agree,discuss
+Woman detained in Lebanon is not al-Baghdadi's wife, Iraq says,1004,agree,discuss
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,1828,agree,discuss
+Managua explosion not a meteorite, NASA suggests,1722,agree,discuss

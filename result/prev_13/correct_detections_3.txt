@@ -1,0 +1,69 @@
+Headline,Body ID,Detected Stance,Actual Stance
+Elon University has not banned the term ‘freshman,’ despite rumors,1508,agree,agree
+Nationwide turkey recall? Ebola-infected birds? USDA debunks the hoax,387,agree,agree
+#Daysofdarkness: No, There Won't Be Six Days Of Darkness In December,506,agree,agree
+No, That Wasn’t Paul Rudd Tackling an Airport Homophobe,560,agree,agree
+Met police denies reports of Banksy arrest,107,agree,agree
+Judd Nelson isn't dead; report is a hoax,2286,agree,agree
+Despite no Ebola case in Kansas City, the rumor goes viral,1343,agree,agree
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,179,agree,agree
+Michelle Obama Not Blurred Out on Saudi TV,1975,agree,agree
+Texas Plumber Has ‘No Idea’ How Company Truck Ended Up With ISIS,1614,agree,agree
+'Spiderman' squished: Perth experts debunk spider burrowing claims,1880,agree,agree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1545,agree,agree
+YPG Confirms: Gill Rosenberg Not Captured in Kobani,756,agree,agree
+Despite no Ebola case in Kansas City, the rumor goes viral,2104,agree,agree
+No, that high school kid didn't make $72 million trading stocks,1858,agree,agree
+No, there aren’t any Ebola cases in Iraq,1175,agree,agree
+No, a Planetary Alignment on Jan. 4, 2015, Won’t Decrease Gravity,1377,agree,agree
+Hospital: Man not being treated for Ebola in Kansas City,2104,agree,agree
+Woman detained in Lebanon is not al-Baghdadi's wife, Iraq says,1468,agree,agree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1174,agree,agree
+Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',391,agree,agree
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,116,agree,agree
+Mohammed Islam Denies Making $72 Million From Stock Market Trading,1858,agree,agree
+Saudis Say Michelle Obama Not Blurred on TV,1975,agree,agree
+That Boko Haram Ceasefire in Nigeria Isn’t A Ceasefire,1885,agree,agree
+Woman detained in Lebanon is not al-Baghdadi's wife, Iraq says,703,agree,agree
+Bodies In Mexico Mass Grave Apparently Not Those Of Missing Students,1984,agree,agree
+No, Banksy hasn’t been arrested,2362,agree,agree
+No, Saudi TV Didn't Blur Out Michelle Obama's Face When the President Met King Salman,691,agree,agree
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,8,agree,agree
+Christian Bale passes on role of Steve Jobs, actor reportedly felt he wasn't right for part,1226,agree,agree
+Saudis Say Michelle Obama Not Blurred on TV,691,agree,agree
+No, That Wasn’t Paul Rudd Tackling an Airport Homophobe,176,agree,agree
+Michael Phelps' girlfriend was born male but did not tell swimmer about her past,1029,agree,agree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1559,agree,agree
+Michael Phelps' girlfriend was born male but did not tell swimmer about her past,1342,agree,agree
+No, Banksy hasn’t been arrested,1940,agree,agree
+Missing Mexican students 'not found in mass grave',702,agree,agree
+Nun who GAVE BIRTH to baby boy after suffering agonising stomach pains 'had no idea' she was pregnant,899,agree,agree
+Michael Phelps’ ‘girlfriend’ reveals she was born a man – and never told the swimmer,1029,agree,agree
+YPG Confirms: Gill Rosenberg Not Captured in Kobani,756,agree,agree
+No, it's not Tiger Woods selling an island in Lake Mälaren,383,agree,agree
+Mexican cartel leader kills self; bodies in grave not missing students,1984,agree,agree
+Fake BBC News website set up to carry Charlie Hebdo attack conspiracy theories,915,agree,agree
+Elon University has not banned the term ‘freshman,’ despite rumors,362,agree,agree
+The Image That Everyone Is Sharing By 'Banksy' Isn't By Banksy — But It's Awesome,1532,agree,agree
+Duped again: Macaulay Culkin is not dead,1559,agree,agree
+Macaulay Culkin Hasn’t Died Despite What Everyone Is Saying On Facebook,1559,agree,agree
+Nun who gave birth ‘had no idea’ she was pregnant,899,agree,agree
+Man chops off his own penis after girlfriend told him he was no good in bed,1171,agree,agree
+Duped again: Macaulay Culkin is not dead,1555,agree,agree
+No, Saudi TV Didn't Blur Out Michelle Obama's Face When the President Met King Salman,1975,agree,agree
+Man chops off his own penis after girlfriend told him he was no good in bed,187,agree,agree
+Michael Phelps’ ‘girlfriend’ reveals she was born a man – and never told the swimmer,1342,agree,agree
+Christian Bale will not play Steve Jobs,199,agree,agree
+Met police denies reports of Banksy arrest,900,agree,agree
+Hospital: Man not being treated for Ebola in Kansas City,2104,agree,agree
+Bodies In Mexico Mass Grave Apparently Not Those Of Missing Students,1156,agree,agree
+Whiz kid stock picker: I didn't actually make $72M trading,1858,agree,agree
+No, that broken pencil illustration isn't by Banksy,1532,agree,agree
+Boko Haram claims to have German hostage, denies ceasefire,1885,agree,agree
+Texas Plumber Has ‘No Idea’ How Company Truck Ended Up With ISIS,2145,agree,agree
+No, a Planetary Alignment on Jan. 4, 2015, Won’t Decrease Gravity,1123,agree,agree
+No, Banksy has not been arrested (sigh),1940,agree,agree
+The iPhone 6 'Hairgate' Is Not a Thing,1646,agree,agree
+Met police denies reports of Banksy arrest,1940,agree,agree
+Boko Haram denies ceasefire claim by Nigeria's government,1885,agree,agree
+Man chops off his own penis after girlfriend told him he was no good in bed,827,agree,agree

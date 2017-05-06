@@ -252,13 +252,15 @@ public class SecondClassifier {
             try {
                 Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(refutingWords);
-                Feature hedgeFeature = new HedgeWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(hedgeFeature);
+                /*Feature hedgeFeature = new HedgeWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                document.addFeature(hedgeFeature);*/
                 Feature supportiveFeature = new SupportiveWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(supportiveFeature);
                 /*Feature discuss = new Discuss(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 discuss.setDictionary(dictionary);
                 document.addFeature(discuss);*/
+                Feature nGram_2 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 2);
+                document.addFeature(nGram_2);
                 Feature agree = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 agree.setDictionary(dictionary);
                 document.addFeature(agree);

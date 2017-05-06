@@ -10,7 +10,17 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.PropertiesUtils;
 import net.sf.extjwnl.dictionary.Dictionary;
+import org.apache.lucene.analysis.TokenStream;
+import org.apache.lucene.analysis.core.LowerCaseFilter;
+import org.apache.lucene.analysis.core.StopFilter;
+import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.apache.lucene.analysis.miscellaneous.ASCIIFoldingFilter;
+import org.apache.lucene.analysis.standard.ClassicFilter;
+import org.apache.lucene.analysis.standard.StandardTokenizer;
+import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 
+import java.io.IOException;
+import java.io.StringReader;
 import java.util.*;
 
 /**
@@ -40,7 +50,7 @@ public class TfIdf implements Feature {
     public void computeScore() {
         //System.out.println("\t\t" + NAME + ", computing score ...");
 
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(PropertiesUtils.asProperties(
+        /*StanfordCoreNLP pipeline = new StanfordCoreNLP(PropertiesUtils.asProperties(
                 "annotators", "tokenize,ssplit,pos,lemma",
                 "ssplit.isOneSentence", "false",
                 "tokenize.language", "en",
@@ -52,33 +62,68 @@ public class TfIdf implements Feature {
         pipeline.annotate(headlineAnnot);
 
         List<CoreLabel> bodyCoreLabels = bodyAnnot.get(CoreAnnotations.TokensAnnotation.class);
-        List<CoreLabel> headlineCoreLabels = headlineAnnot.get(CoreAnnotations.TokensAnnotation.class);
-        Map<String, Integer> bodyTokens = new HashMap<String, Integer>();
+        List<CoreLabel> headlineCoreLabels = headlineAnnot.get(CoreAnnotations.TokensAnnotation.class);*/
+        StandardTokenizer headlineTokenizer = new StandardTokenizer(new StringReader(headline.getText()));
+        StandardTokenizer bodyTokenizer = new StandardTokenizer(new StringReader(body.getText()));
+
+        List<String> headlineTokens = new ArrayList<String>();
+        List<String> bodyTokens = new ArrayList<String>();
+
+        try {
+            TokenStream tokenStream = new StopFilter(
+                    new ASCIIFoldingFilter(new ClassicFilter(new LowerCaseFilter(headlineTokenizer))),
+                    EnglishAnalyzer.getDefaultStopSet());
+            tokenStream.reset();
+
+            while (tokenStream.incrementToken()) {
+                String token = tokenStream.getAttribute(CharTermAttribute.class).toString();
+                headlineTokens.add(token);
+            }
+            tokenStream.close();
+
+            tokenStream = new StopFilter(
+                    new ASCIIFoldingFilter(new ClassicFilter(new LowerCaseFilter(bodyTokenizer))),
+                    EnglishAnalyzer.getDefaultStopSet());
+            tokenStream.reset();
+
+            while (tokenStream.incrementToken()) {
+                String token = tokenStream.getAttribute(CharTermAttribute.class).toString();
+                bodyTokens.add(token);
+            }
+            tokenStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        Map<String, Integer> bodyTokensFreq = new HashMap<String, Integer>();
         int totalTermCount = 0;
 
-        for (CoreLabel coreLabel : bodyCoreLabels) {
-            String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
+        //for (CoreLabel coreLabel : bodyCoreLabels) {
+        for(String lemma : bodyTokens) {
+            //String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
             lemma = LemmaCleanser.getInstance().cleanse(lemma);
             //noinspection Since15
-            if(!lemma.isEmpty() && !WordsUtils.getInstance().isStopWord(lemma)) {
+            if(!lemma.isEmpty() /*&& !WordsUtils.getInstance().isStopWord(lemma)*/) {
                 int count = 1;
-                if(bodyTokens.containsKey(lemma)) {
-                    count = bodyTokens.get(lemma);
+                if(bodyTokensFreq.containsKey(lemma)) {
+                    count = bodyTokensFreq.get(lemma);
                     count++;
                 }
-                bodyTokens.put(lemma, count);
+                bodyTokensFreq.put(lemma, count);
                 totalTermCount++;
             }
         }
 
         double tfIdfScore = 0;
-        for (CoreLabel coreLabel : headlineCoreLabels) {
-            String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
+        //for (CoreLabel coreLabel : headlineCoreLabels) {
+        for(String lemma : headlineTokens) {
+            //String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
             lemma = LemmaCleanser.getInstance().cleanse(lemma);
             //noinspection Since15
-            if(!lemma.isEmpty() && !WordsUtils.getInstance().isStopWord(lemma)) {
+            if(!lemma.isEmpty() /*&& !WordsUtils.getInstance().isStopWord(lemma)*/) {
                 double tfScore;
-                double termCount = bodyTokens.get(lemma) != null ? bodyTokens.get(lemma).doubleValue() : 0;
+                double termCount = bodyTokensFreq.get(lemma) != null ? bodyTokensFreq.get(lemma).doubleValue() : 0;
                 double tf = termCount / (double)totalTermCount;
                 if(tf != 0) {
                     tfScore = Math.log(tf) + 1;

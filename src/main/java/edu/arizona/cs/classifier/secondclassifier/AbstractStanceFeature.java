@@ -122,7 +122,7 @@ public abstract class AbstractStanceFeature implements Feature {
 
         int spin;
 
-        /*if(spin1 == SPIN_NEUTRAL || spin1 == SPIN_POSITIVE) {
+        if(spin1 == SPIN_NEUTRAL || spin1 == SPIN_POSITIVE) {
             spin = spin2;
         } else {
             // spin1 == SPIN_NEGATIVE
@@ -133,8 +133,7 @@ public abstract class AbstractStanceFeature implements Feature {
             } else {
                 spin = SPIN_NEGATIVE;
             }
-        }*/
-        spin = spin2;
+        }
 
         return spin;
     }

@@ -138,12 +138,12 @@ public class Scorer {
 
         System.out.println("Confusion matrix: ");
         System.out.println("\t\t\t\tActual");
-        System.out.println("\t\t\t\t\tUnrelated\tDiscuss\tAgree\tDisagree");
+        System.out.println("\t\t\t\t\t\t\t\t\tUnrelated\tDiscuss\tAgree\tDisagree");
         System.out.print("Predicted");
         System.out.println("\t\tUnrelated\t\t" + unrealtedUnrelated + "\t\t" + unrelatedDiscuss + "\t\t" + unrelatedAgree + "\t\t" + unrelatedDisagree);
-        System.out.println("\t\t\t\tDiscuss\t\t\t" + discussUnrelated + "\t\t" + discussDiscuss + "\t\t" + discussAgree + "\t\t" + discussDisagree);
-        System.out.println("\t\t\t\tAgree\t\t\t" + agreeUnrelated + "\t\t" + agreeDiscuss + "\t\t" + agreeAgree + "\t\t" + agreeDisagree);
-        System.out.println("\t\t\t\tDisagree\t\t" + disagreeUnrelated + "\t\t" + disagreeDiscuss + "\t\t" + disagreeAgree + "\t\t" + disagreeDisagree);
+        System.out.println("\t\t\t\tDiscuss\t\t\t" + discussUnrelated + "\t\t\t" + discussDiscuss + "\t\t" + discussAgree + "\t\t" + discussDisagree);
+        System.out.println("\t\t\t\tAgree\t\t\t" + agreeUnrelated + "\t\t\t" + agreeDiscuss + "\t\t" + agreeAgree + "\t\t" + agreeDisagree);
+        System.out.println("\t\t\t\tDisagree\t\t" + disagreeUnrelated + "\t\t\t" + disagreeDiscuss + "\t\t" + disagreeAgree + "\t\t" + disagreeDisagree);
     }
 
     private double getScore(Stance predictedStance, Stance actualStance) {

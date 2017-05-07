@@ -1,9 +1,9 @@
 Headline,Body ID,Detected Stance,Actual Stance
-Kim Jong-un drinks rare snake wine to boost love life!,2018,agree,discuss
-Islamic State militants allegedly used chlorine gas against Iraqi security forces,1233,agree,discuss
+Insurgents killed in Nigeria despite alleged truce with Boko Haram,840,agree,discuss
 REPORTS: JORDANIAN KING PERSONALLY FLYING SORTIES AGAINST ISIS,2433,agree,discuss
+Islamic State militants allegedly used chlorine gas against Iraqi security forces,1233,agree,discuss
+Kim Jong-un drinks rare snake wine to boost love life!,832,agree,discuss
 No, Jordan's King Abdullah II is not personally flying planes against Isis,2433,agree,discuss
 Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,2018,agree,discuss
-Insurgents killed in Nigeria despite alleged truce with Boko Haram,840,agree,discuss
-Kim Jong-un drinks rare snake wine to boost love life!,832,agree,discuss
 Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,832,agree,discuss
+Kim Jong-un drinks rare snake wine to boost love life!,2018,agree,discuss

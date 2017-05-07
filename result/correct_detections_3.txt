@@ -1,23 +1,23 @@
 Headline,Body ID,Detected Stance,Actual Stance
-Banksy 'Arrested & Real Identity Revealed' Is The Same Hoax From Last Year,1884,agree,agree
-Macaulay Culkin dead hoax: Fake death report spreads on social networks,1545,agree,agree
-Michael Phelps’ ‘girlfriend’ reveals she was born a man – and never told the swimmer,1820,agree,agree
-#Daysofdarkness: No, There Won't Be Six Days Of Darkness In December,506,agree,agree
-Axl Rose NOT Dead: Fake MSNBC Death Hoax Goes Viral On Facebook,2166,agree,agree
-What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,8,agree,agree
-Met police denies reports of Banksy arrest,1884,agree,agree
-Would you take a bite out of the world's oldest burger? Men keep Quarter Pounder they bought 20 YEARS ago for a friend who never showed up to meet them,2474,agree,agree
-'Nasa Confirms Earth Will Experience 6 Days of Total Darkness in December' Fake News Story Goes Viral,2521,agree,agree
-Met police denies reports of Banksy arrest,107,agree,agree
-Hoax Alert: Father O’Neal, Who Has Met God and Thinks She’s a Woman, Is Made Up (Just Like God Herself),1521,agree,agree
-No, Banksy hasn’t been arrested,900,agree,agree
 'Nasa Confirms Earth Will Experience 6 Days of Total Darkness in December' Fake News Story Goes Viral,1491,agree,agree
-No, that high school kid didn't make $72 million trading stocks,1858,agree,agree
-No, Jordan's King Abdullah II is not personally flying planes against Isis,902,agree,agree
+REPORT: Apple Isn't Happy With The Battery Life Of Its New Smartwatch,2213,agree,agree
+Met police denies reports of Banksy arrest,1884,agree,agree
 Macaulay Culkin dead hoax: Fake death report spreads on social networks,1559,agree,agree
-'Nasa Confirms Earth Will Experience 6 Days of Total Darkness in December' Fake News Story Goes Viral,154,agree,agree
+No, Jordan's King Abdullah II is not personally flying planes against Isis,902,agree,agree
 Met police denies reports of Banksy arrest,900,agree,agree
+Would you take a bite out of the world's oldest burger? Men keep Quarter Pounder they bought 20 YEARS ago for a friend who never showed up to meet them,2474,agree,agree
+'Nasa Confirms Earth Will Experience 6 Days of Total Darkness in December' Fake News Story Goes Viral,154,agree,agree
+No, that high school kid didn't make $72 million trading stocks,1858,agree,agree
+No, Banksy hasn’t been arrested,900,agree,agree
+'Nasa Confirms Earth Will Experience 6 Days of Total Darkness in December' Fake News Story Goes Viral,2521,agree,agree
+Macaulay Culkin dead hoax: Fake death report spreads on social networks,1545,agree,agree
+Hoax Busted: Report on Popular 'Dog Whisperer' Cesar Millan's Death is False,1929,agree,agree
+Hoax Alert: Father O’Neal, Who Has Met God and Thinks She’s a Woman, Is Made Up (Just Like God Herself),1521,agree,agree
 Michael Phelps’ ‘girlfriend’ reveals she was born a man – and never told the swimmer,1029,agree,agree
 Fake BBC News website set up to carry Charlie Hebdo attack conspiracy theories,915,agree,agree
-Hoax Busted: Report on Popular 'Dog Whisperer' Cesar Millan's Death is False,1929,agree,agree
-REPORT: Apple Isn't Happy With The Battery Life Of Its New Smartwatch,2213,agree,agree
+#Daysofdarkness: No, There Won't Be Six Days Of Darkness In December,506,agree,agree
+Banksy 'Arrested & Real Identity Revealed' Is The Same Hoax From Last Year,1884,agree,agree
+Axl Rose NOT Dead: Fake MSNBC Death Hoax Goes Viral On Facebook,2166,agree,agree
+Met police denies reports of Banksy arrest,107,agree,agree
+What was fake on the Internet this week: Obama’s peace prize, pumpkin-spice condoms and insane winter snow,8,agree,agree
+Michael Phelps’ ‘girlfriend’ reveals she was born a man – and never told the swimmer,1820,agree,agree

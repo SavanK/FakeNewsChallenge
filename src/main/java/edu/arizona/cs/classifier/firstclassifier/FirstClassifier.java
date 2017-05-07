@@ -83,7 +83,7 @@ public class FirstClassifier {
         Problem problem = new Problem();
         problem.bias = 1;
         problem.l = dataRepo.getDocuments().size();
-        problem.n = 4 + (int)problem.bias;
+        problem.n = 5 + (int)problem.bias;
         problem.y = y;
         problem.x = x;
 
@@ -92,13 +92,14 @@ public class FirstClassifier {
         double eps = 0.01; // stopping criteria
 
         Parameter parameter = new Parameter(solver, C, eps);
+
         /*double target[] = new double[problem.l];
         Linear.crossValidation(problem, parameter, 100, target);
 
         int correctCount = 0;
         i=0;
         for (Document document : dataRepo.getDocuments()) {
-            Stance detectedStance = classLabels.get((int)(target[i]+1)).getStance();
+            Stance detectedStance = classLabels.get((int)(target[i])).getStance();
             if((detectedStance.getStance() == Stance.STANCE_UNRELATED &&
                     document.getStance().getStance() == Stance.STANCE_UNRELATED) ||
                     (detectedStance.getStance() == Stance.STANCE_TEMP_RELATED &&
@@ -279,8 +280,8 @@ public class FirstClassifier {
             /*System.out.println("\tExtracting features from doc:" + docIndex +
                     " by thread:" + Thread.currentThread().getId());*/
             try {
-                //Feature bagOfWords = new BagOfWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                //document.addFeature(bagOfWords);
+                Feature bagOfWords = new BagOfWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                document.addFeature(bagOfWords);
                 Feature tfIdf = new TfIdf(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(tfIdf);
                 Feature binaryCoOccurrence = new BinaryCoOccurrence(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));

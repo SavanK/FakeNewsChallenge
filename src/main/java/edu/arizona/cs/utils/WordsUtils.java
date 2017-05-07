@@ -1,23 +1,44 @@
 package edu.arizona.cs.utils;
 
+import edu.arizona.cs.data.DataRepo;
+import edu.arizona.cs.data.Document;
+import org.apache.lucene.analysis.TokenStream;
+import org.apache.lucene.analysis.core.LowerCaseFilter;
+import org.apache.lucene.analysis.core.StopFilter;
+import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.apache.lucene.analysis.miscellaneous.ASCIIFoldingFilter;
+import org.apache.lucene.analysis.standard.ClassicFilter;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
+import org.apache.lucene.analysis.standard.StandardTokenizer;
+import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
+import org.apache.lucene.document.Field;
+import org.apache.lucene.document.TextField;
+import org.apache.lucene.index.*;
+import org.apache.lucene.store.Directory;
+import org.apache.lucene.store.RAMDirectory;
+import org.apache.lucene.util.Version;
+import org.tartarus.snowball.ext.PorterStemmer;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.StringTokenizer;
+import java.io.StringReader;
+import java.util.*;
 
 /**
  * Created by savan on 4/29/17.
  */
 public class WordsUtils {
+    private static final long NUM_DOCS = 9615720;
     private static final String STOP_WORDS = "/stopwords.txt";
     private static final String CONTEXT_PRESERVING_STOP_WORDS = "/context_preserving_stopwords.txt";
     private static final String REFUTING_WORDS = "/refutingwords.txt";
     private static final String HEDGE_WORDS = "/hedgewords.txt";
     private static final String SUPPORTIVE_WORDS = "/supportivewords.txt";
     private static final String IDF_SCORES = "/gigawordDocFreq.txt";
+
+    public static final boolean LEMMATIZATION = false;
+    public static final boolean STEMMING = false;
 
     private static WordsUtils ourInstance = new WordsUtils();
 
@@ -30,14 +51,16 @@ public class WordsUtils {
     private Set<String> refutingSet;
     private Set<String> hedgeSet;
     private Set<String> supportiveSet;
-    private HashMap<String, Double> idfScores;
+    private HashMap<String, Integer> documentFrequencies;
+
+    private IndexReader indexReader;
 
     private WordsUtils() {
         stopwordsSet = new HashSet<String>();
         refutingSet = new HashSet<String>();
         hedgeSet = new HashSet<String>();
         supportiveSet = new HashSet<String>();
-        idfScores = new HashMap<String, Double>();
+        documentFrequencies = new HashMap<String, Integer>();
         contextStopwordsSet = new HashSet<String>();
 
         try {
@@ -85,7 +108,7 @@ public class WordsUtils {
             while ((line = idfReader.readLine()) != null) {
                 StringTokenizer tokenizer = new StringTokenizer(line);
                 if(tokenizer.countTokens() == 2) {
-                    idfScores.put(tokenizer.nextToken(), Double.parseDouble(tokenizer.nextToken()));
+                    documentFrequencies.put(tokenizer.nextToken(), Integer.parseInt(tokenizer.nextToken()));
                 }
             }
 
@@ -111,15 +134,86 @@ public class WordsUtils {
         return supportiveSet.contains(lemma);
     }
 
-    public double getIdfScores(String word) {
-        if(idfScores.containsKey(word)) {
-            return idfScores.get(word);
-        } else {
-            return 0;
+    public void setDocuments(DataRepo dataRepo) {
+        try {
+            Directory index = new RAMDirectory();
+            StandardAnalyzer standardAnalyzer = new StandardAnalyzer();
+            IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_4_10_3, standardAnalyzer);
+            IndexWriter writer = new IndexWriter(index, config);
+            for (Document document: dataRepo.getDocuments()) {
+                org.apache.lucene.document.Document docLucene = new org.apache.lucene.document.Document();
+                docLucene.add(new TextField("Headline", document.getHeadline().getText(), Field.Store.YES));
+                docLucene.add(new TextField("Body", dataRepo.getBodies().get(document.getBodyId()).getText(), Field.Store.YES));
+                    writer.addDocument(docLucene);
+            }
+            writer.close();
+
+            indexReader = DirectoryReader.open(index);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+    }
+
+    public double getIdfScores(String word) {
+        double idfScore = 0;
+        if(documentFrequencies.containsKey(word)) {
+            int docFreq = 0;
+            if(documentFrequencies.containsKey(word)) {
+                documentFrequencies.get(word);
+            }
+
+            if(docFreq != 0) {
+                idfScore = Math.log(NUM_DOCS / (double)docFreq);
+            }
+        } else {
+            Term term1 = new Term("Body", word);
+            Term term2 = new Term("Headline", word);
+            int docFreq = 0;
+            int docCount = 0;
+            try {
+                docFreq = indexReader.docFreq(term1) + indexReader.docFreq(term2);
+                docCount = indexReader.getDocCount("Body") + indexReader.getDocCount("Headline");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            if(docFreq != 0) {
+                idfScore = Math.log(docCount / (double)docFreq);
+            }
+        }
+        return idfScore;
     }
 
     public boolean isContextPreservingStopWord(String lemma) {
         return contextStopwordsSet.contains(lemma);
+    }
+
+    public List<String> tokenize(String text) {
+        PorterStemmer stemmer = new PorterStemmer();
+
+        StandardTokenizer tokenizer = new StandardTokenizer(new StringReader(text));
+        List<String> tokens = new ArrayList<String>();
+        try {
+            TokenStream tokenStream = new StopFilter(
+                    new ASCIIFoldingFilter(new ClassicFilter(new LowerCaseFilter(tokenizer))),
+                    EnglishAnalyzer.getDefaultStopSet());
+            tokenStream.reset();
+
+            while (tokenStream.incrementToken()) {
+                String token = tokenStream.getAttribute(CharTermAttribute.class).toString();
+                if(STEMMING) {
+                    stemmer.setCurrent(token);
+                    stemmer.stem();
+                    token = stemmer.getCurrent();
+                }
+
+                tokens.add(token);
+            }
+            tokenStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return tokens;
     }
 }

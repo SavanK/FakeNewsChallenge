@@ -47,8 +47,8 @@ public class SecondClassifier {
         classLabels = new ArrayList<ClassLabel>();
         ClassLabel opinionated = new ClassLabel(new Stance(Stance.STANCE_TEMP_OPINIONATED));
         ClassLabel discuss = new ClassLabel(new Stance(Stance.STANCE_DISCUSS));
-        classLabels.add(opinionated);
         classLabels.add(discuss);
+        classLabels.add(opinionated);
 
         threadPoolExecutor = ThreadPoolExecutorWrapper.getInstance().getThreadPoolExecutor();
     }
@@ -223,16 +223,11 @@ public class SecondClassifier {
     }
 
     private int getClassLabelIndex(Stance stance) {
-        int index = 0;
-        int searchedIndex = 0;
-        for (ClassLabel classLabel : classLabels) {
-            if(classLabel.getStance().equals(stance)) {
-                searchedIndex = index;
-                break;
-            }
-            index++;
+        if(stance.getStance() == Stance.STANCE_DISCUSS) {
+            return 0;
+        } else {
+            return 1;
         }
-        return searchedIndex;
     }
 
     private class FeatureExtractionCallable implements Callable<Document> {

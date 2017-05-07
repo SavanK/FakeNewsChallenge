@@ -204,16 +204,11 @@ public class ThirdClassifier {
     }
 
     private int getClassLabelIndex(Stance stance) {
-        int index = 0;
-        int searchedIndex = 0;
-        for (ClassLabel classLabel : classLabels) {
-            if(classLabel.getStance().equals(stance)) {
-                searchedIndex = index;
-                break;
-            }
-            index++;
+        if(stance.getStance() == Stance.STANCE_AGREE) {
+            return 0;
+        } else {
+            return 1;
         }
-        return searchedIndex;
     }
 
     private class FeatureExtractionCallable implements Callable<Document> {

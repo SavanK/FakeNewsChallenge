@@ -42,10 +42,10 @@ public class FirstClassifier {
         secondClassifier = new SecondClassifier(dictionary, dataRepo);
 
         classLabels = new ArrayList<ClassLabel>();
-        ClassLabel unrelated = new ClassLabel(new Stance(Stance.STANCE_UNRELATED));
         ClassLabel tempRelated = new ClassLabel(new Stance(Stance.STANCE_TEMP_RELATED));
-        classLabels.add(tempRelated);
+        ClassLabel unrelated = new ClassLabel(new Stance(Stance.STANCE_UNRELATED));
         classLabels.add(unrelated);
+        classLabels.add(tempRelated);
 
         threadPoolExecutor = ThreadPoolExecutorWrapper.getInstance().getThreadPoolExecutor();
     }
@@ -89,9 +89,27 @@ public class FirstClassifier {
 
         SolverType solver = SolverType.L2R_L2LOSS_SVC; // -s 0
         double C = 1.0;    // cost of constraints violation
-        double eps = 0.001; // stopping criteria
+        double eps = 0.01; // stopping criteria
 
         Parameter parameter = new Parameter(solver, C, eps);
+        /*double target[] = new double[problem.l];
+        Linear.crossValidation(problem, parameter, 100, target);
+
+        int correctCount = 0;
+        i=0;
+        for (Document document : dataRepo.getDocuments()) {
+            Stance detectedStance = classLabels.get((int)(target[i]+1)).getStance();
+            if((detectedStance.getStance() == Stance.STANCE_UNRELATED &&
+                    document.getStance().getStance() == Stance.STANCE_UNRELATED) ||
+                    (detectedStance.getStance() == Stance.STANCE_TEMP_RELATED &&
+                            document.getStance().getStance() != Stance.STANCE_UNRELATED)) {
+                correctCount++;
+            }
+            i++;
+        }
+
+        System.out.println("Accuracy: " + (double) (correctCount/dataRepo.getDocuments().size()));*/
+
         model = Linear.train(problem, parameter);
         File modelFile = new File(MODEL);
         try {
@@ -107,7 +125,7 @@ public class FirstClassifier {
         secondClassifier.train();
     }
 
-    public void classify(String testStancesPath) throws FileNotFoundException {
+    public Map<Document, Stance> classify(String testStancesPath) throws FileNotFoundException {
         Reader in = new FileReader(testStancesPath);
         System.out.println("Extracting features in test docs in-progress...");
         try {
@@ -161,10 +179,11 @@ public class FirstClassifier {
             Document document = documentStanceEntry.getKey();
             Stance actualStance = documentStanceEntry.getValue();
             int index = (int)Linear.predict(model, document.getSparseFeaturesScore());
+
             document.setStance(classLabels.get(index).getStance());
 
             if(actualStance.getStance() == document.getStance().getStance() ||
-                    (actualStance.getStance() != Stance.STANCE_UNCLASSIFIED && document.getStance().getStance() == Stance.STANCE_TEMP_RELATED)) {
+                    (actualStance.getStance() != Stance.STANCE_UNRELATED && document.getStance().getStance() == Stance.STANCE_TEMP_RELATED)) {
                 correctDetections++;
                 if(correct != null) {
                     try {
@@ -210,6 +229,8 @@ public class FirstClassifier {
         }
 
         secondClassifier.classify(documentStanceMapNextClassifier);
+
+        return testDocuments;
     }
 
     private void waitUntilTasksComplete(List<FeatureExtractionTask> futureTasks) {
@@ -236,16 +257,11 @@ public class FirstClassifier {
     }
 
     private int getClassLabelIndex(Stance stance) {
-        int index = 0;
-        int searchedIndex = 0;
-        for (ClassLabel classLabel : classLabels) {
-            if(classLabel.getStance().equals(stance)) {
-                searchedIndex = index;
-                break;
-            }
-            index++;
+        if(stance.getStance() == Stance.STANCE_UNRELATED) {
+            return 0;
+        } else {
+            return 1;
         }
-        return searchedIndex;
     }
 
     private class FeatureExtractionCallable implements Callable<Document> {

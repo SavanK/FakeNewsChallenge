@@ -33,37 +33,46 @@ public abstract class AbstractStanceFeature implements Feature {
     }
 
     protected void constructNGrams(Headline headline, Body body, int n) {
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(PropertiesUtils.asProperties(
-                "annotators", "tokenize,ssplit,pos,lemma",
-                "ssplit.isOneSentence", "false",
-                "tokenize.language", "en",
-                "tokenize.options", "americanize=true"));
+        List<String> bodyTokens;
+        List<String> headlineTokens;
 
-        Annotation bodyAnnot = new Annotation(body.getText());
-        pipeline.annotate(bodyAnnot);
-        Annotation headlineAnnot = new Annotation(headline.getText());
-        pipeline.annotate(headlineAnnot);
+        if(WordsUtils.LEMMATIZATION) {
+            bodyTokens = new ArrayList<String>();
+            headlineTokens = new ArrayList<String>();
 
-        List<CoreLabel> bodyCoreLabels = bodyAnnot.get(CoreAnnotations.TokensAnnotation.class);
-        List<CoreLabel> headlineCoreLabels = headlineAnnot.get(CoreAnnotations.TokensAnnotation.class);
-        List<String> bodyTokens = new ArrayList<String>();
-        List<String> headlineTokens = new ArrayList<String>();
+            StanfordCoreNLP pipeline = new StanfordCoreNLP(PropertiesUtils.asProperties(
+                    "annotators", "tokenize,ssplit,pos,lemma",
+                    "ssplit.isOneSentence", "false",
+                    "tokenize.language", "en",
+                    "tokenize.options", "americanize=true"));
 
-        for (CoreLabel coreLabel : bodyCoreLabels) {
-            String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
-            lemma = LemmaCleanser.getInstance().cleanse(lemma);
-            //noinspection Since15
-            if(!lemma.isEmpty() && !WordsUtils.getInstance().isContextPreservingStopWord(lemma))
-                bodyTokens.add(lemma);
-        }
+            Annotation bodyAnnot = new Annotation(body.getText());
+            pipeline.annotate(bodyAnnot);
+            Annotation headlineAnnot = new Annotation(headline.getText());
+            pipeline.annotate(headlineAnnot);
 
-        for (CoreLabel coreLabel : headlineCoreLabels) {
-            String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
-            lemma = LemmaCleanser.getInstance().cleanse(lemma);
-            //noinspection Since15
-            if(!lemma.isEmpty() && !WordsUtils.getInstance().isContextPreservingStopWord(lemma)) {
-                headlineTokens.add(lemma);
+            List<CoreLabel> bodyCoreLabels = bodyAnnot.get(CoreAnnotations.TokensAnnotation.class);
+            List<CoreLabel> headlineCoreLabels = headlineAnnot.get(CoreAnnotations.TokensAnnotation.class);
+
+            for (CoreLabel coreLabel : bodyCoreLabels) {
+                String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
+                lemma = LemmaCleanser.getInstance().cleanse(lemma);
+                //noinspection Since15
+                if (!lemma.isEmpty() && !WordsUtils.getInstance().isContextPreservingStopWord(lemma))
+                    bodyTokens.add(lemma);
             }
+
+            for (CoreLabel coreLabel : headlineCoreLabels) {
+                String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
+                lemma = LemmaCleanser.getInstance().cleanse(lemma);
+                //noinspection Since15
+                if (!lemma.isEmpty() && !WordsUtils.getInstance().isContextPreservingStopWord(lemma)) {
+                    headlineTokens.add(lemma);
+                }
+            }
+        } else {
+            bodyTokens = WordsUtils.getInstance().tokenize(body.getText());
+            headlineTokens = WordsUtils.getInstance().tokenize(headline.getText());
         }
 
         for (int i = 0; i <= bodyTokens.size() - n; i++) {

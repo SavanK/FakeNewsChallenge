@@ -11,6 +11,7 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.PropertiesUtils;
 import net.sf.extjwnl.dictionary.Dictionary;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -38,29 +39,40 @@ public class SupportiveWords implements Feature {
 
     public void computeScore() {
         //System.out.println("\t\t" + NAME + ", computing score ...");
+        List<String> bodyTokens;
 
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(PropertiesUtils.asProperties(
-                "annotators", "tokenize,ssplit,pos,lemma",
-                "ssplit.isOneSentence", "false",
-                "tokenize.language", "en",
-                "tokenize.options", "americanize=true"));
+        if(WordsUtils.LEMMATIZATION) {
+            bodyTokens = new ArrayList<String>();
 
-        Annotation bodyAnnot = new Annotation(body.getText());
-        pipeline.annotate(bodyAnnot);
+            StanfordCoreNLP pipeline = new StanfordCoreNLP(PropertiesUtils.asProperties(
+                    "annotators", "tokenize,ssplit,pos,lemma",
+                    "ssplit.isOneSentence", "false",
+                    "tokenize.language", "en",
+                    "tokenize.options", "americanize=true"));
 
-        List<CoreLabel> bodyCoreLabels = bodyAnnot.get(CoreAnnotations.TokensAnnotation.class);
-        int bodyTokenCount=0;
+            Annotation bodyAnnot = new Annotation(body.getText());
+            pipeline.annotate(bodyAnnot);
+
+            List<CoreLabel> bodyCoreLabels = bodyAnnot.get(CoreAnnotations.TokensAnnotation.class);
+
+            for (CoreLabel coreLabel : bodyCoreLabels) {
+                String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
+                lemma = LemmaCleanser.getInstance().cleanse(lemma);
+                //noinspection Since15
+                if(!lemma.isEmpty() && !WordsUtils.getInstance().isStopWord(lemma)) {
+                    bodyTokens.add(lemma);
+                }
+            }
+        } else {
+            bodyTokens = WordsUtils.getInstance().tokenize(body.getText());
+        }
+
         int supportiveWordCount=0;
 
-        for (CoreLabel coreLabel : bodyCoreLabels) {
-            String lemma = coreLabel.get(CoreAnnotations.LemmaAnnotation.class);
-            lemma = LemmaCleanser.getInstance().cleanse(lemma);
-            //noinspection Since15
-            if(!lemma.isEmpty() && !WordsUtils.getInstance().isStopWord(lemma) &&
-                    WordsUtils.getInstance().isSuportiveWord(lemma)) {
+        for (String token : bodyTokens) {
+            if(WordsUtils.getInstance().isSuportiveWord(token)) {
                 supportiveWordCount++;
             }
-            bodyTokenCount++;
         }
 
         score = supportiveWordCount; /// (double) bodyTokenCount;

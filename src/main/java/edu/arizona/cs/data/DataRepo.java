@@ -1,5 +1,6 @@
 package edu.arizona.cs.data;
 
+import edu.arizona.cs.utils.WordsUtils;
 import net.sf.extjwnl.dictionary.Dictionary;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -73,6 +74,8 @@ public class DataRepo {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        WordsUtils.getInstance().setDocuments(this);
     }
 
 }

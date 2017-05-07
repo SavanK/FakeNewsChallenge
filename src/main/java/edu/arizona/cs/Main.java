@@ -2,11 +2,15 @@ package edu.arizona.cs;
 
 import edu.arizona.cs.classifier.firstclassifier.FirstClassifier;
 import edu.arizona.cs.data.DataRepo;
+import edu.arizona.cs.data.Document;
+import edu.arizona.cs.data.Stance;
+import edu.arizona.cs.utils.Scorer;
 import edu.arizona.cs.utils.ThreadPoolExecutorWrapper;
 import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.dictionary.Dictionary;
 
 import java.io.FileNotFoundException;
+import java.util.Map;
 
 /**
  * Created by savan on 4/28/17.
@@ -30,8 +34,9 @@ public class Main {
 
             firstClassifier = new FirstClassifier(dataRepo, dictionary);
             firstClassifier.train();
-            firstClassifier.classify(TEST_STANCES);
+            Map<Document, Stance> result = firstClassifier.classify(TEST_STANCES);
             ThreadPoolExecutorWrapper.getInstance().getThreadPoolExecutor().shutdown();
+            Scorer.getInstance().score(result);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (JWNLException e) {

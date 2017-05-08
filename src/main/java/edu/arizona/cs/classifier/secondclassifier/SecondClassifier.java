@@ -29,6 +29,8 @@ public class SecondClassifier {
     private static final String CORRECT_DETECTION = "result/correct_detections_2.txt";
     private static final String INCORRECT_DETECTION = "result/incorrect_detections_2.txt";
 
+    private static final boolean CROSS_VERIFY = false;
+
     private Dictionary dictionary;
     private DataRepo dataRepo;
     private List<ClassLabel> classLabels;
@@ -99,12 +101,33 @@ public class SecondClassifier {
         double eps = 0.001; // stopping criteria
 
         Parameter parameter = new Parameter(solver, C, eps);
-        model = Linear.train(problem, parameter);
-        File modelFile = new File(MODEL);
-        try {
-            model.save(modelFile);
-        } catch (IOException e) {
-            e.printStackTrace();
+
+        if(CROSS_VERIFY) {
+            double target[] = new double[problem.l];
+            Linear.crossValidation(problem, parameter, 100, target);
+
+            int correctCount = 0;
+            i = 0;
+            for (Document document : documents) {
+                Stance detectedStance = classLabels.get((int) (target[i])).getStance();
+                if ((detectedStance.getStance() == Stance.STANCE_DISCUSS &&
+                        document.getStance().getStance() == Stance.STANCE_DISCUSS) ||
+                        (detectedStance.getStance() == Stance.STANCE_TEMP_OPINIONATED &&
+                                document.getStance().getStance() != Stance.STANCE_DISCUSS)) {
+                    correctCount++;
+                }
+                i++;
+            }
+
+            System.out.println("Second Accuracy: " + (double) (correctCount / dataRepo.getDocuments().size()));
+        } else {
+            model = Linear.train(problem, parameter);
+            File modelFile = new File(MODEL);
+            try {
+                model.save(modelFile);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
         for (Document document : thirdClassiferDocs) {
@@ -115,88 +138,90 @@ public class SecondClassifier {
     }
 
     public void classify(Map<Document, Stance> testDocs) throws FileNotFoundException {
-        testDocuments = testDocs;
+        if(!CROSS_VERIFY) {
+            testDocuments = testDocs;
 
-        List<FeatureExtractionTask> featureExtractionTasks = new ArrayList<FeatureExtractionTask>();
-        for (Map.Entry<Document, Stance> documentStanceEntry : testDocuments.entrySet()) {
-            FeatureExtractionCallable featureExtractionCallable =
-                    new FeatureExtractionCallable(documentStanceEntry.getKey());
-            FeatureExtractionTask featureExtractionTask =
-                    new FeatureExtractionTask(featureExtractionCallable);
-            featureExtractionTasks.add(featureExtractionTask);
-            threadPoolExecutor.execute(featureExtractionTask);
-        }
-
-        waitUntilTasksComplete(featureExtractionTasks);
-
-        Writer result = null;
-        Writer correct = null;
-        Writer incorrect = null;
-        try {
-            result = new FileWriter(RESULT);
-            correct = new FileWriter(CORRECT_DETECTION);
-            incorrect = new FileWriter(INCORRECT_DETECTION);
-            correct.append("Headline,Body ID,Detected Stance,Actual Stance\n");
-            incorrect.append("Headline,Body ID,Detected Stance,Actual Stance\n");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        int correctDetections = 0;
-        int wrongDetections = 0;
-        Map<Document, Stance> documentStanceMapNextClassifier = new HashMap<Document, Stance>();
-        for (Map.Entry<Document, Stance> documentStanceEntry : testDocuments.entrySet()) {
-            Document document = documentStanceEntry.getKey();
-            Stance actualStance = documentStanceEntry.getValue();
-            int index = (int)Linear.predict(model, document.getSparseFeaturesScore());
-            document.setStance(classLabels.get(index).getStance());
-
-            if(actualStance.getStance() == document.getStance().getStance()) {
-                correctDetections++;
-                if(correct != null) {
-                    try {
-                        correct.append(document.getHeadline().getText() + "," + document.getBodyId() + "," +
-                                document.getStance().getStanceStr() + "," + actualStance.getStanceStr() + "\n");
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
-            } else {
-                wrongDetections++;
-                if(incorrect != null) {
-                    try {
-                        incorrect.append(document.getHeadline().getText() + "," + document.getBodyId() + "," +
-                                document.getStance().getStanceStr() + "," + actualStance.getStanceStr() + "\n");
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
+            List<FeatureExtractionTask> featureExtractionTasks = new ArrayList<FeatureExtractionTask>();
+            for (Map.Entry<Document, Stance> documentStanceEntry : testDocuments.entrySet()) {
+                FeatureExtractionCallable featureExtractionCallable =
+                        new FeatureExtractionCallable(documentStanceEntry.getKey());
+                FeatureExtractionTask featureExtractionTask =
+                        new FeatureExtractionTask(featureExtractionCallable);
+                featureExtractionTasks.add(featureExtractionTask);
+                threadPoolExecutor.execute(featureExtractionTask);
             }
 
-            if(document.getStance().getStance() == Stance.STANCE_TEMP_OPINIONATED) {
-                document.setStance(new Stance(Stance.STANCE_UNCLASSIFIED));
-                document.clearFeatures();
-                documentStanceMapNextClassifier.put(document, actualStance);
-            }
-        }
+            waitUntilTasksComplete(featureExtractionTasks);
 
-        System.out.println("Correct detections: " + correctDetections + " Wrong detections: " + wrongDetections);
-
-        if(result != null) {
+            Writer result = null;
+            Writer correct = null;
+            Writer incorrect = null;
             try {
-                result.append("Correct detections: " + correctDetections + " Wrong detections: " + wrongDetections + "\n");
-                result.flush();
-                result.close();
-                correct.flush();
-                correct.close();
-                incorrect.flush();
-                incorrect.close();
+                result = new FileWriter(RESULT);
+                correct = new FileWriter(CORRECT_DETECTION);
+                incorrect = new FileWriter(INCORRECT_DETECTION);
+                correct.append("Headline,Body ID,Detected Stance,Actual Stance\n");
+                incorrect.append("Headline,Body ID,Detected Stance,Actual Stance\n");
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }
 
-        thirdClassifier.classify(documentStanceMapNextClassifier);
+            int correctDetections = 0;
+            int wrongDetections = 0;
+            Map<Document, Stance> documentStanceMapNextClassifier = new HashMap<Document, Stance>();
+            for (Map.Entry<Document, Stance> documentStanceEntry : testDocuments.entrySet()) {
+                Document document = documentStanceEntry.getKey();
+                Stance actualStance = documentStanceEntry.getValue();
+                int index = (int) Linear.predict(model, document.getSparseFeaturesScore());
+                document.setStance(classLabels.get(index).getStance());
+
+                if (actualStance.getStance() == document.getStance().getStance()) {
+                    correctDetections++;
+                    if (correct != null) {
+                        try {
+                            correct.append(document.getHeadline().getText() + "," + document.getBodyId() + "," +
+                                    document.getStance().getStanceStr() + "," + actualStance.getStanceStr() + "\n");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                } else {
+                    wrongDetections++;
+                    if (incorrect != null) {
+                        try {
+                            incorrect.append(document.getHeadline().getText() + "," + document.getBodyId() + "," +
+                                    document.getStance().getStanceStr() + "," + actualStance.getStanceStr() + "\n");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+
+                if (document.getStance().getStance() == Stance.STANCE_TEMP_OPINIONATED) {
+                    document.setStance(new Stance(Stance.STANCE_UNCLASSIFIED));
+                    document.clearFeatures();
+                    documentStanceMapNextClassifier.put(document, actualStance);
+                }
+            }
+
+            System.out.println("Correct detections: " + correctDetections + " Wrong detections: " + wrongDetections);
+
+            if (result != null) {
+                try {
+                    result.append("Correct detections: " + correctDetections + " Wrong detections: " + wrongDetections + "\n");
+                    result.flush();
+                    result.close();
+                    correct.flush();
+                    correct.close();
+                    incorrect.flush();
+                    incorrect.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            thirdClassifier.classify(documentStanceMapNextClassifier);
+        }
     }
 
     private void waitUntilTasksComplete(List<FeatureExtractionTask> futureTasks) {
@@ -247,15 +272,15 @@ public class SecondClassifier {
             try {
                 Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(refutingWords);
-                /*Feature hedgeFeature = new HedgeWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(hedgeFeature);*/
+                Feature hedgeFeature = new HedgeWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                document.addFeature(hedgeFeature);
                 Feature supportiveFeature = new SupportiveWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(supportiveFeature);
                 /*Feature discuss = new Discuss(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 discuss.setDictionary(dictionary);
                 document.addFeature(discuss);*/
-                Feature nGram_2 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 2);
-                document.addFeature(nGram_2);
+                /*Feature nGram_2 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 2);
+                document.addFeature(nGram_2);*/
                 Feature agree = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 agree.setDictionary(dictionary);
                 document.addFeature(agree);

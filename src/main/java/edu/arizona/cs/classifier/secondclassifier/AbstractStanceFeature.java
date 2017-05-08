@@ -123,9 +123,9 @@ public abstract class AbstractStanceFeature implements Feature {
 
         if(nGram.size() > 2) {
             if(WordsUtils.getInstance().isRefutingWord(nGram.get(1))) {
-                spin1 = SPIN_NEGATIVE;
+                spin2 = SPIN_NEGATIVE;
             } else if(WordsUtils.getInstance().isSuportiveWord(nGram.get(1))) {
-                spin1 = SPIN_POSITIVE;
+                spin2 = SPIN_POSITIVE;
             }
         }
 

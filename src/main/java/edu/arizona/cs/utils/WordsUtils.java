@@ -38,7 +38,7 @@ public class WordsUtils {
     private static final String IDF_SCORES = "/gigawordDocFreq.txt";
 
     public static final boolean LEMMATIZATION = false;
-    public static final boolean STEMMING = false;
+    public static final boolean STEMMING = true;
 
     private static WordsUtils ourInstance = new WordsUtils();
 

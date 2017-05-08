@@ -31,6 +31,8 @@ public class ThirdClassifier {
     private static final String CORRECT_DETECTION = "result/correct_detections_3.txt";
     private static final String INCORRECT_DETECTION = "result/incorrect_detections_3.txt";
 
+    private static final boolean CROSS_VERIFY = false;
+
     private Dictionary dictionary;
     private DataRepo dataRepo;
     private List<ClassLabel> classLabels;
@@ -95,87 +97,107 @@ public class ThirdClassifier {
         double eps = 0.001; // stopping criteria
 
         Parameter parameter = new Parameter(solver, C, eps);
-        model = Linear.train(problem, parameter);
-        File modelFile = new File(MODEL);
-        try {
-            model.save(modelFile);
-        } catch (IOException e) {
-            e.printStackTrace();
+
+        if(CROSS_VERIFY) {
+            double target[] = new double[problem.l];
+            Linear.crossValidation(problem, parameter, 100, target);
+
+            int correctCount = 0;
+            i = 0;
+            for (Document document : documents) {
+                Stance detectedStance = classLabels.get((int) (target[i])).getStance();
+                if (detectedStance.getStance() == document.getStance().getStance()) {
+                    correctCount++;
+                }
+                i++;
+            }
+
+            System.out.println("Third Accuracy: " + (double) (correctCount / dataRepo.getDocuments().size()));
+        } else {
+            model = Linear.train(problem, parameter);
+            File modelFile = new File(MODEL);
+            try {
+                model.save(modelFile);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
     public void classify(Map<Document, Stance> testDocs) throws FileNotFoundException {
-        testDocuments = testDocs;
+        if(!CROSS_VERIFY) {
+            testDocuments = testDocs;
 
-        List<FeatureExtractionTask> featureExtractionTasks = new ArrayList<FeatureExtractionTask>();
-        for (Map.Entry<Document, Stance> documentStanceEntry : testDocuments.entrySet()) {
-            FeatureExtractionCallable featureExtractionCallable =
-                    new FeatureExtractionCallable(documentStanceEntry.getKey());
-            FeatureExtractionTask featureExtractionTask =
-                    new FeatureExtractionTask(featureExtractionCallable);
-            featureExtractionTasks.add(featureExtractionTask);
-            threadPoolExecutor.execute(featureExtractionTask);
-        }
+            List<FeatureExtractionTask> featureExtractionTasks = new ArrayList<FeatureExtractionTask>();
+            for (Map.Entry<Document, Stance> documentStanceEntry : testDocuments.entrySet()) {
+                FeatureExtractionCallable featureExtractionCallable =
+                        new FeatureExtractionCallable(documentStanceEntry.getKey());
+                FeatureExtractionTask featureExtractionTask =
+                        new FeatureExtractionTask(featureExtractionCallable);
+                featureExtractionTasks.add(featureExtractionTask);
+                threadPoolExecutor.execute(featureExtractionTask);
+            }
 
-        waitUntilTasksComplete(featureExtractionTasks);
+            waitUntilTasksComplete(featureExtractionTasks);
 
-        Writer result = null;
-        Writer correct = null;
-        Writer incorrect = null;
-        try {
-            result = new FileWriter(RESULT);
-            correct = new FileWriter(CORRECT_DETECTION);
-            incorrect = new FileWriter(INCORRECT_DETECTION);
-            correct.append("Headline,Body ID,Detected Stance,Actual Stance\n");
-            incorrect.append("Headline,Body ID,Detected Stance,Actual Stance\n");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+            Writer result = null;
+            Writer correct = null;
+            Writer incorrect = null;
+            try {
+                result = new FileWriter(RESULT);
+                correct = new FileWriter(CORRECT_DETECTION);
+                incorrect = new FileWriter(INCORRECT_DETECTION);
+                correct.append("Headline,Body ID,Detected Stance,Actual Stance\n");
+                incorrect.append("Headline,Body ID,Detected Stance,Actual Stance\n");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
 
-        int correctDetections = 0;
-        int wrongDetections = 0;
-        for (Map.Entry<Document, Stance> documentStanceEntry : testDocuments.entrySet()) {
-            Document document = documentStanceEntry.getKey();
-            Stance actualStance = documentStanceEntry.getValue();
-            int index = (int)Linear.predict(model, document.getSparseFeaturesScore());
-            document.setStance(classLabels.get(index).getStance());
+            int correctDetections = 0;
+            int wrongDetections = 0;
+            for (Map.Entry<Document, Stance> documentStanceEntry : testDocuments.entrySet()) {
+                Document document = documentStanceEntry.getKey();
+                Stance actualStance = documentStanceEntry.getValue();
+                int index = (int) Linear.predict(model, document.getSparseFeaturesScore());
+                document.setStance(classLabels.get(index).getStance());
 
-            if(actualStance.getStance() == document.getStance().getStance()) {
-                correctDetections++;
-                if(correct != null) {
-                    try {
-                        correct.append(document.getHeadline().getText() + "," + document.getBodyId() + "," +
-                                document.getStance().getStanceStr() + "," + actualStance.getStanceStr() + "\n");
-                    } catch (IOException e) {
-                        e.printStackTrace();
+                if (actualStance.getStance() == document.getStance().getStance()) {
+                    correctDetections++;
+                    if (correct != null) {
+                        try {
+                            correct.append(document.getHeadline().getText() + "," + document.getBodyId() + "," +
+                                    document.getStance().getStanceStr() + "," + actualStance.getStanceStr() + "\n");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                     }
-                }
-            } else {
-                wrongDetections++;
-                if(incorrect != null) {
-                    try {
-                        incorrect.append(document.getHeadline().getText() + "," + document.getBodyId() + "," +
-                                document.getStance().getStanceStr() + "," + actualStance.getStanceStr() + "\n");
-                    } catch (IOException e) {
-                        e.printStackTrace();
+                } else {
+                    wrongDetections++;
+                    if (incorrect != null) {
+                        try {
+                            incorrect.append(document.getHeadline().getText() + "," + document.getBodyId() + "," +
+                                    document.getStance().getStanceStr() + "," + actualStance.getStanceStr() + "\n");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }
             }
-        }
 
-        System.out.println("Correct detections: " + correctDetections + " Wrong detections: " + wrongDetections);
+            System.out.println("Correct detections: " + correctDetections + " Wrong detections: " + wrongDetections);
 
-        if(result != null) {
-            try {
-                result.append("Correct detections: " + correctDetections + " Wrong detections: " + wrongDetections + "\n");
-                result.flush();
-                result.close();
-                correct.flush();
-                correct.close();
-                incorrect.flush();
-                incorrect.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+            if (result != null) {
+                try {
+                    result.append("Correct detections: " + correctDetections + " Wrong detections: " + wrongDetections + "\n");
+                    result.flush();
+                    result.close();
+                    correct.flush();
+                    correct.close();
+                    incorrect.flush();
+                    incorrect.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }

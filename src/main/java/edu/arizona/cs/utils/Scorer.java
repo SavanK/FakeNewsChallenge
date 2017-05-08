@@ -136,6 +136,9 @@ public class Scorer {
             }
         }
 
+        System.out.println("Accuracy: " + (unrealtedUnrelated+agreeAgree+discussDiscuss+disagreeDisagree) / (double)result.size());
+        System.out.println("FNC score: " + (testScore/maxScore));
+
         System.out.println("Confusion matrix: ");
         System.out.println("\t\t\t\tActual");
         System.out.println("\t\t\t\t\t\t\t\t\tUnrelated\tDiscuss\tAgree\tDisagree");

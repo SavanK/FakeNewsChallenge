@@ -1,9 +1,10 @@
 Headline,Body ID,Detected Stance,Actual Stance
-Insurgents killed in Nigeria despite alleged truce with Boko Haram,840,agree,discuss
-REPORTS: JORDANIAN KING PERSONALLY FLYING SORTIES AGAINST ISIS,2433,agree,discuss
-Islamic State militants allegedly used chlorine gas against Iraqi security forces,1233,agree,discuss
-Kim Jong-un drinks rare snake wine to boost love life!,832,agree,discuss
-No, Jordan's King Abdullah II is not personally flying planes against Isis,2433,agree,discuss
-Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,2018,agree,discuss
-Kim Jong-un necks litres of rare SNAKE wine because he's too fat to please his wife,832,agree,discuss
-Kim Jong-un drinks rare snake wine to boost love life!,2018,agree,discuss
+Apple's 12-Inch Retina MacBook Air Shown in Artist's Renditions,1362,disagree,discuss
+Report: A Radically Redesigned 12-Inch MacBook Air Is Coming,1362,disagree,discuss
+Is Apple about to launch a totally redesigned, 12-inch MacBook Air?,1362,disagree,discuss
+12in Retina MacBook Air release date rumours: All-new 12in MacBook Air design for 2015, launching at WWDC?,1362,disagree,discuss
+Apple may launch 12-inch MacBook Air with Retina Display,1362,disagree,discuss
+No, Saudi TV Did Not Blur Out Images of Michelle Obama,8,disagree,unrelated
+Report: new 12-inch MacBook Air slims down, has single USB port,1362,disagree,discuss
+Apple 'working on 12-inch MacBook Air',1362,disagree,discuss
+Apple 12-Inch MacBook Air Details Emerge; Device Could Be Thinner, Lighter Than Current Model,1362,disagree,discuss

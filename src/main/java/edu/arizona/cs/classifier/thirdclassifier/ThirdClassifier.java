@@ -88,7 +88,7 @@ public class ThirdClassifier {
         Problem problem = new Problem();
         problem.bias = 1;
         problem.l = documents.size();
-        problem.n = 4 + (int)problem.bias;
+        problem.n = 2 + (int)problem.bias;
         problem.y = y;
         problem.x = x;
 
@@ -248,16 +248,26 @@ public class ThirdClassifier {
             /*System.out.println("\tExtracting features from doc:" + docIndex +
                     " by thread:" + Thread.currentThread().getId());*/
             try {
-                Feature agree = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                agree.setDictionary(dictionary);
-                document.addFeature(agree);
-                Feature disagree = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                disagree.setDictionary(dictionary);
-                document.addFeature(disagree);
-                Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(refutingWords);
-                Feature supportiveFeature = new SupportiveWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(supportiveFeature);
+                Feature agree_3 = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 3);
+                agree_3.setDictionary(dictionary);
+                document.addFeature(agree_3);
+                Feature disagree_3 = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 3);
+                disagree_3.setDictionary(dictionary);
+                document.addFeature(disagree_3);
+
+                /*Feature agree_4 = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 4);
+                agree_4.setDictionary(dictionary);
+                document.addFeature(agree_4);
+                Feature disagree_4 = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 4);
+                disagree_4.setDictionary(dictionary);
+                document.addFeature(disagree_4);
+
+                Feature agree_5 = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 5);
+                agree_5.setDictionary(dictionary);
+                document.addFeature(agree_5);
+                Feature disagree_5 = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 5);
+                disagree_5.setDictionary(dictionary);
+                document.addFeature(disagree_5);*/
             } catch (Exception e) {
                 System.out.println("Exception for doc: " + document.getHeadline() +
                         ", bodyID:" + document.getBodyId() + e.getCause());

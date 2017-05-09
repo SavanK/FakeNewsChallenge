@@ -21,10 +21,10 @@ public class Discuss extends AbstractStanceFeature {
     private Headline headline;
     private Body body;
 
-    public Discuss(Headline headline, Body body) {
+    public Discuss(Headline headline, Body body, int n) {
         this.headline = headline;
         this.body = body;
-        n=3;
+        this.n = n;
     }
 
     public String getName() {

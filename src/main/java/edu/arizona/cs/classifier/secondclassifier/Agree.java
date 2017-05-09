@@ -28,11 +28,11 @@ public class Agree extends AbstractStanceFeature {
     private Headline headline;
     private Body body;
 
-    public Agree(Headline headline, Body body) {
+    public Agree(Headline headline, Body body, int n) {
         super();
         this.headline = headline;
         this.body = body;
-        n=3;
+        this.n = n;
     }
 
     public String getName() {

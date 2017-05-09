@@ -2,6 +2,8 @@ package edu.arizona.cs.utils;
 
 import edu.arizona.cs.data.DataRepo;
 import edu.arizona.cs.data.Document;
+import net.sf.extjwnl.JWNLException;
+import net.sf.extjwnl.data.*;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.core.LowerCaseFilter;
 import org.apache.lucene.analysis.core.StopFilter;
@@ -54,6 +56,7 @@ public class WordsUtils {
     private HashMap<String, Integer> documentFrequencies;
 
     private IndexReader indexReader;
+    private net.sf.extjwnl.dictionary.Dictionary dictionary;
 
     private WordsUtils() {
         stopwordsSet = new HashSet<String>();
@@ -116,6 +119,83 @@ public class WordsUtils {
         } catch (IOException x) {
             System.err.format("IOException: %s%n", x);
         }
+    }
+
+    public void setDictionary(net.sf.extjwnl.dictionary.Dictionary dictionary) {
+        this.dictionary = dictionary;
+        List<Set<String>> tempSynList = new ArrayList<Set<String>>();
+
+        for(int i=0;i<1;i++) {
+            for (String refuteWord : refutingSet) {
+                try {
+                    Set<String> synSet = getSynonymsFor(refuteWord);
+                    if (!synSet.isEmpty()) {
+                        tempSynList.add(synSet);
+                    }
+                } catch (JWNLException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            for (Set<String> synSet : tempSynList) {
+                refutingSet.addAll(synSet);
+            }
+
+            tempSynList.clear();
+        }
+
+        for(int i=0;i<1;i++) {
+            for (String supportWord : supportiveSet) {
+                try {
+                    Set<String> synSet = getSynonymsFor(supportWord);
+                    if (!synSet.isEmpty()) {
+                        tempSynList.add(synSet);
+                    }
+                } catch (JWNLException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            for (Set<String> synSet : tempSynList) {
+                supportiveSet.addAll(synSet);
+            }
+
+            tempSynList.clear();
+        }
+
+        for(int i=0;i<1;i++) {
+            for (String hedgetWord : hedgeSet) {
+                try {
+                    Set<String> synSet = getSynonymsFor(hedgetWord);
+                    if (!synSet.isEmpty()) {
+                        tempSynList.add(synSet);
+                    }
+                } catch (JWNLException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            for (Set<String> synSet : tempSynList) {
+                hedgeSet.addAll(synSet);
+            }
+
+            tempSynList.clear();
+        }
+    }
+
+    private Set<String> getSynonymsFor(String lemma) throws JWNLException {
+        Set<String> synonymSet = new HashSet<String>();
+        IndexWordSet indexWordSet = dictionary.lookupAllIndexWords(lemma);
+        for (IndexWord indexWord : indexWordSet.getIndexWordCollection()) {
+            if (indexWord != null) {
+                for (Synset synset : indexWord.getSenses()) {
+                    for (Word word : synset.getWords()) {
+                        synonymSet.add(word.getLemma());
+                    }
+                }
+            }
+        }
+        return synonymSet;
     }
 
     public boolean isStopWord(String lemma) {

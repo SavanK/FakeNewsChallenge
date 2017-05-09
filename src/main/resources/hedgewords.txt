@@ -25,7 +25,6 @@ suspect
 theorize
 theory
 think
-whether
 generally
 largely
 often
@@ -69,9 +68,6 @@ assumed
 understand
 understands
 understood
-find
-found
-finds
 appear
 appears
 appeared
@@ -93,10 +89,6 @@ speculated
 suggest
 suggests
 suggested
-may
-could
-should
-might
 probably
 likely
 maybe
@@ -104,50 +96,18 @@ perhaps
 probable
 possibly
 possible
-read
-say
-says
-looks like
-look like
 necessarily
-kind of
-much
-bunch
-couple
-few
-little
-really
-all that
-so forth
-et cetera
-in my mind
-in my opinion
-their impression
-my impression
-my understanding
-my thinking
-my understanding
-my view
-so far
-at least
 hopefully
-in general
-about
-around
-can
-in general
+general
 overall
 presumably
 pretty
 quite
-rather
-sort of
 supposedly
 suggestive
 diagnostic
 seem
 tend
-look like
 appear
 explained
 explain

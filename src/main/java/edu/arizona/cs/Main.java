@@ -6,6 +6,7 @@ import edu.arizona.cs.data.Document;
 import edu.arizona.cs.data.Stance;
 import edu.arizona.cs.utils.Scorer;
 import edu.arizona.cs.utils.ThreadPoolExecutorWrapper;
+import edu.arizona.cs.utils.WordsUtils;
 import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.dictionary.Dictionary;
 
@@ -29,6 +30,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             dictionary = Dictionary.getInstance(Main.class.getResourceAsStream(WN_PROPERTIES));
+            WordsUtils.getInstance().setDictionary(dictionary);
             dataRepo = new DataRepo(dictionary);
             dataRepo.readData(TRAIN_STANCES, TRAIN_BODIES);
 

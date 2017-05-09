@@ -92,13 +92,13 @@ public class SecondClassifier {
         Problem problem = new Problem();
         problem.bias = 1;
         problem.l = documents.size();
-        problem.n = 5 + (int)problem.bias;
+        problem.n = 3 + (int)problem.bias;
         problem.y = y;
         problem.x = x;
 
         SolverType solver = SolverType.L2R_L2LOSS_SVC; // -s 0
-        double C = 1.0;    // cost of constraints violation
-        double eps = 0.001; // stopping criteria
+        double C = 1;    // cost of constraints violation
+        double eps = 0.01; // stopping criteria
 
         Parameter parameter = new Parameter(solver, C, eps);
 
@@ -270,23 +270,27 @@ public class SecondClassifier {
             /*System.out.println("\tExtracting features from doc:" + docIndex +
                     " by thread:" + Thread.currentThread().getId());*/
             try {
-                Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                /*Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(refutingWords);
+                Feature supportiveFeature = new SupportiveWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                document.addFeature(supportiveFeature);*/
                 Feature hedgeFeature = new HedgeWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(hedgeFeature);
-                Feature supportiveFeature = new SupportiveWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(supportiveFeature);
-                /*Feature discuss = new Discuss(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                discuss.setDictionary(dictionary);
-                document.addFeature(discuss);*/
-                /*Feature nGram_2 = new NGram(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 2);
-                document.addFeature(nGram_2);*/
-                Feature agree = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                agree.setDictionary(dictionary);
-                document.addFeature(agree);
-                Feature disagree = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                disagree.setDictionary(dictionary);
-                document.addFeature(disagree);
+
+                Feature agree_3 = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 3);
+                agree_3.setDictionary(dictionary);
+                document.addFeature(agree_3);
+                Feature disagree_3 = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 3);
+                disagree_3.setDictionary(dictionary);
+                document.addFeature(disagree_3);
+
+                /*Feature agree_4 = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 4);
+                agree_4.setDictionary(dictionary);
+                document.addFeature(agree_4);
+                Feature disagree_4 = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 4);
+                disagree_4.setDictionary(dictionary);
+                document.addFeature(disagree_4);*/
+
             } catch (Exception e) {
                 System.out.println("Exception for doc: " + document.getHeadline() +
                         ", bodyID:" + document.getBodyId() + e.getCause());

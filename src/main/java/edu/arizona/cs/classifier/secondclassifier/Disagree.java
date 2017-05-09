@@ -30,11 +30,11 @@ public class Disagree extends AbstractStanceFeature {
     private Headline headline;
     private Body body;
 
-    public Disagree(Headline headline, Body body) {
+    public Disagree(Headline headline, Body body, int n) {
         super();
         this.headline = headline;
         this.body = body;
-        n=3;
+        this.n = n;
     }
 
     public String getName() {

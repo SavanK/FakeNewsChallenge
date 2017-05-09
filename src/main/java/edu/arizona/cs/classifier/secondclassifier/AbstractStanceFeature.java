@@ -75,73 +75,56 @@ public abstract class AbstractStanceFeature implements Feature {
             headlineTokens = WordsUtils.getInstance().tokenize(headline.getText());
         }
 
-        for (int i = 0; i <= bodyTokens.size() - n; i++) {
-            List<String> nGram = new ArrayList<String>();
-            for (int j = 0; j < n; j++) {
-                if (i + j < bodyTokens.size()) {
+        if(bodyTokens.size() > n) {
+            for (int i = 0; i < bodyTokens.size() - n; i++) {
+                List<String> nGram = new ArrayList<String>();
+                for (int j = 0; j < n; j++) {
                     nGram.add(bodyTokens.get(i + j));
-                } else {
-                    break;
                 }
-            }
 
-            String lastWord = nGram.get(nGram.size()-1);
-            if(bodyNGrams.containsKey(lastWord)) {
-                List<Pair<List<String>, Integer>> nGramList = bodyNGrams.get(lastWord);
-                nGramList.add(new Pair<List<String>, Integer>(nGram, getNgramSpin(nGram)));
-            } else {
-                List<Pair<List<String>, Integer>> nGramList = new ArrayList<Pair<List<String>, Integer>>();
-                nGramList.add(new Pair<List<String>, Integer>(nGram, getNgramSpin(nGram)));
-                bodyNGrams.put(lastWord, nGramList);
+                String lastWord = nGram.get(nGram.size() - 1);
+                if (bodyNGrams.containsKey(lastWord)) {
+                    List<Pair<List<String>, Integer>> nGramList = bodyNGrams.get(lastWord);
+                    nGramList.add(new Pair<List<String>, Integer>(nGram, getNgramSpin(nGram)));
+                } else {
+                    List<Pair<List<String>, Integer>> nGramList = new ArrayList<Pair<List<String>, Integer>>();
+                    nGramList.add(new Pair<List<String>, Integer>(nGram, getNgramSpin(nGram)));
+                    bodyNGrams.put(lastWord, nGramList);
+                }
             }
         }
 
-        for(int i=0; i<=headlineTokens.size()-n;i++) {
-            List<String> nGram = new ArrayList<String>();
-            for(int j=0;j<n;j++) {
-                if(i+j < headlineTokens.size()) {
-                    nGram.add(headlineTokens.get(i+j));
-                } else {
-                    break;
+        if(headlineTokens.size() > n) {
+            for (int i = 0; i < headlineTokens.size() - n; i++) {
+                List<String> nGram = new ArrayList<String>();
+                for (int j = 0; j < n; j++) {
+                    nGram.add(headlineTokens.get(i + j));
                 }
+                headlineNGrams.put(nGram, getNgramSpin(nGram));
             }
-            headlineNGrams.put(nGram, getNgramSpin(nGram));
         }
     }
 
     protected int getNgramSpin(List<String> nGram) {
-        int spin1 = SPIN_NEUTRAL;
-        int spin2 = SPIN_NEUTRAL;
+        int spin = SPIN_NEUTRAL;
 
-        if(nGram.size() > 1) {
-            if(WordsUtils.getInstance().isRefutingWord(nGram.get(0))) {
-                spin1 = SPIN_NEGATIVE;
-            } else if(WordsUtils.getInstance().isSuportiveWord(nGram.get(0))) {
-                spin1 = SPIN_POSITIVE;
+        int positiveSpinCount = 0;
+        int negativeSpinCount = 0;
+
+        for (String gram : nGram) {
+            if(WordsUtils.getInstance().isSuportiveWord(gram)) {
+                positiveSpinCount++;
+            } else if(WordsUtils.getInstance().isRefutingWord(gram)) {
+                negativeSpinCount++;
             }
         }
 
-        if(nGram.size() > 2) {
-            if(WordsUtils.getInstance().isRefutingWord(nGram.get(1))) {
-                spin2 = SPIN_NEGATIVE;
-            } else if(WordsUtils.getInstance().isSuportiveWord(nGram.get(1))) {
-                spin2 = SPIN_POSITIVE;
-            }
-        }
-
-        int spin;
-
-        if(spin1 == SPIN_NEUTRAL || spin1 == SPIN_POSITIVE) {
-            spin = spin2;
-        } else {
-            // spin1 == SPIN_NEGATIVE
-            if(spin2 == SPIN_NEGATIVE) {
-                spin = SPIN_POSITIVE;
-            } else if(spin2 == SPIN_POSITIVE) {
-                spin = SPIN_NEGATIVE;
-            } else {
-                spin = SPIN_NEGATIVE;
-            }
+        if((positiveSpinCount == 0 && negativeSpinCount == 0) || (positiveSpinCount == negativeSpinCount)) {
+            spin = SPIN_NEUTRAL;
+        } else if(positiveSpinCount > negativeSpinCount) {
+            spin = SPIN_POSITIVE;
+        } else if(negativeSpinCount > positiveSpinCount) {
+            spin = SPIN_NEGATIVE;
         }
 
         return spin;

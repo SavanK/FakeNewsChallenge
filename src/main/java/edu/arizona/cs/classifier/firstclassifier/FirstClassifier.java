@@ -52,10 +52,16 @@ public class FirstClassifier {
         threadPoolExecutor = ThreadPoolExecutorWrapper.getInstance().getThreadPoolExecutor();
     }
 
+    /**
+     * Train first classifier and subsequently pass relevant docs to next classifier to train
+     */
     public void train() {
         System.out.println("First classifier - Training in-progress...");
         List<Document> secondClassiferDocs = new ArrayList<Document>();
 
+        /**
+         * Feature extraction
+         */
         double y[] = new double[dataRepo.getDocuments().size()];
         FeatureNode x[][] = new FeatureNode[dataRepo.getDocuments().size()][];
 
@@ -71,8 +77,14 @@ public class FirstClassifier {
             }
         }
 
+        /**
+         * Wait until feature extraction from background threads complete
+         */
         waitUntilTasksComplete(featureExtractionTasks);
 
+        /**
+         * Construct Linear classifier model
+         */
         int i=0;
         for (Document document : dataRepo.getDocuments()) {
             y[i] = getClassLabelIndex(document.getStance());
@@ -123,6 +135,9 @@ public class FirstClassifier {
             }
         }
 
+        /**
+         * Call next classifer to train. It's sequence of steps is very similar
+         */
         for (Document document : secondClassiferDocs) {
             document.clearFeatures();
         }
@@ -130,6 +145,12 @@ public class FirstClassifier {
         secondClassifier.train();
     }
 
+    /**
+     * Classify documents provided and return result with gold stances
+     * @param testStancesPath
+     * @return
+     * @throws FileNotFoundException
+     */
     public Map<Document, Stance> classify(String testStancesPath) throws FileNotFoundException {
         if(!CROSS_VERIFY) {
             Reader in = new FileReader(testStancesPath);

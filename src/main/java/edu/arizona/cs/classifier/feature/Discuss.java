@@ -1,4 +1,4 @@
-package edu.arizona.cs.classifier.secondclassifier;
+package edu.arizona.cs.classifier.feature;
 
 import edu.arizona.cs.data.Body;
 import edu.arizona.cs.data.Headline;

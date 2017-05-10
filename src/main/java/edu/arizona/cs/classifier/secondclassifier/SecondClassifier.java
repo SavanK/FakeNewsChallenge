@@ -59,6 +59,9 @@ public class SecondClassifier {
         this.documents = documents;
     }
 
+    /**
+     * Train second classifier and subsequently pass relevant docs to next classifier to train
+     */
     public void train() {
         System.out.println("Second classifier - Training in-progress...");
         List<Document> thirdClassiferDocs = new ArrayList<Document>();
@@ -92,7 +95,7 @@ public class SecondClassifier {
         Problem problem = new Problem();
         problem.bias = 1;
         problem.l = documents.size();
-        problem.n = 3 + (int)problem.bias;
+        problem.n = 6 + (int)problem.bias;
         problem.y = y;
         problem.x = x;
 
@@ -137,6 +140,11 @@ public class SecondClassifier {
         thirdClassifier.train();
     }
 
+    /**
+     * Classify documents provided
+     * @param testDocs
+     * @throws FileNotFoundException
+     */
     public void classify(Map<Document, Stance> testDocs) throws FileNotFoundException {
         if(!CROSS_VERIFY) {
             testDocuments = testDocs;
@@ -270,10 +278,10 @@ public class SecondClassifier {
             /*System.out.println("\tExtracting features from doc:" + docIndex +
                     " by thread:" + Thread.currentThread().getId());*/
             try {
-                /*Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
+                Feature refutingWords = new RefutingWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(refutingWords);
                 Feature supportiveFeature = new SupportiveWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
-                document.addFeature(supportiveFeature);*/
+                document.addFeature(supportiveFeature);
                 Feature hedgeFeature = new HedgeWords(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()));
                 document.addFeature(hedgeFeature);
 
@@ -283,6 +291,9 @@ public class SecondClassifier {
                 Feature disagree_3 = new Disagree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 3);
                 disagree_3.setDictionary(dictionary);
                 document.addFeature(disagree_3);
+                Feature discuss = new Discuss(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 3);
+                discuss.setDictionary(dictionary);
+                document.addFeature(discuss);
 
                 /*Feature agree_4 = new Agree(document.getHeadline(), dataRepo.getBodies().get(document.getBodyId()), 4);
                 agree_4.setDictionary(dictionary);

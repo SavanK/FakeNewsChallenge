@@ -1,10 +1,2 @@
 Headline,Body ID,Detected Stance,Actual Stance
-Macaulay Culkin Dead: Internet Death Hoax Claims Actor Found Dead In Apartment,2341,agree,agree
-Rapper Big Bank Hank of Sugarhill Gang dies at 57,1190,agree,agree
-Macaulay Culkin Dead: Internet Death Hoax Claims Actor Found Dead In Apartment,1559,agree,agree
-Macaulay Culkin Dead: Internet Death Hoax Claims Actor Found Dead In Apartment,2502,agree,agree
-Macaulay Culkin Dead? Hoax Goes Viral, Claims Actor Found Dead in Apartment,2502,agree,agree
 Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',391,agree,agree
-Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',1376,agree,agree
-'Nasa Confirms Earth Will Experience 6 Days of Total Darkness in December' Fake News Story Goes Viral,154,agree,agree
-Macaulay Culkin Dead: Internet Death Hoax Claims Actor Found Dead In Apartment,1545,agree,agree

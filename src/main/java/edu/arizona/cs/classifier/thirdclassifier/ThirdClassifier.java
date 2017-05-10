@@ -2,11 +2,9 @@ package edu.arizona.cs.classifier.thirdclassifier;
 
 import de.bwaldvogel.liblinear.*;
 import edu.arizona.cs.classifier.ClassLabel;
-import edu.arizona.cs.classifier.feature.*;
 import edu.arizona.cs.classifier.feature.Feature;
-import edu.arizona.cs.classifier.secondclassifier.Agree;
-import edu.arizona.cs.classifier.secondclassifier.Disagree;
-import edu.arizona.cs.classifier.secondclassifier.Discuss;
+import edu.arizona.cs.classifier.feature.Agree;
+import edu.arizona.cs.classifier.feature.Disagree;
 import edu.arizona.cs.data.DataRepo;
 import edu.arizona.cs.data.Document;
 import edu.arizona.cs.data.Stance;
@@ -59,6 +57,9 @@ public class ThirdClassifier {
         this.documents = documents;
     }
 
+    /**
+     * Train third classifier
+     */
     public void train() {
         System.out.println("Third classifier - Training in-progress...");
 
@@ -124,6 +125,11 @@ public class ThirdClassifier {
         }
     }
 
+    /**
+     * Classify documents provided
+     * @param testDocs
+     * @throws FileNotFoundException
+     */
     public void classify(Map<Document, Stance> testDocs) throws FileNotFoundException {
         if(!CROSS_VERIFY) {
             testDocuments = testDocs;

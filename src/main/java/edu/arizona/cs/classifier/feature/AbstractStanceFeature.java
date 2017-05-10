@@ -1,4 +1,4 @@
-package edu.arizona.cs.classifier.secondclassifier;
+package edu.arizona.cs.classifier.feature;
 
 import edu.arizona.cs.classifier.feature.Feature;
 import edu.arizona.cs.data.Body;
@@ -32,6 +32,12 @@ public abstract class AbstractStanceFeature implements Feature {
         headlineNGrams = new HashMap<List<String>, Integer>();
     }
 
+    /**
+     * Construct nGrams and also find their spins (POSITIVE / NEGATIVE / NEUTRAL)
+     * @param headline
+     * @param body
+     * @param n
+     */
     protected void constructNGrams(Headline headline, Body body, int n) {
         List<String> bodyTokens;
         List<String> headlineTokens;
@@ -105,6 +111,12 @@ public abstract class AbstractStanceFeature implements Feature {
         }
     }
 
+    /**
+     * In the nGram prefix, count the positive spins and negative spins.
+     * Overall spin is determined by these values.
+     * @param nGram
+     * @return overallSpin of nGram
+     */
     protected int getNgramSpin(List<String> nGram) {
         int spin = SPIN_NEUTRAL;
 

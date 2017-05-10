@@ -1,19 +1,10 @@
-package edu.arizona.cs.classifier.secondclassifier;
+package edu.arizona.cs.classifier.feature;
 
 import edu.arizona.cs.data.Body;
 import edu.arizona.cs.data.Headline;
-import edu.arizona.cs.utils.LemmaCleanser;
-import edu.arizona.cs.utils.WordsUtils;
-import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.Pair;
-import edu.stanford.nlp.util.PropertiesUtils;
 import net.sf.extjwnl.dictionary.Dictionary;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 

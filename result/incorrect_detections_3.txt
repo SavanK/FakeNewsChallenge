@@ -1,8 +1,27 @@
 Headline,Body ID,Detected Stance,Actual Stance
-Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',425,agree,discuss
-GOP Rep: ‘At Least Ten ISIS Fighters Have Been Caught Coming Across The Mexican Border’,416,agree,discuss
-GOP Rep: ‘At Least Ten ISIS Fighters Have Been Caught Coming Across The Mexican Border’,425,agree,discuss
-12in Retina MacBook Air release date rumours: All-new 12in MacBook Air design for 2015, launching at WWDC?,1362,agree,discuss
-Pope Francis turns out not to have made pets in heaven comment,218,agree,disagree
-Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',871,agree,discuss
+Mystery woman behind the 'richest hands on the internet' revealed: Former pornstar 'makes $5m a year unwrapping Disney toys on YouTube',229,agree,discuss
+Amazon's first brick-and-mortar store said to open in Manhattan,2116,agree,discuss
+Report: A Radically Redesigned 12-Inch MacBook Air Is Coming,2497,agree,discuss
+12in Retina MacBook Air release date rumours: All-new 12in MacBook Air design for 2015, launching at WWDC?,1730,agree,discuss
+Low-level marijuana possession could soon land you a ticket instead of arrest in New York City,1732,agree,discuss
+It’s About To Get Harder To Be Arrested For Pot Possession In New York City,1732,agree,discuss
+Apple 'working on 12-inch MacBook Air',1362,agree,discuss
+Amazon is about to open its first-ever physical store in New York City,2116,agree,discuss
+Apple may launch 12-inch MacBook Air with Retina Display,1362,agree,discuss
+Is Apple about to launch a totally redesigned, 12-inch MacBook Air?,1362,agree,discuss
+Apple's 12-Inch Retina MacBook Air Shown in Artist's Renditions,2497,agree,discuss
+Amazon.com to open first physical store in Manhattan: DJ,2116,agree,discuss
+Amazon to launch first brick-and-mortar store, report says,2116,agree,discuss
+Insiders Claim Steel Apple Watch to Start at $500, Gold at $4,000,2277,agree,discuss
+Report: A Radically Redesigned 12-Inch MacBook Air Is Coming,1362,agree,discuss
+Ottawa shooting: Sergeant-at-arms Kevin Vickers hailed a hero for shooting rampaging gunman,1356,agree,discuss
+Apple 12-Inch MacBook Air Details Emerge; Device Could Be Thinner, Lighter Than Current Model,2497,agree,discuss
+Tom Brokaw 'wants Brian Williams out': NBC legend 'furious' at Iraq war lie, as it's claimed executives warned anchor to stop exaggerating the story in the past,110,agree,discuss
+Apple 12-Inch MacBook Air Details Emerge; Device Could Be Thinner, Lighter Than Current Model,1362,agree,discuss
+Apple may launch 12-inch MacBook Air with Retina Display,2497,agree,discuss
+Apple's 12-Inch Retina MacBook Air Shown in Artist's Renditions,1362,agree,discuss
 Obama administration DENIES congressman's claim that 'at least ten ISIS fighters have been caught coming across the Mexican border in Texas',416,agree,discuss
+Apple Reportedly Preparing 12-inch MacBook Air, Thinner and Lighter than Existing Models,2497,agree,discuss
+12in Retina MacBook Air release date rumours: All-new 12in MacBook Air design for 2015, launching at WWDC?,1362,agree,discuss
+Report: new 12-inch MacBook Air slims down, has single USB port,2497,agree,discuss
+Report: new 12-inch MacBook Air slims down, has single USB port,1362,agree,discuss

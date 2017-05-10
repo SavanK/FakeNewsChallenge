@@ -39,7 +39,14 @@ public class WordsUtils {
     private static final String SUPPORTIVE_WORDS = "/supportivewords.txt";
     private static final String IDF_SCORES = "/gigawordDocFreq.txt";
 
+    /**
+     * Flip this flag to (en)disable lemmatization. In turn, stemming will be disabled.
+     */
     public static final boolean LEMMATIZATION = false;
+
+    /**
+     * Flip this flag to (en)disable stemming. In turn, lemmatization will be disabled.
+     */
     public static final boolean STEMMING = true;
 
     private static WordsUtils ourInstance = new WordsUtils();
@@ -125,7 +132,7 @@ public class WordsUtils {
         this.dictionary = dictionary;
         List<Set<String>> tempSynList = new ArrayList<Set<String>>();
 
-        for(int i=0;i<1;i++) {
+        for(int i=0;i<3;i++) {
             for (String refuteWord : refutingSet) {
                 try {
                     Set<String> synSet = getSynonymsFor(refuteWord);
@@ -144,7 +151,7 @@ public class WordsUtils {
             tempSynList.clear();
         }
 
-        for(int i=0;i<1;i++) {
+        for(int i=0;i<3;i++) {
             for (String supportWord : supportiveSet) {
                 try {
                     Set<String> synSet = getSynonymsFor(supportWord);
@@ -202,14 +209,29 @@ public class WordsUtils {
         return stopwordsSet.contains(lemma);
     }
 
+    /**
+     * Check if word is refuting
+     * @param lemma
+     * @return
+     */
     public boolean isRefutingWord(String lemma) {
         return refutingSet.contains(lemma);
     }
 
+    /**
+     * Check if word is hedge
+     * @param lemma
+     * @return
+     */
     public boolean isHedgeWord(String lemma) {
         return hedgeSet.contains(lemma);
     }
 
+    /**
+     * Check if word is supportive
+     * @param lemma
+     * @return
+     */
     public boolean isSuportiveWord(String lemma) {
         return supportiveSet.contains(lemma);
     }
@@ -234,6 +256,11 @@ public class WordsUtils {
         }
     }
 
+    /**
+     * Calculate the idf score given word
+     * @param word
+     * @return
+     */
     public double getIdfScores(String word) {
         double idfScore = 0;
         if(documentFrequencies.containsKey(word)) {
@@ -264,10 +291,20 @@ public class WordsUtils {
         return idfScore;
     }
 
+    /**
+     * Check to see if is a context preserving stop word
+     * @param lemma
+     * @return
+     */
     public boolean isContextPreservingStopWord(String lemma) {
         return contextStopwordsSet.contains(lemma);
     }
 
+    /**
+     * Tokenizeer does porter stemmer & stop word elimination
+     * @param text
+     * @return
+     */
     public List<String> tokenize(String text) {
         PorterStemmer stemmer = new PorterStemmer();
 

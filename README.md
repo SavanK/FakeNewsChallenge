@@ -22,5 +22,15 @@ Uses multi-level classifier with 3 classifiers
     1. Word spins {supporting(positive)/refuting(negative)/neutral(nil)}
     2. Supporting words
     2. Refuting words
+## Dependencies
+1. Stanford Core NLP
+2. Apache Lucene
+3. Wordnet extJWNL
+4. SVM - Liblinear
+5. Apache Commons - CSV Parser
+## How to run
+Use Maven to compile and run
+1. Compile - `mvn compile`
+2. Run - `mvn exec:java`
 ## Result
 FNC scoring is in range [2565.5, 7585.25]. My score: 5879.25

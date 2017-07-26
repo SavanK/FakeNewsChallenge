@@ -33,5 +33,5 @@ Use Maven to compile and run
 1. Compile - `mvn compile`
 2. Run - `mvn exec:java`
 ## Result
-FNC scoring is in range [2565.5, 7585.25]. My score: 5879.25
-Accuracy: 81.54% on a dataset of 16000 articles.
+1. FNC scoring is in range [2565.5, 7585.25]. My score: 5879.25
+2. Accuracy: 81.54% on a dataset of 16000 articles.

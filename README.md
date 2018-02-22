@@ -16,12 +16,24 @@ Uses multi-level classifier with 3 classifiers
     3. Binary co-occurrence
     4. N-grams (Bi- and Tri-)
 - Classifier 2
-    1. Hedge words
+    1. Hedge words {ex: hypothesis, suppose, probably, presumably, suggestive}
     2. Word spins {supporting(positive)/refuting(negative)/neutral(nil)}
 - Classifier 3
     1. Word spins {supporting(positive)/refuting(negative)/neutral(nil)}
-    2. Supporting words
-    2. Refuting words
+    2. Supporting words {ex: surely, evidently, affirmative, agree, support, accept}
+    2. Refuting words {ex: against, fake, fraud, hoax, false, deny, doubt, retract}
+
+## Word spin feature
+When we see similar words in both headline and body, we know that they're related.
+Next, when we notice words like agree or disagree, we know that the body most likely takes a stand on the headline and not just discusses it.
+But we don't know what stance is it taking - agree or disagree.
+To better understand this, let's consider that the word - 'travel' appears in both headline and body. But we don't know what stance does body take in comparison to the headline. And to understand this, we try to establish a little more context by look at n-grams, i.e., words appearing before 'travel'.
+When you look at bi-grams, you noticed the phrase - 'agrees to travel'. [the word 'to' would be removed because its a stopword]
+We now know that it adds a positive spin to the word 'travel'.
+Let's now look at tri-grams, and you noticed the phrase now changes to - 'doesn't agrees to travel'.
+It negates the ealier positive spin and now gets a negative spin.
+By doing so, this feature helps us better understand the stance taken by the body.
+
 ## Dependencies
 1. Stanford Core NLP
 2. Apache Lucene
